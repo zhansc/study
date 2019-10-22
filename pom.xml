@@ -10,10 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>elasticsearch</module>
-        <module>spring-activemq</module>
-        <module>spring-queue</module>
-        <module>ssm</module>
-        <module>ssm</module>
+        <module>springboot-mq-consumer</module>
+        <module>springboot-mq-produce</module>
+        <module>structure</module>
     </modules>
 
 
