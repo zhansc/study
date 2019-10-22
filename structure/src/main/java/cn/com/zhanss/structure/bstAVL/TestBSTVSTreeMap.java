@@ -25,7 +25,7 @@ public class TestBSTVSTreeMap {
 
     @Test
     public void testTreeRandom() {
-        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
             treeMap.put(random.nextInt(MAX), random.nextInt()+ "");
         }
@@ -41,7 +41,7 @@ public class TestBSTVSTreeMap {
 
     @Test
     public void testTreeIncrease() {
-        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
             treeMap.put(i, random.nextInt()+ "");
         }

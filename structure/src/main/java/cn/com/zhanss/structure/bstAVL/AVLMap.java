@@ -33,7 +33,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
     /**
      * 非递归方式遍历
      */
-    private LinkedList<AVLEntry<K, V>> stack = new LinkedList<>();
+    private LinkedList<AVLEntry<K, V>> stack = new LinkedList<AVLEntry<K, V>>();
 
     /**
      * 比较器：左右子节点和根节点大小
@@ -50,16 +50,10 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
         }
     }
 
-    /**
-     * put操作
-     * @param key
-     * @param value
-     * @return
-     */
     public V put(K key, V value) {
         // 根节点为空：直接插入
         if (root == null) {
-            root = new AVLEntry<>(key, value);
+            root = new AVLEntry<K, V>(key, value);
             // 入栈遍历的路径，做插入平衡调整时需要回溯
             stack.push(root);
             size ++;
@@ -74,7 +68,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
             if (comp < 0) {
                 // 没有左子树，添加左子树
                 if (p.left == null) {
-                    p.left = new AVLEntry<>(key, value);
+                    p.left = new AVLEntry<K, V>(key, value);
                     size ++;
                     stack.push(p.left);
                     break;
@@ -90,7 +84,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
             } else {
                 // 没有右子树，添加右子树
                 if (p.right == null) {
-                    p.right = new AVLEntry<>(key, value);
+                    p.right = new AVLEntry<K, V>(key, value);
                     size ++;
                     stack.push(p.right);
                     break;
@@ -242,7 +236,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
      * 层序遍历输出二叉树
      */
     public void levelOrder() {
-        Queue<AVLEntry<K, V>> queue = new LinkedList<>();
+        Queue<AVLEntry<K, V>> queue = new LinkedList<AVLEntry<K, V>>();
         queue.offer(root);
         int preCount = 1;
         int pCount = 0;
@@ -320,7 +314,13 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
         AVLEntry<K, V> p = root;
         while (!stack.isEmpty()) {
             p = stack.pop();
-            p.height = Math.max(getHeigth(p.left), getHeigth(p.right)) + 1;
+            int newHeight = Math.max(getHeigth(p.left), getHeigth(p.right)) + 1;
+            // p 的高度大于 1 且前后的高度一致，则不需要进行调整（仍然是平衡树）
+            if (p.height > 1 && newHeight == p.height) {
+                stack.clear();
+                return;
+            }
+            p.height = newHeight;
             int balanceFactor = getHeigth(p.left) - getHeigth(p.right);
             // 平衡树
             if (Math.abs(balanceFactor) <= 1) {
@@ -394,6 +394,6 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
 
     @Override
     public Iterator<AVLEntry<K, V>> iterator() {
-        return new AVLIterator<>(root);
+        return new AVLIterator<K, V>(root);
     }
 }

@@ -17,7 +17,7 @@ public class BSTIterator {
     private Iterator<Integer> itr;
 
     public BSTIterator(TreeNode root) {
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         inOrder(root, list);
         itr = list.iterator();
     }

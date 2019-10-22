@@ -31,7 +31,7 @@ public class TestBST {
     public void testIteratorWithJDK() {
         int maxSize = 65536;
         AVLMap<Integer, String> avlMap = new AVLMap<Integer, String>();
-        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         for (int i = 0; i < maxSize; i ++) {
             int key = random.nextInt(maxSize);
             String value = random.nextInt(maxSize) + "";
@@ -74,7 +74,7 @@ public class TestBST {
     public void testQueryWithJDK() {
         int maxSize = 255;
         AVLMap<Integer, String> avlMap = new AVLMap<Integer, String>();
-        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         int i = 0;
         while (i++ < maxSize) {
             int key = random.nextInt(maxSize);

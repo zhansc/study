@@ -53,7 +53,7 @@ public class TestBinaryTree {
         if(treeNode == null){
             return;
         } else {
-            Queue<TreeNode> queue = new LinkedList<>();
+            Queue<TreeNode> queue = new LinkedList<TreeNode>();
             queue.offer(treeNode);
             while (!queue.isEmpty()) {
                 TreeNode node = queue.poll();

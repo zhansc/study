@@ -15,7 +15,7 @@ public class AVLIterator<K, V> implements Iterator<AVLEntry<K, V>> {
     private Stack<AVLEntry<K, V>> stack;
 
     AVLIterator(AVLEntry<K, V> root) {
-        stack = new Stack<>();
+        stack = new Stack<AVLEntry<K, V>>();
         addLeftPath(root);
     }
 
