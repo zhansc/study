@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

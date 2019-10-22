@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssm_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssm/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.9" />
+          <element id="library" level="project" name="spring-aop-4.2.5.RELEASE" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
