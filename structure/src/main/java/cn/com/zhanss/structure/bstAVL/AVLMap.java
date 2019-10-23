@@ -267,7 +267,9 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
      */
     private AVLEntry<K, V> rotateRight(AVLEntry<K, V> p) {
         AVLEntry<K, V> left = p.left;
-        p.left = left.right;
+        if (left != null) {
+            p.left = left.right;
+        }
         left.right = p;
         // 获取节点高度
         p.height = Math.max(getHeigth(p.left), getHeigth(p.right)) + 1;
@@ -313,6 +315,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
     public void fixAfterInvertion(K key) {
         AVLEntry<K, V> p = root;
         while (!stack.isEmpty()) {
+            // put中入栈纪录节点路径，出栈就是指针回溯的过程
             p = stack.pop();
             int newHeight = Math.max(getHeigth(p.left), getHeigth(p.right)) + 1;
             // p 的高度大于 1 且前后的高度一致，则不需要进行调整（仍然是平衡树）
@@ -324,6 +327,7 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
             int balanceFactor = getHeigth(p.left) - getHeigth(p.right);
             // 平衡树
             if (Math.abs(balanceFactor) <= 1) {
+                // 继续向上回溯
                 continue;
             } else {
                 if (balanceFactor == 2) {
@@ -336,10 +340,11 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
                     }
                 } else {
                     // 右子树
-                    if (compare(key, p.right.getKey()) < 0) {
-                        p = firstRightThenLeft(p);
+                    if (compare(key, p.right.getKey()) > 0) {
+                        // 右节点
+                        p = rotateLeft(p);
                     } else {
-                        p = rotateRight(p);
+                        p = firstRightThenLeft(p);
                     }
                 }
                 // 向上回溯，确认新插入的节点是左子树还是右子树

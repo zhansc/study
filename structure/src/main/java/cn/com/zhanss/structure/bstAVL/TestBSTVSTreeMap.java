@@ -19,7 +19,12 @@ public class TestBSTVSTreeMap {
     public void testBSTRandom() {
         AVLMap<Integer, String> avlMap = new AVLMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
-            avlMap.put(random.nextInt(MAX), random.nextInt()+ "");
+            avlMap.put(random.nextInt(MAX), random.nextInt(MAX)+ "");
+        }
+        // 检测是否是平衡树
+        avlMap.checkBalance();
+        for (int i = 0; i < MAX; i ++) {
+            avlMap.get(random.nextInt(MAX));
         }
     }
 
@@ -27,7 +32,10 @@ public class TestBSTVSTreeMap {
     public void testTreeRandom() {
         TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
-            treeMap.put(random.nextInt(MAX), random.nextInt()+ "");
+            treeMap.put(random.nextInt(MAX), random.nextInt(MAX)+ "");
+        }
+        for (int i = 0; i < MAX; i ++) {
+            treeMap.get(random.nextInt(MAX));
         }
     }
 
@@ -35,7 +43,11 @@ public class TestBSTVSTreeMap {
     public void testBSTIncrease() {
         AVLMap<Integer, String> avlMap = new AVLMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
-            avlMap.put(i, random.nextInt()+ "");
+            avlMap.put(i, random.nextInt(MAX)+ "");
+        }
+        avlMap.checkBalance();
+        for (int i = 0; i < MAX; i ++) {
+            avlMap.get(random.nextInt(MAX));
         }
     }
 
@@ -43,7 +55,7 @@ public class TestBSTVSTreeMap {
     public void testTreeIncrease() {
         TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         for (int i = 0; i < MAX; i ++) {
-            treeMap.put(i, random.nextInt()+ "");
+            treeMap.put(i, random.nextInt(MAX)+ "");
         }
     }
 }
