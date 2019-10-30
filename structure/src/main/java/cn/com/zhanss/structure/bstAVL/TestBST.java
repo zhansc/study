@@ -146,4 +146,35 @@ public class TestBST {
         }
     }
 
+    @Test
+    public void testConvertSortedArrayToBST() {
+        ConvertSortedArrayToBST arrayToBST = new ConvertSortedArrayToBST();
+        int[] nums = {1,2,4,8,12,22,32,43,90};
+        System.out.println(arrayToBST.sortedArrayToBST(nums));
+    }
+
+    @Test
+    public void testDeleteAVLMap() {
+        int maxSize = 255;
+        AVLMap<Integer, Integer> avlMap = new AVLMap<Integer, Integer>();
+        TreeMap<Integer, Integer> treeMap = new TreeMap<Integer, Integer>();
+        int i = 0;
+        while (i++ < maxSize) {
+            int key = random.nextInt(maxSize);
+            Integer value = random.nextInt(maxSize);
+            avlMap.put(key, value);
+            treeMap.put(key, value);
+        }
+
+        for (; i < maxSize - 23; i --) {
+            avlMap.remove(i);
+            treeMap.remove(i);
+        }
+        // 校验是否平衡
+        avlMap.checkBalance();
+
+        Assert.assertEquals(avlMap.size(), treeMap.size());
+
+    }
+
 }

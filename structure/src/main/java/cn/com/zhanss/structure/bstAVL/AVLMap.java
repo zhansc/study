@@ -191,24 +191,13 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
                 // 只有右子树，用右子树覆盖当前节点
                 p = p.right;
             } else {
-                // 既存在左子树（查找左子树的最大Entry）又存在右子树（查找右子树的最小Entry）
-                if ((size & 1) == 0) {
-                    // size为偶数，处理左子树
-                    AVLEntry<K, V> leftMax = getLastEntry(p.left);
-                    // 用左子树最大节点覆盖当前节点
-                    p.setKey(leftMax.getKey());
-                    p.setValue(leftMax.getValue());
-                    // 递归所有左子树：指针向上移动
-                    p.left = deleteEntry(p.left, p.getKey());
-                } else {
-                    // size为奇数，处理右子树
-                    AVLEntry<K, V> rightMax = getFirstEntry(p.right);
-                    // 用左子树最大节点覆盖当前节点
-                    p.setKey(rightMax.getKey());
-                    p.setValue(rightMax.getValue());
-                    // 递归所有右子树：指针向上移动
-                    p.right = deleteEntry(p.right, p.getKey());
-                }
+                // 既存在左子树又存在右子树（查找右子树的最小Entry）
+                AVLEntry<K, V> rightMax = getFirstEntry(p.right);
+                // 用右子树最小节点覆盖当前节点（然后删除右子树的最小节点）
+                p.setKey(rightMax.getKey());
+                p.setValue(rightMax.getValue());
+                // 递归所有右子树：指针向上移动
+                p.right = deleteEntry(p.right, p.getKey());
             }
         } else if (comp < 0) {
             // 遍历左子树
@@ -217,6 +206,8 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
             // 遍历右子树
             p.right = deleteEntry(p.right, key);
         }
+        // 删除后调整
+        fixAfterDeletion(p);
         return p;
     }
 
@@ -227,9 +218,30 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
         }
         // 重新覆盖，可能删除的正好是root节点，那么它的引用就变了
         V value = entry.getValue();
-        root = deleteEntry(root, key);
+        deleteEntry(root, key);
         size --;
         return value;
+    }
+
+    public AVLEntry<K, V> fixAfterDeletion(AVLEntry<K, V> p) {
+        if (p == null) {
+            return null;
+        }
+        int factor = getHeigth(p.left) - getHeigth(p.right);
+        if (factor == 2) {
+            if (getHeigth(p.left.left) - getHeigth(p.left.right) >= 0) {
+                p = rotateRight(p);
+            } else {
+                p = firstLeftThenRight(p);
+            }
+        } else if (factor == -2) {
+            if (getHeigth(p.right.right) - getHeigth(p.right.left) >= 0) {
+                p = rotateLeft(p);
+            } else {
+                p = firstRightThenLeft(p);
+            }
+        }
+        return p;
     }
 
     /**
@@ -329,32 +341,31 @@ public class AVLMap<K, V> implements Iterable<AVLEntry<K, V>> {
             if (Math.abs(balanceFactor) <= 1) {
                 // 继续向上回溯
                 continue;
-            } else {
-                if (balanceFactor == 2) {
-                    // 左子树
-                    if (compare(key, p.left.getKey()) < 0) {
-                        // 左节点
-                        p = rotateRight(p);
-                    } else {
-                        p = firstLeftThenRight(p);
-                    }
+            }
+            if (balanceFactor == 2) {
+                // 左子树
+                if (compare(key, p.left.getKey()) < 0) {
+                    // 左节点
+                    p = rotateRight(p);
                 } else {
-                    // 右子树
-                    if (compare(key, p.right.getKey()) > 0) {
-                        // 右节点
-                        p = rotateLeft(p);
-                    } else {
-                        p = firstRightThenLeft(p);
-                    }
+                    p = firstLeftThenRight(p);
                 }
-                // 向上回溯，确认新插入的节点是左子树还是右子树
-                if (!stack.isEmpty()) {
-                    if (compare(key, stack.peek().getKey()) < 0) {
-                        // 左子树
-                        stack.peek().left = p;
-                    } else {
-                        stack.peek().right = p;
-                    }
+            } else {
+                // 右子树
+                if (compare(key, p.right.getKey()) > 0) {
+                    // 右节点
+                    p = rotateLeft(p);
+                } else {
+                    p = firstRightThenLeft(p);
+                }
+            }
+            // 向上回溯，确认新插入的节点是左子树还是右子树
+            if (!stack.isEmpty()) {
+                if (compare(key, stack.peek().getKey()) < 0) {
+                    // 左子树
+                    stack.peek().left = p;
+                } else {
+                    stack.peek().right = p;
                 }
             }
         }

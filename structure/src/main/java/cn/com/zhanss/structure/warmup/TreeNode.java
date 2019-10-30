@@ -22,7 +22,7 @@ public class TreeNode {
       */
     public TreeNode right;
 
-    TreeNode(int x) { value = x; }
-
-
+    public TreeNode(int value) {
+        this.value = value;
+    }
 }
