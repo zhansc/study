@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/springboot-mq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/pom.xml" />
         <option value="$PROJECT_DIR$/structure/pom.xml" />
+        <option value="$PROJECT_DIR$/data-structure/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
