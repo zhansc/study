@@ -58,6 +58,7 @@ public class CircleQueueTest {
                     loop = false;
                     break;
                 default:
+                    System.out.println("Say Hello");
                     break;
             }
         }
