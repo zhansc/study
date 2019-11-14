@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SingleLinkedListTest {
 
     @Test
-    public void testSingleLinkedList() {
+    public void testSingleLinkedList() throws Exception {
         SingleLinkedList linkedList = new SingleLinkedList();
         linkedList.addSort(new HeroNode(1, "宋江", "及时雨"));
         linkedList.addSort(new HeroNode(2, "吴用", "智多星"));
@@ -33,7 +33,11 @@ public class SingleLinkedListTest {
         System.out.println("删除链表");
         linkedList.delete(1);
         linkedList.list();
+        System.out.println("倒数第几个节点："+ linkedList.getIndex(0));
 
+        linkedList.reverseNode();
+        System.out.println("\n反转链表");
+        linkedList.list();
     }
 
 }
@@ -124,6 +128,68 @@ class SingleLinkedList {
             }
             // 遍历到链表末尾
             temp = temp.next;
+        }
+    }
+
+    public int getLength() {
+        HeroNode temp = head;
+        int length = 0;
+        while (temp.next != null) {
+            length ++;
+            temp = temp.next;
+        }
+        return length;
+    }
+
+    public HeroNode getLastIndex(int index) throws Exception {
+        int length = getLength();
+        if (index <= 0 || index > length) {
+            throw new Exception("index outofIndex");
+        }
+        HeroNode temp = head;
+        for (int i = 0; i <= length - index; i ++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+
+    public HeroNode getIndex(int index) throws Exception {
+        int length = getLength();
+        if (index < 0 || index > length) {
+            throw new Exception("index outofIndex");
+        }
+        HeroNode temp = head;
+        for (int i = 0; i < index; i ++) {
+            temp = temp.next;
+        }
+        return temp;
+    }
+
+    public void reverseNode() throws Exception {
+        HeroNode temp = head;
+        if (temp.next == null || temp.next.next == null) {
+            return;
+        }
+        int length = getLength();
+        for (int i = 0; i <= length / 2; i ++) {
+            // 从前往后取半数以下的节点，每次取该节点的前一个节点
+            HeroNode start = getIndex(i).next;
+            HeroNode temp1 = start;
+            // 从后往前取半数以上的节点，每次取该节点前一个节点
+            HeroNode end = getLastIndex(i + 2);
+            HeroNode temp2 = end;
+            start = end.next;
+            // end几点的后续节点指向start的后续节点
+            if (start.next.next != null) {
+                temp1.next = start.next.next;
+            }
+            end.next = temp1.next;
+            temp1.next.next = start.next.next;
+
+            // start的后续节点指向end节点的next
+            start.next.next = temp1.next;
+            temp1 = null;
+            temp2 = null;
         }
     }
 }
