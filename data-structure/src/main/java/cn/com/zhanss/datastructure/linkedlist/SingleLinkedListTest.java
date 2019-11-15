@@ -165,31 +165,25 @@ class SingleLinkedList {
         return temp;
     }
 
-    public void reverseNode() throws Exception {
-        HeroNode temp = head;
-        if (temp.next == null || temp.next.next == null) {
+    public void reverseNode() {
+        HeroNode current = head.next;
+        // 链表为空或链表只有一个节点，直接返回
+        if (current.next == null || current.next.next == null) {
             return;
         }
-        int length = getLength();
-        for (int i = 0; i <= length / 2; i ++) {
-            // 从前往后取半数以下的节点，每次取该节点的前一个节点
-            HeroNode start = getIndex(i).next;
-            HeroNode temp1 = start;
-            // 从后往前取半数以上的节点，每次取该节点前一个节点
-            HeroNode end = getLastIndex(i + 2);
-            HeroNode temp2 = end;
-            start = end.next;
-            // end几点的后续节点指向start的后续节点
-            if (start.next.next != null) {
-                temp1.next = start.next.next;
-            }
-            end.next = temp1.next;
-            temp1.next.next = start.next.next;
-
-            // start的后续节点指向end节点的next
-            start.next.next = temp1.next;
-            temp1 = null;
-            temp2 = null;
+        HeroNode next;
+        HeroNode reverseHead = new HeroNode();
+        while (current != null) {
+            // 暂存下一个节点
+            next = current.next;
+            // 将向前节点的next指向新头结点的下一个节点
+            current.next = reverseHead.next;
+            // 新的头节点指向当前节点
+            reverseHead.next = current;
+            // 遍历原来链表
+            current = next;
         }
+        // 原来头节点重新接管新头结点
+        head.next = reverseHead.next;
     }
 }
