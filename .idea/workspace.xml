@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f013ff8d-ff00-446d-81a8-820eef7511c1" name="Default Changelist" comment="RBT删除后调整方法fixAfterDeletion">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,7 +136,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="387">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -404,7 +400,7 @@
     <property name="SearchEverywhereHistoryKey" value="image&#9;ACTION&#9;ActivateImageLayersToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574265619396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574439170497" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/servyou/workspace/yypt-yqzk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -727,7 +723,7 @@
       <workItem from="1572668749110" duration="5986000" />
       <workItem from="1573382462006" duration="1378000" />
       <workItem from="1573398330754" duration="1623000" />
-      <workItem from="1573485286735" duration="38658000" />
+      <workItem from="1573485286735" duration="38908000" />
     </task>
     <task id="LOCAL-00001" summary="JDK1.6要求引用的泛型和对象泛型都要表明">
       <created>1571763286833</created>
@@ -786,10 +782,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599321000" />
+    <option name="totallyTimeSpent" value="599571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42459017" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" sideWeight="0.5754098" side_tool="true" weight="0.25113463" />
@@ -1336,7 +1333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="387">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
