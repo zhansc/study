@@ -38,7 +38,7 @@ public class VelocityTest {
         StringWriter stringWriter = new StringWriter();
         velocityEngine.evaluate(velocityContext, stringWriter, "", "我的名字是${name}，是${list[0]}，是${list[1]}");
 //        template.merge(velocityContext, stringWriter);
-        System.out.println("stringWriter=:"+ stringWriter.toString());
+        System.out.println("stringWriter==>:"+ stringWriter.toString());
     }
 
 }
