@@ -2,6 +2,10 @@ package cn.com.zhanss.datastructure.linkedlist;
 
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 /**
  * 单链表
  *
@@ -15,29 +19,42 @@ public class SingleLinkedListTest {
         SingleLinkedList linkedList = new SingleLinkedList();
         linkedList.addSort(new HeroNode(1, "宋江", "及时雨"));
         linkedList.addSort(new HeroNode(2, "吴用", "智多星"));
-        linkedList.addSort(new HeroNode(4, "林冲", "豹子头"));
+        linkedList.addSort(new HeroNode(5, "林冲", "豹子头"));
         linkedList.addSort(new HeroNode(3, "卢俊义", "玉麒麟"));
 
+        SingleLinkedList linkedList2 = new SingleLinkedList();
+        linkedList2.addSort(new HeroNode(5, "武松", "大朗哥"));
+        linkedList2.addSort(new HeroNode(7, "呼延灼", "大彪客"));
+        linkedList2.addSort(new HeroNode(8, "李逵", "黑旋风"));
+        HeroNode newHead = linkedList.mergeLink(linkedList.head, linkedList2.head);
+        System.out.println("\n合并两个链表\n");
+        linkedList.list(newHead);
+
+        System.out.println("\n根据no获取链表节点");
         System.out.println(linkedList.get(1));
         System.out.println(linkedList.get(4));
 
         System.out.println("遍历链表");
-        linkedList.list();
+        linkedList.list(linkedList.head);
 
         System.out.println("修改链表");
         HeroNode node = new HeroNode(4, "宋黑娃", "计将来");
         linkedList.edit(node);
 
-        linkedList.list();
+        linkedList.list(null);
 
         System.out.println("删除链表");
         linkedList.delete(1);
-        linkedList.list();
+        linkedList.list(null);
         System.out.println("倒数第几个节点："+ linkedList.getIndex(0));
 
         linkedList.reverseNode();
         System.out.println("\n反转链表");
-        linkedList.list();
+        linkedList.list(null);
+
+        System.out.println("\n逆向输出链表");
+        linkedList.reversePrint();
+
     }
 
 }
@@ -91,14 +108,17 @@ class SingleLinkedList {
         return null;
     }
 
-    public void list () {
+    public void list (HeroNode node) {
+        if (node == null || node.next == null) {
+            node = head;
+        }
         // 判断链表是否为空
-        if(head.next == null) {
+        if(node.next == null) {
             System.out.println("链表为空");
             return;
         }
         // 因为头节点，不能动，因此我们需要一个辅助变量来遍历
-        HeroNode temp = head;
+        HeroNode temp = node;
         while (temp.next != null) {
             // 遍历到链表末尾
             temp = temp.next;
@@ -168,7 +188,7 @@ class SingleLinkedList {
     public void reverseNode() {
         HeroNode current = head.next;
         // 链表为空或链表只有一个节点，直接返回
-        if (current.next == null || current.next.next == null) {
+        if (current == null || current.next == null) {
             return;
         }
         HeroNode next;
@@ -185,5 +205,56 @@ class SingleLinkedList {
         }
         // 原来头节点重新接管新头结点
         head.next = reverseHead.next;
+    }
+
+    public void reversePrint() {
+        HeroNode current = head;
+        if (current.next == null) {
+            return;
+        }
+        Stack<HeroNode> stack = new Stack<>();
+        while (current.next != null) {
+            stack.push(current.next);
+            current = current.next;
+        }
+        while (!stack.empty()) {
+            System.out.println(stack.pop());
+        }
+    }
+
+    public HeroNode mergeLink(HeroNode node1, HeroNode node2) {
+        if (node1 == null || node2 == null) {
+            return null;
+        }
+        if (node1.next == null && node2.next != null) {
+            return node2;
+        }
+        if (node1.next != null && node2.next == null) {
+            return node1;
+        }
+        HeroNode newNode = new HeroNode();
+        HeroNode newHead = newNode;
+        HeroNode temp1 = node1;
+        HeroNode temp2 = node2;
+        Queue<HeroNode> queue = new LinkedList<>();
+        while (temp1.next != null || temp2.next != null) {
+            // temp2遍历结束，或temp1小于temp2
+            if (temp1.next != null && (temp2.next == null || temp1.next.no < temp2.next.no)) {
+                queue.offer(temp1.next);
+                temp1 = temp1.next;
+            }
+            // temp1遍历结束，或temp1大于temp2
+            else if (temp1.next == null || temp1.next.no > temp2.next.no) {
+                queue.offer(temp2.next);
+                temp2 = temp2.next;
+            } else if (temp1.next.no == temp2.next.no) {
+                temp1 = temp1.next;
+            }
+        }
+        while (!queue.isEmpty()) {
+            newNode.next = queue.poll();
+            newNode = newNode.next;
+        }
+        return newHead;
     }
 }

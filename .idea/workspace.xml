@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f013ff8d-ff00-446d-81a8-820eef7511c1" name="Default Changelist" comment="RBT删除后调整方法fixAfterDeletion">
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" afterDir="false" />
     </list>
@@ -66,7 +69,7 @@
           <entry key="SoftReference" value="1" />
           <entry key="class" value="60" />
           <entry key="factories" value="4" />
-          <entry key="java" value="516" />
+          <entry key="java" value="522" />
           <entry key="json" value="1" />
           <entry key="properties" value="19" />
           <entry key="txt" value="3" />
@@ -78,7 +81,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="60" />
-          <entry key="JAVA" value="516" />
+          <entry key="JAVA" value="522" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="19" />
@@ -91,8 +94,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="dummy" value="11" />
-          <entry key="java" value="35982" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="38634" />
           <entry key="properties" value="162" />
           <entry key="txt" value="48" />
           <entry key="xml" value="1471" />
@@ -102,8 +105,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="35982" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="JAVA" value="38634" />
+          <entry key="PLAIN_TEXT" value="63" />
           <entry key="Properties" value="162" />
           <entry key="XML" value="1471" />
           <entry key="YAML" value="273" />
@@ -113,11 +116,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="177" column="16" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="16" />
+            <state relative-caret-position="266">
+              <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -179,10 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mq-produce/src/test/java/cn/com/zhanss/springbootmqproduce/SpringbootMqProduceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot-mq-consumer/src/main/java/cn/com/zhanss/springbootmqconsumer/activemq/Consumer.java" />
-        <option value="$PROJECT_DIR$/springboot-mq-consumer/src/main/java/cn/com/zhanss/springbootmqconsumer/SpringbootMqConsumerApplication8888.java" />
-        <option value="$PROJECT_DIR$/springboot-mq-consumer/src/main/java/cn/com/zhanss/springbootmqconsumer/SpringbootMqConsumerApplication8899.java" />
         <option value="$PROJECT_DIR$/springboot-mq-consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/test/lang/Object.java" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/java/lang/Object.java" />
@@ -230,6 +250,10 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/CircleQueueTest.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode2.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -343,7 +367,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleLinkedListTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="DoubleLinkedListTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="interviews" type="b2602c69:ProjectViewProjectNode" />
@@ -380,7 +404,7 @@
     <property name="SearchEverywhereHistoryKey" value="image&#9;ACTION&#9;ActivateImageLayersToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573834246400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574265619396" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/servyou/workspace/yypt-yqzk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -391,27 +415,28 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\resources" />
-      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm" />
-      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\web\WEB-INF\config" />
-      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\spring-queue\src\main\resources\prod" />
-      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\juc\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.com.zhanss.thread.Singleton3" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.com.zhanss.springbootmqconsumer" />
-      <recent name="cn.com.zhanss.queue.queue" />
-      <recent name="cn.com.zhanss.thread.Singleton3" />
-      <recent name="cn.com.zhanss.thread" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\src\resources" />
       <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\web\WEB-INF\config" />
       <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\src\cn\com\zhanss\queue" />
       <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\web\WEB-INF\lib" />
+      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\juc\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.zhanss.datastructure.linkedlist" />
+      <recent name="cn.com.zhanss.springbootmqconsumer" />
+      <recent name="cn.com.zhanss.queue.queue" />
+      <recent name="cn.com.zhanss.thread.Singleton3" />
+      <recent name="cn.com.zhanss.thread" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\resources" />
+      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm" />
+      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\ssm\web\WEB-INF\config" />
+      <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\spring-queue\src\main\resources\prod" />
       <recent name="F:\BaiDuYunDownload\尚硅谷\workspace\interviews\juc\src" />
     </key>
   </component>
@@ -427,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleLinkedListTest.testSingleLinkedList">
+  <component name="RunManager" selected="JUnit.DoubleLinkedListTest">
     <configuration name="ArrayQueueTest.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -460,6 +485,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DoubleLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.DoubleLinkedListTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleLinkedListTest.testDoubleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.DoubleLinkedListTest" />
+      <option name="METHOD_NAME" value="testDoubleLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleLinkedListTest.testSingleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -471,38 +526,6 @@
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.SingleLinkedListTest" />
       <option name="METHOD_NAME" value="testSingleLinkedList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparseArray.testSparseArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.sparsearray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.sparsearray" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.sparsearray.SparseArray" />
-      <option name="METHOD_NAME" value="testSparseArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRBT.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.structure.rbt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.structure.rbt" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.structure.rbt.TestRBT" />
-      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -654,19 +677,19 @@
       <item itemvalue="Tomcat Server.ssm" />
       <item itemvalue="Spring Boot.StructureApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
-      <item itemvalue="JUnit.TestRBT.testRemove" />
-      <item itemvalue="JUnit.SparseArray.testSparseArray" />
       <item itemvalue="JUnit.ArrayQueueTest.testArrayQueue" />
       <item itemvalue="JUnit.CircleQueueTest.testCircleQueue" />
       <item itemvalue="JUnit.SingleLinkedListTest.testSingleLinkedList" />
+      <item itemvalue="JUnit.DoubleLinkedListTest.testDoubleLinkedList" />
+      <item itemvalue="JUnit.DoubleLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoubleLinkedListTest" />
+        <item itemvalue="JUnit.DoubleLinkedListTest.testDoubleLinkedList" />
         <item itemvalue="JUnit.SingleLinkedListTest.testSingleLinkedList" />
         <item itemvalue="JUnit.CircleQueueTest.testCircleQueue" />
         <item itemvalue="JUnit.ArrayQueueTest.testArrayQueue" />
-        <item itemvalue="JUnit.SparseArray.testSparseArray" />
-        <item itemvalue="JUnit.TestRBT.testRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +727,7 @@
       <workItem from="1572668749110" duration="5986000" />
       <workItem from="1573382462006" duration="1378000" />
       <workItem from="1573398330754" duration="1623000" />
-      <workItem from="1573485286735" duration="14631000" />
+      <workItem from="1573485286735" duration="38658000" />
     </task>
     <task id="LOCAL-00001" summary="JDK1.6要求引用的泛型和对象泛型都要表明">
       <created>1571763286833</created>
@@ -731,45 +754,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.14 at 23h 59m 10s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 19h 12m 12s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.15 at 00h 10m 42s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 19h 12m 53s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.15 at 00h 10m 47s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 19h 13m 40s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.15 at 00h 14m 33s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 12m 04s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.15 at 23h 04m 23s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 12m 26s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.15 at 23h 09m 08s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 12m 43s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.16 at 00h 03m 27s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 14m 14s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.16 at 00h 04m 38s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 23m 22s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.16 at 00h 05m 24s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest_testDoubleLinkedList - 2019.11.17 at 23h 23m 40s.xml">
+      <configuration name="DoubleLinkedListTest.testDoubleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleLinkedListTest_testSingleLinkedList - 2019.11.16 at 00h 06m 08s.xml">
-      <configuration name="SingleLinkedListTest.testSingleLinkedList" configurationId="JUnit" />
+    <history-entry file="DoubleLinkedListTest - 2019.11.20 at 23h 48m 31s.xml">
+      <configuration name="DoubleLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575294000" />
+    <option name="totallyTimeSpent" value="599321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42459017" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42459017" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" sideWeight="0.5754098" side_tool="true" weight="0.25113463" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -779,13 +801,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.13606557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3114754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.39836067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22459017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.03442623" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.03442623" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.5672131" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.17704917" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.23114754" />
@@ -959,31 +981,28 @@
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/AbstractSequentialList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1236,13 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sparsearray/SparseArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1291,10 +1303,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="177" column="16" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="16" />
+        <state relative-caret-position="266">
+          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/DoubleLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/CircleLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
