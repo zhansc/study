@@ -2,7 +2,9 @@ package cn.com.zhanss.datastructure.stack;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 链表实现栈
@@ -42,7 +44,7 @@ class ArrayStack {
     /**
      * 数组模拟栈
      */
-    private int[] stack;
+    private double[] stack;
     /**
      * 栈顶，-1 表示空
      */
@@ -50,7 +52,7 @@ class ArrayStack {
 
     public ArrayStack(int maxSize) {
         this.maxSize = maxSize;
-        stack = new int[maxSize];
+        stack = new double[maxSize];
     }
 
     /**
@@ -74,7 +76,7 @@ class ArrayStack {
      * @param value 值
      * @return 入栈成功否
      */
-    public Boolean push(int value) {
+    public Boolean push(double value) {
         if (isFull()) {
             System.out.println("栈满了");
             return false;
@@ -88,12 +90,12 @@ class ArrayStack {
      * 出栈
      * @return 栈顶元素
      */
-    public int pop() {
+    public double pop() {
         if (isEmpty()) {
             System.out.println("栈空了");
             return 0;
         }
-        int value = stack[top];
+        double value = stack[top];
         top --;
         return value;
     }
@@ -102,9 +104,15 @@ class ArrayStack {
      * 查看栈顶元素
      * @return
      */
-    public int peek() {
+    public double peek() {
         return stack[top];
     }
+
+    public final static String REGEX_NUMERIC = "^\\d+$";
+
+    public final static String REGEX_NON_NEGATIVE_REAL_NUMBER = "^\\+?(\\d+|\\d+\\.\\d+)$";
+
+    private Pattern pattern = Pattern.compile(REGEX_NON_NEGATIVE_REAL_NUMBER);
 
     public void list() {
         if (isEmpty()) {
@@ -122,7 +130,9 @@ class ArrayStack {
      * @return
      */
     public int priority(int oper) {
-        if (oper == '*' || oper == '/' || oper == '%') {
+        if (Arrays.asList('(', '（', ')', '）').contains(oper)) {
+            return 2;
+        } else if (Arrays.asList('*', '/' ,'%').contains(oper)) {
             return 1;
         } else if (oper == '+' || oper == '-') {
             return 0;
@@ -137,7 +147,18 @@ class ArrayStack {
      * @return
      */
     public boolean isOper(char oper) {
-        return oper == '+' || oper == '-' || oper == '*' || oper == '/' || oper == '%';
+        return Arrays.asList('+', '-', '*', '/' ,'%', '(', '（', ')', '）').contains(oper);
+    }
+
+    /**
+     * 判断是否为数字
+     * @param num
+     * @return
+     */
+    public boolean isNum(String num) {
+        Matcher isNum = pattern.matcher(num);
+//        return isNum.matches();
+        return num.matches(REGEX_NON_NEGATIVE_REAL_NUMBER);
     }
 
     /**
@@ -147,8 +168,8 @@ class ArrayStack {
      * @param opr 运算符
      * @return
      */
-    public int calculate(Integer num1, Integer num2, int opr) {
-        int result = 0;
+    public double calculate(Double num1, Double num2, int opr) {
+        double result = 0.0;
         if (num1 == null || num2 == null) {
             System.out.println("请输入正确的格式！");
             return result;
