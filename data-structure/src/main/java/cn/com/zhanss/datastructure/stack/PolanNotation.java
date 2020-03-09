@@ -16,7 +16,7 @@ import java.util.Stack;
 public class PolanNotation {
 
     public static void main(String[] agrs) {
-        String expression = "-0.123+((2+3)*4)-5";
+        String expression = "3*(0.123+((2+3)*4))-2";
         List<String> infixList = toInfixExpression(expression);
         System.out.printf("中缀表达式expression===>"+ infixList);
         System.out.println();
@@ -71,13 +71,13 @@ public class PolanNotation {
         }
         Stack<String> stack = new Stack<>();
         List<String> list = new ArrayList<>();
-        for (String expression : expressions) {
+        for (int i = 0; i < expressions.size(); i ++) {
             // 数字（包含小数，负数）
-            if (expression.matches("^[-]?\\d+(.\\d+)?")) {
-                list.add(expression);
-            } else if (expression.contains("(")) {
-                stack.push(expression);
-            } else if (expression.contains(")")) {
+            if (expressions.get(i).matches("^[-]?\\d+(.\\d+)?")) {
+                list.add(expressions.get(i));
+            } else if (expressions.get(i).contains("(")) {
+                stack.push(expressions.get(i));
+            } else if (expressions.get(i).contains(")")) {
                 // 右括号：将当前一对括号中字符加入list
                 while (!"(".equals(stack.peek())) {
                     list.add(stack.pop());
@@ -86,11 +86,11 @@ public class PolanNotation {
                 stack.pop();
             } else {
                 // 若当前运算符优先级小于等于stack 栈顶运算符优先级，则将stack 栈顶运算符加入到list（优先级高的先运算）
-                while (!stack.empty() && Operation.getPriority(expression) <= Operation.getPriority(stack.peek())) {
+                while (!stack.empty() && Operation.getPriority(expressions.get(i)) <= Operation.getPriority(stack.peek())) {
                     list.add(stack.pop());
                 }
                 // 将当前运算符加入stack
-                stack.push(expression);
+                stack.push(expressions.get(i));
             }
         }
         // 将stack 中剩余字符加入list
@@ -117,24 +117,24 @@ public class PolanNotation {
                 stack.push(expression);
             } else {
                 // 否则为运算符：弹出两个数字，计算再入栈
-                Double num1 = Double.valueOf(stack.pop());
-                Double num2 = Double.valueOf(stack.pop());
-                Double result = 0.0;
+                Double num1 = stack.empty() ? 0.0 : Double.valueOf(stack.pop());
+                Double num2 = stack.empty() ? 0.0 : Double.valueOf(stack.pop());
+                double result = 0.0;
                 switch (expression) {
                     case "+" :
-                        result = num1 + num2;
+                        result = num2 + num1;
                         break;
                     case "-" :
                         result = num2 - num1;
                         break;
                     case "*" :
-                        result = num1 * num2;
+                        result = num2 * num1;
                         break;
                     case "/" :
-                        result = num1 / num2;
+                        result = num2 / num1;
                         break;
                     case "%" :
-                        result = num1 % num2;
+                        result = num2 % num1;
                         break;
                     default:
                         System.out.println("请输入正确的运算符！！！");
