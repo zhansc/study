@@ -45,80 +45,45 @@
     <session id="341269124">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5572" />
+          <entry key="java" value="6216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5572" />
+          <entry key="JAVA" value="6216" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/SelectSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/ShellSort.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-655">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="69">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/test/CrossConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/test/CrorsConfig.java" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/test/TestFinal.java" />
         <option value="$PROJECT_DIR$/springboot-mq-produce/src/main/java/test/CorsConfig.java" />
@@ -196,6 +160,7 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -290,7 +255,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583770249370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584289147156" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -308,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShellSort.main">
+  <component name="RunManager" selected="JUnit.QuickSort.main">
     <configuration name="BubbleSort.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -341,16 +306,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue8.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSort.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.recursion.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.recursion" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.recursion.Queue8" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.sort" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.sort.QuickSort" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -398,19 +363,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DatastructureApplication" />
-      <item itemvalue="JUnit.Queue8.main" />
       <item itemvalue="JUnit.BubbleSort.main" />
       <item itemvalue="JUnit.SelectSort.main" />
       <item itemvalue="JUnit.InsertSort.maint" />
       <item itemvalue="JUnit.ShellSort.main" />
+      <item itemvalue="JUnit.QuickSort.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSort.main" />
         <item itemvalue="JUnit.ShellSort.main" />
         <item itemvalue="JUnit.InsertSort.maint" />
         <item itemvalue="JUnit.SelectSort.main" />
         <item itemvalue="JUnit.BubbleSort.main" />
-        <item itemvalue="JUnit.Queue8.main" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +418,9 @@
       <workItem from="1580579149252" duration="414000" />
       <workItem from="1580579605200" duration="701000" />
       <workItem from="1580580354025" duration="12310000" />
-      <workItem from="1580639729271" duration="42551000" />
+      <workItem from="1580639729271" duration="44573000" />
+      <workItem from="1584282336805" duration="2090000" />
+      <workItem from="1584370750345" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="JDK1.6要求引用的泛型和对象泛型都要表明">
       <created>1571763286833</created>
@@ -479,9 +446,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShellSort_main - 2020.02.16 at 15h 39m 21s.xml">
-      <configuration name="ShellSort.main" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShellSort_main - 2020.02.16 at 15h 55m 29s.xml">
       <configuration name="ShellSort.main" configurationId="JUnit" />
     </history-entry>
@@ -509,15 +473,18 @@
     <history-entry file="ShellSort_main - 2020.02.29 at 23h 52m 11s.xml">
       <configuration name="ShellSort.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QuickSort_main - 2020.03.16 at 00h 13m 31s.xml">
+      <configuration name="QuickSort.main" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56391000" />
+    <option name="totallyTimeSpent" value="61894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4229885" weight="0.19667171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4229885" weight="0.28214827" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -527,13 +494,13 @@
       <window_info id="Structure" order="7" sideWeight="0.57701147" side_tool="true" weight="0.22087745" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.23240589" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.2667758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4304419" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.49918166" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.22749591" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3852459" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.1767594" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.23114754" />
@@ -783,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,26 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -875,8 +819,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-655">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
