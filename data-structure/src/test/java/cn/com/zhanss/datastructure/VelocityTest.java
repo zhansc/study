@@ -1,16 +1,20 @@
 package cn.com.zhanss.datastructure;
 import com.alibaba.fastjson.JSON;
+import com.google.gson.Gson;
 import lombok.*;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
 import org.assertj.core.util.Preconditions;
+import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.util.StringUtils;
 
 import java.io.StringWriter;
 import java.time.LocalDateTime;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -93,9 +97,7 @@ public class VelocityTest {
         MiniProgramKeywordDetail miniProgramKeywordDetail = MiniProgramKeywordDetail.builder()
                 .keywordId("all")
                 .build();
-
         System.out.println("miniProgramKeywordDetail===>"+miniProgramKeywordDetail);
-
 
         List<Integer> cities = Arrays.asList(1, 2, 3, 4);
         String templateKey = cities.stream().map(Object::toString).collect(Collectors.joining(","));
@@ -134,6 +136,46 @@ public class VelocityTest {
         Preconditions.checkNotNull(miniProgramKeywordDetail.getKeywordId(), "请填写关键词ID");
 
     }
+
+    @Test
+    public void test12() {
+        Map<String, String> errCode2FailureEnum = new HashMap<>();
+        errCode2FailureEnum.put("A", "1");
+        errCode2FailureEnum.put("B", "2");
+        errCode2FailureEnum.put("C", "3");
+        String value = errCode2FailureEnum.getOrDefault("B", "0");
+//        System.out.println("value===>"+ value);
+
+        // 正则表达式：匹配电话号码(\+\d{2}\s?|\+\d{2}-?)? --> 国家代码 +86  或+86-)
+//        String regex = "^(\\+\\d{2}\\s?|\\+\\d{2}-?)?0\\d{2,3}[-]?\\d{7,8}|0\\d{2,3}\\s?\\d{7,8}|1[0-9]{2}[-]?\\d{4}[-]?\\d{4}";
+        // 正则匹配手机号码
+        String regex = "^(\\+\\d{2}\\s?|\\+\\d{2}-?)?(1[0-9]{2}[-]?\\d{4}[-]?\\d{4}|1[0-9]{2}\\s?\\d{4}\\s?\\d{4})$";
+        String phone = "187-05629811"; //接收用户在控制台输入的电话号码
+        Pattern pattern = Pattern.compile(regex); //编译正则表达式
+        Matcher matcher = pattern.matcher(phone); //创建给定输入模式的匹配器
+        boolean bool = matcher.matches();
+        if (bool) { //如果验证通过
+            System.out.println("输入的电话号码格式正确。");
+        } else {
+            System.out.println("输入的电话号码无效，格式不正确。");
+        }
+        phone = "+28-158 6888 0395";
+        Assert.assertTrue(pattern.matcher(phone).matches());
+
+    }
+
+    @Test
+    public void test13() {
+        List<String> jsons = Arrays.asList("\\xe4\\xb8\\xbd\\xe4\\xba\\xba","\\xe6\\x9c\\x8d\\xe8\\xa3\\x85/\\xe9\\x9e\\x8b/\\xe7\\xae\\xb1\\xe5\\x8c\\x85");
+
+        Gson gson = new Gson();
+        List<String> list = new ArrayList<>();
+        for (String json : jsons) {
+            list.add(gson.fromJson(json, String.class));
+        }
+        System.out.println("list==>"+ list);
+    }
+
 }
 
 @EqualsAndHashCode

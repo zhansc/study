@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/data-structure/datastructure.iml" filepath="$PROJECT_DIR$/data-structure/datastructure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/interviews.iml" filepath="$PROJECT_DIR$/interviews.iml" />
-      <module fileurl="file://$PROJECT_DIR$/juc/juc.iml" filepath="$PROJECT_DIR$/juc/juc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-mq-consumer/springboot-mq-consumer.iml" filepath="$PROJECT_DIR$/springboot-mq-consumer/springboot-mq-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-mq-produce/springboot-mq-produce.iml" filepath="$PROJECT_DIR$/springboot-mq-produce/springboot-mq-produce.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/structure/structure.iml" filepath="$PROJECT_DIR$/structure/structure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
     </modules>
   </component>
 </project>
