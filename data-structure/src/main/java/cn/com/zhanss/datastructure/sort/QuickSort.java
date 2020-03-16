@@ -15,7 +15,7 @@ public class QuickSort {
 
     @Test
     public void main() {
-        int[] arr = {-9, 78, 0, 23, -567, 70};
+        int[] arr = {-9, 78, 0, 23, -567, 70, -1, 12, -90, 43, -908, 76};
         quick(arr, 0, arr.length - 1);
         System.out.println("快速排序后："+ Arrays.toString(arr));
     }
@@ -47,19 +47,28 @@ public class QuickSort {
             arr[l] = arr[r];
             arr[r] = temp;
 
-            // 若交换后
+            // 若交换后arr[l] == mid 则 r -- 前移
             if (arr[l] == mid) {
                 r -= 1;
             }
+            // 后移
             if (arr[r] == mid) {
-                l -= 1;
+                l += 1;
             }
         }
+        // 避免溢出
         if (l == r) {
             l += 1;
             r -= 1;
         }
-
+        // 递归mid 左边
+        if (left < r) {
+            quick(arr, left, r);
+        }
+        // 递归mid 右边
+        if (l  < right) {
+            quick(arr, l, right);
+        }
 
     }
 
