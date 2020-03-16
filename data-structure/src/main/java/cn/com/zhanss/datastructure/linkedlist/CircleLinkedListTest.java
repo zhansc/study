@@ -1,7 +1,6 @@
 package cn.com.zhanss.datastructure.linkedlist;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.junit.Test;
 
 /**
