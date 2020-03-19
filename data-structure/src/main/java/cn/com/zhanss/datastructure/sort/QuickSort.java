@@ -56,6 +56,7 @@ public class QuickSort {
                 l += 1;
             }
         }
+        System.out.println("l-->"+ l + "<--r-->"+ r);
         // 避免溢出
         if (l == r) {
             l += 1;
