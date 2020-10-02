@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-structure" />
-        <module name="datastructure" />
         <module name="elasticsearch" />
+        <module name="io" />
+        <module name="java-api" />
         <module name="juc" />
         <module name="kafka" />
         <module name="queue" />
@@ -20,20 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="datastructure" target="1.8" />
-      <module name="elasticsearch" target="1.5" />
-      <module name="interviews" target="1.5" />
-      <module name="juc" target="1.8" />
-      <module name="kafka" target="1.8" />
-      <module name="queue" target="1.8" />
-      <module name="spring-queue" target="8" />
-      <module name="springboot-mq-consumer" target="1.8" />
-      <module name="springboot-mq-produce" target="1.8" />
-      <module name="springboot-mq-producer" target="1.8" />
       <module name="ssm" target="1.5" />
-      <module name="structure" target="1.6" />
-      <module name="thread" target="1.8" />
-      <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

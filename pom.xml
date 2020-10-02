@@ -13,7 +13,20 @@
         <module>springboot-mq-consumer</module>
         <module>springboot-mq-produce</module>
         <module>structure</module>
+        <module>java-api</module>
+        <module>thread-io</module>
     </modules>
 
+    <properties>
+        <commons-lang3.version>3.4</commons-lang3.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

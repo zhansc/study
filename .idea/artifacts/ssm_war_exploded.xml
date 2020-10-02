@@ -11,6 +11,7 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.9" />
           <element id="library" level="project" name="spring-aop-4.2.5.RELEASE" />
           <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit4" module-name="ssm" />
         </element>
       </element>
     </root>
