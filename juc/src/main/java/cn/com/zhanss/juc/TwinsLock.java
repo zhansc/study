@@ -6,13 +6,13 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
 /**
- * 两个线程可并发访问
+ * 两个线程可并发访问（共享模式）
  *
  * @author zhanss
  * @since 2019/9/29
  */
 public class TwinsLock implements Lock {
-    private final Sync	sync	= new Sync(2);
+    private final Sync sync = new Sync(2);
 
     private static final class Sync extends AbstractQueuedSynchronizer {
         private static final long	serialVersionUID	= -7889272986162341211L;

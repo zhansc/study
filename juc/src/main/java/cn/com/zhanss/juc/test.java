@@ -1,6 +1,5 @@
 package cn.com.zhanss.juc;
 
-import java.util.HashMap;
 import java.util.Scanner;
 
 /**
