@@ -24,7 +24,7 @@ public class SpringMQ_Producer {
         ApplicationContext act = new ClassPathXmlApplicationContext("config/spring-config.xml");
         SpringMQ_Producer mqProducer = (SpringMQ_Producer) act.getBean("springMQ_Producer");
         mqProducer.jmsTemplate.send(session -> {
-            TextMessage textMessage = session.createTextMessage("======spring-activemq-queue=====");
+            TextMessage textMessage = session.createTextMessage("======springaop-activemq-queue=====");
             return textMessage;
         });
 

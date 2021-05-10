@@ -10,7 +10,7 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <!-- ** 表示多级路径 -->
-            <param-value>classpath*:/config/spring-config.xml</param-value>
+            <param-value>classpath*:/**.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

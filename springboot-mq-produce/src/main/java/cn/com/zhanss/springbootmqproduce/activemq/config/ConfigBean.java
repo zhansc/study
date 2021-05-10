@@ -30,7 +30,7 @@ public class ConfigBean {
     private String myTopic;
 
     /**
-     * 这个方法相当于spring中的一个bean配置：<bean id="queue" class=""/>
+     * 这个方法相当于spring中的一个bean配置：<entity id="queue" class=""/>
      * @return
      */
     @Bean

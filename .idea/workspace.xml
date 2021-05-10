@@ -1,30 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../wecom-helper-core/wecom-helper-core-biz/src/main/java/com/youzan/wecom/helper/biz/customer/impl/CustomerStatisticBizServiceImpl.java" description="LocalDateTime beforeThirtyTime = todayTime.minusDa..." line="94" />
+    <bookmark url="file://$PROJECT_DIR$/../wecom-helper-core/wecom-helper-core-biz/src/main/java/com/youzan/wecom/helper/biz/customer/impl/CustomerStatisticBizServiceImpl.java" description="LocalDateTime beforeThirtyTime = todayTime.minusDa..." line="104" />
+    <bookmark url="file://$PROJECT_DIR$/../wecom-helper-core/application-service/wecom-helper-impl/src/main/java/com/youzan/wecom/helper/service/api/operate/division/DivisionStatisticsQueryServiceImpl.java" description="exportStaffStatistics" line="458" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f24121a7-e689-4be1-9ae5-f4595da0e23f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/GzipUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/TaskNotificationVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/BaseDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/ReflectApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/TeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/MyCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/factory/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/ioc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/test/ProxyText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/test/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm/test/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TwinsLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TwinsLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/business/EsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/lambda/GzipUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/lambda/MyTest$Person$PersonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/lambda/MyTest$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/lambda/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/lambda/TaskNotificationVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/manager/ThreadManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/reflect/BaseDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/reflect/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/reflect/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/reflect/ReflectApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-api/target/classes/cn/com/zhanss/reflect/Student.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-io/io/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/io/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-io/thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/thread/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mq-produce/src/main/java/cn/com/zhanss/springbootmqproduce/activemq/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mq-produce/src/main/java/cn/com/zhanss/springbootmqproduce/activemq/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm/src/cn/com/zhanss/queue/service/SpringMQ_Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm/src/cn/com/zhanss/queue/service/SpringMQ_Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm/ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm/ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/client/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/client/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/client/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/io/target/classes/cn/com/zhanss/io/server/Server.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
@@ -42,6 +71,7 @@
     <ignored path="$PROJECT_DIR$/thread-io/target/" />
     <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
     <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
+    <ignored path="$PROJECT_DIR$/spring/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,17 +82,69 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java">
+      <file leaf-file-name="ProxyText.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring/src/test/ProxyText.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="433" column="56" lean-forward="true" selection-start-line="433" selection-start-column="56" selection-end-line="433" selection-end-column="56" />
+            <state relative-caret-position="486">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testLocalDateTime#0;class#MyTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/MyCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,27 +154,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>commons-collections</find>
-      <find>commons-lang3</find>
-      <find>commons-dbutils</find>
-      <find>commons-dbutils.verson</find>
-      <find>1602518400000`</find>
-      <find>1605024000000</find>
-      <find>1605110400</find>
-      <find>2020-11-06</find>
-      <find>unit</find>
-      <find>wecom_helper_customer_tag_sync</find>
-      <find>localDateTime</find>
-      <find>localDateTime1</find>
-      <find>fast</find>
-      <find>1.0.1-RELEASE</find>
-      <find>-starter</find>
       <find>spring-boot-starter-test</find>
       <find>spring-boot-starter-data-jdbc</find>
       <find>percentage11</find>
@@ -108,9 +180,25 @@
       <find>calendar.getWeek---</find>
       <find>epoch2Days</find>
       <find>未完成任务数量</find>
+      <find>testInt &gt; 100----&gt;</find>
+      <find>person----&gt;</find>
+      <find>5.2.3.RELEASE</find>
+      <find>spring</find>
+      <find>@test</find>
+      <find>junit</find>
+      <find>spring-test</find>
+      <find>spring-expression</find>
+      <find>spring-aspects</find>
+      <find>calculator</find>
+      <find>MyCalculator</find>
+      <find>SecurityUtil</find>
+      <find>result before---</find>
+      <find>apply(</find>
+      <find>add(</find>
     </findStrings>
     <replaceStrings>
       <replace>student0</replace>
+      <replace>4.2.5.RELEASE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -119,23 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm/src/cn/com/zhanss/queue/service/SpringMQ_Consumer.java" />
-        <option value="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestForkJoin.java" />
-        <option value="$PROJECT_DIR$/thread/src/test/java/cn/com/zhanss/thread/ProdConsumer_BlockQueue.java" />
-        <option value="$PROJECT_DIR$/thread/src/test/java/cn/com/zhanss/thread/ProdConsumer_Condition.java" />
-        <option value="$PROJECT_DIR$/thread/src/test/java/cn/com/zhanss/thread/CallableDemo.java" />
-        <option value="$PROJECT_DIR$/thread/pom.xml" />
-        <option value="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/Singleton3.java" />
-        <option value="$PROJECT_DIR$/thread-io/thread/src/test/java/cn/com/zhanss/thread/Test.java" />
-        <option value="$PROJECT_DIR$/thread-io/io/src/main/java/cn/com/zhanss/io/client/User.java" />
-        <option value="$PROJECT_DIR$/thread-io/io/pom.xml" />
-        <option value="$PROJECT_DIR$/thread-io/io/src/main/java/cn/com/zhanss/io/client/Client.java" />
-        <option value="$PROJECT_DIR$/thread-io/io/src/main/java/cn/com/zhanss/io/server/Server.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/manager/ThreadManager.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/GzipUtil.java" />
-        <option value="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/Singleton.java" />
-        <option value="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/test.java" />
-        <option value="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TwinsLock.java" />
         <option value="$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/MyLock.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/Student.java" />
@@ -147,9 +218,46 @@
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/BaseDAOImpl.java" />
         <option value="$PROJECT_DIR$/java-api/pom.xml" />
         <option value="$PROJECT_DIR$/thread-io/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/TaskNotificationVariable.java" />
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java" />
+        <option value="$PROJECT_DIR$/ssm/src/cn/com/zhanss/spring/Person.java" />
+        <option value="$PROJECT_DIR$/ssm/src/cn/com/zhanss/spring/bean/Person.java" />
+        <option value="$PROJECT_DIR$/ssm/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm/src/cn/com/zhanss/spring/factory/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/ssm/resources/ioc.xml" />
+        <option value="$PROJECT_DIR$/ssm/test/MyTest.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/src/test/java/MyTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn.com.zhanss/spring/factory/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn.com.zhanss/spring/bean/Teacher.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/BaseService.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/TeacherDAO.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn.com.zhanss/spring/bean/Student.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/Calculator.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/LogUtil.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/bean/Person.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/factory/Person.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springaop/bean/Person.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springaop/factory/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/src/main/resources/ioc.xml" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Person.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/factory/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/MyTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/SpringTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/resources/aop.xml" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/SecurityUtil.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/Security.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/MyCalculator.java" />
+        <option value="$PROJECT_DIR$/spring/src/test/ProxyText.java" />
       </list>
     </option>
   </component>
@@ -168,17 +276,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thread-io" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="thread-io" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -195,11 +293,15 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,30 +309,126 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhanss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhanss" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring/src/test" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.com.zhanss.lambda" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.com.zhanss.springaop.bean" />
+      <recent name="cn.com.zhanss.spring.factory" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.com.zhanss.spring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring/src/main/java/cn.com.zhanss" />
       <recent name="$PROJECT_DIR$/thread-io/thread/src/test/java/cn/com/zhanss/thread" />
       <recent name="$PROJECT_DIR$/thread-io/thread/src/main/resources" />
       <recent name="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread" />
-      <recent name="$PROJECT_DIR$/thread-io/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.zhanss.annotation.utils" />
+      <recent name="cn.com.zhanss.spring.bean" />
+      <recent name="cn.com.zhanss.annotation.service" />
+      <recent name="cn.com.zhanss.annotation.dao" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,23 +443,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testNotification">
+  <component name="RunManager" selected="JUnit.ProxyText.testRegex">
+    <configuration name="ProxyText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyText" />
+      <module name="spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ProxyText.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.lambda" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.lambda.MyTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProxyText" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -272,19 +469,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyTest.testCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ProxyText.testRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.lambda" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.lambda.MyTest" />
-      <option name="METHOD_NAME" value="testCollection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProxyText" />
+      <option name="METHOD_NAME" value="testRegex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -295,19 +486,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyTest.testLocalDateTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ProxyText.testRegx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.lambda" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.lambda.MyTest" />
-      <option name="METHOD_NAME" value="testLocalDateTime" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProxyText" />
+      <option name="METHOD_NAME" value="testRegx" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -318,41 +503,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyTest.testNotification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SpringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.lambda" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.lambda.MyTest" />
-      <option name="METHOD_NAME" value="testNotification" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ReflectApi.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.reflect" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.reflect.ReflectApi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -443,19 +599,19 @@
       <item itemvalue="Spring Boot.StructureApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
       <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
-      <item itemvalue="JUnit.MyTest.test2" />
-      <item itemvalue="JUnit.ReflectApi.test1" />
-      <item itemvalue="JUnit.MyTest.testCollection" />
-      <item itemvalue="JUnit.MyTest.testLocalDateTime" />
-      <item itemvalue="JUnit.MyTest.testNotification" />
+      <item itemvalue="JUnit.SpringTest.test1" />
+      <item itemvalue="JUnit.ProxyText.test" />
+      <item itemvalue="Application.ProxyText" />
+      <item itemvalue="JUnit.ProxyText.testRegx" />
+      <item itemvalue="JUnit.ProxyText.testRegex" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.testNotification" />
-        <item itemvalue="JUnit.MyTest.testCollection" />
-        <item itemvalue="JUnit.MyTest.testLocalDateTime" />
-        <item itemvalue="JUnit.MyTest.test2" />
-        <item itemvalue="JUnit.ReflectApi.test1" />
+        <item itemvalue="JUnit.ProxyText.testRegex" />
+        <item itemvalue="JUnit.ProxyText.testRegx" />
+        <item itemvalue="Application.ProxyText" />
+        <item itemvalue="JUnit.ProxyText.test" />
+        <item itemvalue="JUnit.SpringTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -499,47 +655,52 @@
       <workItem from="1607507935317" duration="19603000" />
       <workItem from="1608220525294" duration="3617000" />
       <workItem from="1608620973287" duration="13353000" />
-      <workItem from="1609745919271" duration="101962000" />
+      <workItem from="1609745919271" duration="133789000" />
+      <workItem from="1613637772217" duration="31879000" />
+      <workItem from="1614175245389" duration="12759000" />
+      <workItem from="1615107938171" duration="50396000" />
+      <workItem from="1617712379320" duration="651000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest_testCollection - 2021.01.28 at 10h 57m 44s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 07m 44s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.28 at 10h 57m 55s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 14m 19s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.28 at 11h 01m 43s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 35m 47s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.28 at 11h 05m 05s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 38m 46s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.28 at 21h 31m 08s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 39m 03s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.29 at 16h 14m 08s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 39m 14s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testCollection - 2021.01.29 at 16h 14m 19s.xml">
-      <configuration name="MyTest.testCollection" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegx - 2021.03.19 at 15h 41m 42s.xml">
+      <configuration name="ProxyText.testRegx" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testNotification - 2021.01.29 at 17h 01m 19s.xml">
-      <configuration name="MyTest.testNotification" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegex - 2021.03.19 at 15h 41m 49s.xml">
+      <configuration name="ProxyText.testRegex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testNotification - 2021.01.29 at 21h 28m 38s.xml">
-      <configuration name="MyTest.testNotification" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegex - 2021.03.19 at 15h 42m 01s.xml">
+      <configuration name="ProxyText.testRegex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_testNotification - 2021.01.29 at 21h 31m 17s.xml">
-      <configuration name="MyTest.testNotification" configurationId="JUnit" />
+    <history-entry file="ProxyText_testRegex - 2021.03.19 at 15h 42m 08s.xml">
+      <configuration name="ProxyText.testRegex" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261258000" />
+    <option name="totallyTimeSpent" value="388770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -549,33 +710,69 @@
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info id="Structure" order="1" sideWeight="0.50128204" side_tool="true" weight="0.19313304" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2897436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3923077" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.2948718" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.30641025" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.4051282" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31153846" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19102564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.21173105" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.16282052" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.26666668" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19102564" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5007153" side_tool="true" weight="0.45641026" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.16282052" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.1874106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.23247497" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.50128204" side_tool="true" weight="0.19313304" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2897436" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -600,24 +797,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java</url>
-          <line>247</line>
+          <line>261</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java</url>
-          <line>191</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java</url>
-          <line>442</line>
+          <line>460</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/test/ProxyText.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/SecurityUtil.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/test/ProxyText.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -625,384 +846,387 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/JucApplication.java">
+    <entry file="file://$PROJECT_DIR$/ssm/resources/config/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="202">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/test.java">
+    <entry file="file://$PROJECT_DIR$/ssm/src/cn/com/zhanss/spring/factory/MyFactoryBean.java" />
+    <entry file="file://$PROJECT_DIR$/ssm/resources/ioc.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/beans/factory/BeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="209">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestByteBuffer.java">
+    <entry file="file://$PROJECT_DIR$/ssm/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestVolatile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="171" column="38" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9994">
-          <caret line="564" column="23" selection-start-line="564" selection-start-column="23" selection-end-line="564" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar!/scala/concurrent/impl/Promise.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3363">
-          <caret line="222" column="19" selection-start-line="222" selection-start-column="19" selection-end-line="222" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24.jar!/org/apache/tomcat/util/threads/LimitLatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="211" column="32" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TwinsLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TwinsLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19551">
-          <caret line="1074" column="32" selection-start-line="1074" selection-start-column="22" selection-end-line="1074" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/apache/camel/com/github/benmanes/caffeine/cache/NonReentrantLock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/MyLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/GzipUtil.java">
+    <entry file="file://$PROJECT_DIR$/ssm/test/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/business/EsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/org/aspectj/lang/annotation/Before.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/org/aspectj/lang/annotation/Before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/org/aspectj/lang/annotation/After.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/org/aspectj/lang/annotation/AfterThrowing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/org/aspectj/lang/annotation/Around.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5-sources.jar!/org/aspectj/lang/annotation/AfterReturning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="409" column="51" lean-forward="true" selection-start-line="409" selection-start-column="51" selection-end-line="409" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-io/thread/src/test/java/cn/com/zhanss/thread/ProdConsumer_BlockQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-io/thread/src/test/java/cn/com/zhanss/thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/org/apache/commons/collections/CollectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/ReflectApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/temporal/ChronoField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="374" column="57" lean-forward="true" selection-start-line="374" selection-start-column="57" selection-end-line="374" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1717" column="18" selection-start-line="1717" selection-start-column="18" selection-end-line="1717" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1818" column="15" selection-start-line="1818" selection-start-column="15" selection-end-line="1818" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688850513832026/Cache/File/2021-01/FieldMappingConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding>
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="360" column="16" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/text/DecimalFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2020" column="17" selection-start-line="2020" selection-start-column="14" selection-end-line="2020" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="173" column="25" selection-start-line="173" selection-start-column="25" selection-end-line="173" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="234" column="25" selection-start-line="234" selection-start-column="25" selection-end-line="234" selection-end-column="25" />
-          <folding>
-            <element signature="e#9016#9017#0" expanded="true" />
-            <element signature="e#9058#9059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="2303" column="41" selection-start-line="2303" selection-start-column="28" selection-end-line="2303" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="470" column="58" selection-start-line="470" selection-start-column="44" selection-end-line="470" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/TeacherService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/TeacherDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6908">
-          <caret line="1612" column="49" selection-start-line="1612" selection-start-column="39" selection-end-line="1612" selection-end-column="49" />
+        <state relative-caret-position="209">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="569" selection-start-line="569" selection-end-line="569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/factory/MyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#71057#71058#0" expanded="true" />
-            <element signature="e#71104#71105#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/reflect/BaseDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/resources/ioc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/resources/aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/SecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/misc/ReflectUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <caret line="483" column="17" lean-forward="true" selection-start-line="483" selection-start-column="17" selection-end-line="483" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/TaskNotificationVariable.java">
+    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="-5">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#3680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/service/MyCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="433" column="56" lean-forward="true" selection-start-line="433" selection-start-column="56" selection-end-line="433" selection-end-column="56" />
+        <state relative-caret-position="361">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testLocalDateTime#0;class#MyTest#0" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1260" column="12" selection-start-line="1260" selection-start-column="12" selection-end-line="1260" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/test/ProxyText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,11 +1285,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>thread</last-edited>
+          <last-edited>spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

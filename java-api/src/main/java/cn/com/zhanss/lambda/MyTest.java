@@ -157,12 +157,16 @@ public class MyTest {
         String percentage = percentage(null, 132L, false, true);
         System.out.println("percentage111---->"+ percentage);
         person.setName(percentage);
+        person.setSs(Collections.singletonList("1234"));
         numberCon.put("percentage", percentage);
         numberCon.put("percentage1", null);
         System.out.println("person---->"+ person.toString());
         System.out.println("numberCon---->"+ numberCon +"<---->"+ numberCon.get("percentage1"));
         System.out.println("00".compareTo("0"));
         System.out.println(0>0);
+
+        person.setSs(Collections.singletonList("567890"));
+        System.out.println("person---->"+ person.toString());
 
         List<Integer> daysOfWeek = new ArrayList<>();
         daysOfWeek.add(1);
@@ -221,6 +225,16 @@ public class MyTest {
         StringBuilder content = new StringBuilder("<你好>，是的我好<你好>");
         content.append("Hi").append("<你好>");
         System.out.println("content---->"+ content.toString().replace("<你好>", ""));
+
+        // Integer 和 int 比较大小，会将Integer拆箱为int类型
+        Integer testInteger = 100;
+        int testInt = 100;
+
+        // 两个Integer比较大小，比较的是两个对象
+        System.out.println("testInt > 100---->"+ (testInteger.equals(testInt)));
+        Set<Person> personSet = new HashSet<>();
+        Set<Integer> personIds = personSet.stream().map(Person::getId).collect(Collectors.toSet());
+        System.out.println("personIds >---->"+ personIds + "personIds.size---->"+ personIds.size());
 
 
     }
@@ -420,6 +434,8 @@ public class MyTest {
         private Integer age;
 
         private Double score;
+
+        private List<String> ss;
     }
 
     @Test
@@ -432,6 +448,8 @@ public class MyTest {
         LocalDateTime tomorrow = LocalDateTime.now().plusDays(1).withHour(0).withMinute(0).withSecond(0).withNano(0);
         System.out.println("tomorrow--->"+tomorrow.minusDays(27).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli());
         System.out.println("tomorrow after--->"+LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant().toEpochMilli());
+
+
     }
 
     public Boolean callbackTaskNotification(Integer type, String content) {

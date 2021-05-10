@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="logUtil" class="cn.com.zhanss.annotation.utils.LogUtil"/>
+    <bean id="securityUtil" class="cn.com.zhanss.annotation.utils.SecurityUtil"/>
+    <bean id="myCaculator" class="cn.com.zhanss.annotation.service.MyCalculator"/>
+
+    <aop:config>
+        <aop:pointcut id="pointCut" expression="execution(public Integer cn.com.zhanss.annotation.service.MyCalculator.*(Integer,Integer))"></aop:pointcut>
+        <!--切面配置-->
+        <aop:aspect ref="logUtil">
+            <aop:before method="start" pointcut-ref="pointCut"></aop:before>
+            <aop:after method="stop" pointcut-ref="pointCut"></aop:after>
+            <aop:after-returning method="logFinally" pointcut-ref="pointCut" returning="result"></aop:after-returning>
+            <aop:after-throwing method="logException" pointcut-ref="pointCut" throwing="e"></aop:after-throwing>
+            <aop:around method="logAround" pointcut-ref="pointCut"></aop:around>
+        </aop:aspect>
+
+        <aop:aspect ref="securityUtil">
+            <aop:before method="start" pointcut-ref="pointCut"></aop:before>
+            <aop:after method="stop" pointcut-ref="pointCut"></aop:after>
+            <aop:after-returning method="logFinally" pointcut-ref="pointCut" returning="result"></aop:after-returning>
+            <aop:after-throwing method="logException" pointcut-ref="pointCut" throwing="e"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+</beans>
