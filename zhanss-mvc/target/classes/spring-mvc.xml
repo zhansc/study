@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <!--扫码包-->
+    <component-scan page-package="com.zhanss.controller,com.zhanss.service"></component-scan>
+
+</beans>

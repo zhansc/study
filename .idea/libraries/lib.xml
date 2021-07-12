@@ -10,6 +10,10 @@
       <root url="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-core-4.2.5.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -13,6 +13,7 @@
     <SOURCES>
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-core-4.2.5.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

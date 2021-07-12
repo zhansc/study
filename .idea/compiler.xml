@@ -19,6 +19,7 @@
         <module name="springboot-mq-produce" />
         <module name="structure" />
         <module name="thread" />
+        <module name="zhanssmvc" />
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>
