@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.8.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <groupId>cn.com.zhanss</groupId>
     <artifactId>interviews</artifactId>
     <packaging>pom</packaging>
@@ -13,7 +20,6 @@
         <module>springboot-mq-consumer</module>
         <module>springboot-mq-produce</module>
         <module>structure</module>
-        <module>java-api</module>
         <module>thread-io</module>
         <module>spring</module>
         <module>zhanss-mvc</module>
@@ -23,9 +29,9 @@
         <commons-lang3.version>3.4</commons-lang3.version>
         <commons-conllections.version>3.2.1</commons-conllections.version>
         <fastjson.version>1.2.49</fastjson.version>
-        <qq.aes.version>1.0.1-RELEASE</qq.aes.version>
         <spring-boot-starter-test.version>2.2.0.RELEASE</spring-boot-starter-test.version>
         <spring-boot-starter-data-jdbc.version>2.1.8.RELEASE</spring-boot-starter-data-jdbc.version>
+        <dubbo.version>2.7.3</dubbo.version>
         <junit.version>4.12</junit.version>
         <cglib.version>3.3.0</cglib.version>
         <aopalliance.version>1.0</aopalliance.version>
@@ -34,8 +40,21 @@
         <aspectjweaver.version>1.9.5</aspectjweaver.version>
         <spring-aspects.version>5.0.7.RELEASE</spring-aspects.version>
         <mysql-connector-java.version>5.1.48</mysql-connector-java.version>
-        <spring-test.version>4.2.5.RELEASE</spring-test.version>
-        <commons-codec.version>1.9.RELEASE</commons-codec.version>
+        <spring-test.version>5.1.9.RELEASE</spring-test.version>
+        <commons-codec.version>1.10</commons-codec.version>
+        <spring-oxm.version>5.1.6.RELEASE</spring-oxm.version>
+        <spring-aop.version>5.1.9.RELEASE</spring-aop.version>
+        <spring-beans.version>5.1.9.RELEASE</spring-beans.version>
+        <spring-context.version>5.1.9.RELEASE</spring-context.version>
+        <spring-core.version>5.1.9.RELEASE</spring-core.version>
+        <spring-expression.version>5.1.9.RELEASE</spring-expression.version>
+        <spring-web.version>5.1.9.RELEASE</spring-web.version>
+        <spring-webmvc.version>5.1.9.RELEASE</spring-webmvc.version>
+        <log4j-core.version>2.9.0</log4j-core.version>
+        <zookeeper.version>3.4.10</zookeeper.version>
+        <jackson-databind.version>2.9.1</jackson-databind.version>
+        <mybatis.version>3.5.2</mybatis.version>
+
     </properties>
 
     <dependencyManagement>
@@ -58,12 +77,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.qq.weixin</groupId>
-                <artifactId>aes</artifactId>
-                <version>${qq.aes.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
@@ -80,6 +93,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot-starter-test.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
             </dependency>
 
             <dependency>
@@ -139,8 +158,80 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${commons-codec.version}</version>
-                <scope>compile</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring-aop.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>${spring-beans.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring-context.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${spring-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-expression</artifactId>
+                <version>${spring-expression.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring-web.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${spring-webmvc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-oxm</artifactId>
+                <version>${spring-oxm.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${log4j-core.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson-databind.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data-structure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/juc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nosql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/queue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mq-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mq-produce" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/structure" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-io/io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-io/thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhanss-mvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
   </component>
 </project>

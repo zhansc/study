@@ -14,11 +14,14 @@
         <option value="$PROJECT_DIR$/springboot-mq-produce/pom.xml" />
         <option value="$PROJECT_DIR$/structure/pom.xml" />
         <option value="$PROJECT_DIR$/data-structure/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/java-api2/pom.xml" />
+        <option value="$PROJECT_DIR$/wework/pom.xml" />
+        <option value="$PROJECT_DIR$/nosql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/java-api/pom.xml" />
         <option value="$PROJECT_DIR$/spring-queue/pom.xml" />
       </set>
     </option>

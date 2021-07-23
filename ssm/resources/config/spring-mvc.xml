@@ -32,4 +32,11 @@
         </property>
     </bean>
 
+    <!--解析xml-->
+    <bean id="wecomMarshaller" class="org.springframework.oxm.castor.CastorMarshaller">
+        <property name="mappingLocation" value="classpath:mapper/wecom-mapping.xml"/>
+        <property name="marshalAsDocument" value="false"/>
+        <property name="ignoreExtraElements" value="true"/>
+    </bean>
+
 </beans>
