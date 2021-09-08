@@ -31,7 +31,7 @@
         <fastjson.version>1.2.49</fastjson.version>
         <spring-boot-starter-test.version>2.2.0.RELEASE</spring-boot-starter-test.version>
         <spring-boot-starter-data-jdbc.version>2.1.8.RELEASE</spring-boot-starter-data-jdbc.version>
-        <dubbo.version>2.7.3</dubbo.version>
+        <dubbo.version>2.7.13</dubbo.version>
         <junit.version>4.12</junit.version>
         <cglib.version>3.3.0</cglib.version>
         <aopalliance.version>1.0</aopalliance.version>
