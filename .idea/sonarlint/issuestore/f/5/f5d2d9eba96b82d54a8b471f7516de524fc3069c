@@ -1,0 +1,43 @@
+
+m
+java:S1192"KDefine a constant instead of duplicating this literal "ä½ å¥½--->" 3 times.(Ý«¬äúÿÿÿÿ8£¤÷•å/
+M
+java:S1874<"+Remove this use of "md5"; it is deprecated.(Å€§¯ýÿÿÿÿ8£¤÷•å/
+F
+java:S1148³"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8£¤÷•å/
+N
+java:S1481Í"0Remove this unused "wecomTagIds" local variable.(ßÚÃä8£¤÷•å/
+f
+java:S1226â"HIntroduce a new variable instead of reusing the parameter "returnUsers".(¸ªŒ¶8£¤÷•å/
+f
+java:S1226é"HIntroduce a new variable instead of reusing the parameter "returnUsers".(¸ªŒ¶8£¤÷•å/
+E
+java:S11485"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8£¤÷•å/
+l
+java:S3027K"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(Áõ£ûøÿÿÿÿ8£¤÷•å/
+M
+java:S18748"+Remove this use of "md5"; it is deprecated.(²¶ï†úÿÿÿÿ8£¤÷•å/
+F	java:S108Ÿ")Either remove or fill this block of code.(”ý¾8£¤÷•å/
+^	java:S125¯"<This block of commented-out lines of code should be removed.(›ÜÄ¡ûÿÿÿÿ8£¤÷•å/
+u
+java:S3776À"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(†Ä¼üÿÿÿÿ8£¤÷•å/
+H
+java:S1874@"+Remove this use of "md5"; it is deprecated.(ŒƒùÊ8£¤÷•å/
+^	java:S125µ"<This block of commented-out lines of code should be removed.(€è€¹þÿÿÿÿ8£¤÷•å/
+S
+java:S47193"9Replace charset name argument with StandardCharsets.UTF_8(£]8£¤÷•å/
+p
+java:S47199"NReplace "com.google.common.base.Charsets.UTF_8" with "StandardCharsets.UTF_8".(…ºª°þÿÿÿÿ8£¤÷•å/
+k
+java:S4719A"NReplace "com.google.common.base.Charsets.UTF_8" with "StandardCharsets.UTF_8".(Å±ƒˆ8£¤÷•å/
+m	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òû¬š8£¤÷•å/
+M
+java:S1481ª"/Remove this unused "dateFormat" local variable.(Û”Ñ±8£¤÷•å/
+e
+java:S5361e"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÉÜ¡Ÿ8£¤÷•å/
+p
+java:S4719="NReplace "com.google.common.base.Charsets.UTF_8" with "StandardCharsets.UTF_8".(Éûëùÿÿÿÿ8£¤÷•å/
+l
+java:S3027J"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(ÔŠòæûÿÿÿÿ8£¤÷•å/
+g
+java:S3027P"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(¦˜Á§8£¤÷•å/
