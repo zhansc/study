@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure;
+package cn.com.zhanss.datastructure.common.entity;
 
 import lombok.Data;
 

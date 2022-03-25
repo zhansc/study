@@ -1,5 +1,6 @@
-package cn.com.zhanss.datastructure.linkedlist;
+package cn.com.zhanss.datastructure.linkedlist.single;
 
+import cn.com.zhanss.datastructure.linkedlist.HeroNode;
 import org.junit.Test;
 
 /**
@@ -8,11 +9,11 @@ import org.junit.Test;
  * @author zhanss
  * @since 2019/10/31
  */
-public class SingleLinkedListTest {
+public class LinkedListTest1 {
 
     @Test
     public void testSingleLinkedList() throws Exception {
-        SingleLinkedList linkedList = new SingleLinkedList();
+        LinkedList linkedList = new LinkedList();
         linkedList.addSort(new HeroNode(1, "宋江", "及时雨"));
         linkedList.addSort(new HeroNode(2, "吴用", "智多星"));
         linkedList.addSort(new HeroNode(4, "林冲", "豹子头"));
@@ -42,7 +43,7 @@ public class SingleLinkedListTest {
 
 }
 
-class SingleLinkedList {
+class LinkedList {
     /**
      * 头结点
      */

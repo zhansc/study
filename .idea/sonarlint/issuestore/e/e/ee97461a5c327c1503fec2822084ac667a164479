@@ -1,0 +1,11 @@
+
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(½òçÈ8ïøÁ‘û/
+K
+java:S2140")Use "java.util.Random.nextInt()" instead.(ºÎ‹Áıÿÿÿÿ8ñÖ¶‘û/
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(½òçÈ8ïøÁ‘û/
+{
+java:S3012,"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(í·¢•ûÿÿÿÿ8ı¡Í‘û/
+g
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "-"(½òçÈ8ïøÁ‘û/

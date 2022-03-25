@@ -1,6 +1,6 @@
 package cn.com.zhanss.datastructure.stack;
 
-import cn.com.zhanss.datastructure.Node;
+import cn.com.zhanss.datastructure.common.entity.Node;
 import lombok.Data;
 import org.junit.Test;
 

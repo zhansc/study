@@ -1,6 +1,6 @@
 package cn.com.zhanss.datastructure.doexercise.random;
 
-import cn.com.zhanss.datastructure.Node;
+import cn.com.zhanss.datastructure.common.entity.Node;
 import org.junit.Test;
 
 /**
@@ -70,6 +70,8 @@ public class rand2Rand {
     }
 
     /**
+     * f()函数返回的结果是0 或 1，出现0 的概率是P，出现1 的概率是 1-P，
+     * 问怎么仅用f()得到g()函数返回的结果是0 或 1，且出现0 的概率和出现1的概率相等？
      * @return
      */
     public int g01() {

@@ -1,6 +1,6 @@
 package cn.com.zhanss.datastructure.queue;
 
-import cn.com.zhanss.datastructure.Node;
+import cn.com.zhanss.datastructure.common.entity.Node;
 import lombok.Data;
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;

@@ -1,7 +1,7 @@
 
-Q
-java:S1153"1Directly append the argument of String.valueOf().(ïÒµÔşÿÿÿÿ8»è¯ô/
-V	java:S125"<This block of commented-out lines of code should be removed.(´¼©«8í ‘Óñ/
-Q
-java:S1153"1Directly append the argument of String.valueOf().(— ùÿùÿÿÿÿ8±Â¯ô/
-_	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ€ÅQ
+S
+java:S1153 "1Directly append the argument of String.valueOf().(— ùÿùÿÿÿÿ8±Â¯ô/
+S
+java:S1153"1Directly append the argument of String.valueOf().(ïÒµÔşÿÿÿÿ8»è¯ô/
+X	java:S125"<This block of commented-out lines of code should be removed.(´¼©«8í ‘Óñ/
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ€ÅQ

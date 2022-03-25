@@ -25,7 +25,7 @@ public class IndexController {
     @ResponseBody
     @RequestMapping("/getUser")
     public User getUser() {
-        return new User(1, "李四", "男", "12345678901");
+        return new User(1, "李四", "男", "12345678901",12, 11, "", "", "");
     }
 
 }
