@@ -1,9 +1,9 @@
 
-X	java:S125p"<This block of commented-out lines of code should be removed.(†§ó8„éùÒó/
-K
-java:S2140")Use "java.util.Random.nextInt()" instead.(¸¬·ùÿÿÿÿ8™Ö¥ó/
-F
-java:S2140]")Use "java.util.Random.nextInt()" instead.(ß´ô¿8™Ö¥ó/
-K
-java:S2140`")Use "java.util.Random.nextInt()" instead.(İÂÔ˜ıÿÿÿÿ8™Ö¥ó/
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ö¸…8™Ö¥ó/
+V	java:S125"<This block of commented-out lines of code should be removed.(†§ó8„éùÒó/
+I
+java:S2140")Use "java.util.Random.nextInt()" instead.(¸¬·ùÿÿÿÿ8™Ö¥ó/
+f	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ö¸…8™Ö¥ó/
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(ß´ô¿8™Ö¥ó/
+I
+java:S2140")Use "java.util.Random.nextInt()" instead.(İÂÔ˜ıÿÿÿÿ8™Ö¥ó/
