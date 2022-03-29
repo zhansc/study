@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure.common;
+package cn.com.zhanss.datastructure.linkedlist.doubly;
 
 import lombok.NoArgsConstructor;
 

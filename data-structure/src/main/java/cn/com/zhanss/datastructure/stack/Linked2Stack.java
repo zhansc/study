@@ -1,7 +1,7 @@
 package cn.com.zhanss.datastructure.stack;
 
-import cn.com.zhanss.datastructure.common.MyDoubleLinked;
-import cn.com.zhanss.datastructure.common.MySingleLinked;
+import cn.com.zhanss.datastructure.linkedlist.doubly.MyDoubleLinked;
+import cn.com.zhanss.datastructure.linkedlist.single.MySingleLinked;
 import cn.com.zhanss.datastructure.common.entity.Node;
 import lombok.Data;
 import org.junit.Test;

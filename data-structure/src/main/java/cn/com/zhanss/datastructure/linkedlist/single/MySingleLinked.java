@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure.common;
+package cn.com.zhanss.datastructure.linkedlist.single;
 
 import cn.com.zhanss.datastructure.common.entity.Node;
 

@@ -32,6 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f24121a7-e689-4be1-9ae5-f4595da0e23f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272640c602dac51bcfb1c4b9fe6baaed366eaa34" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272640c602dac51bcfb1c4b9fe6baaed366eaa34" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/323571904799d624d6ab5cd16a17a9acabf37be8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3857c50dbb41d1598da1f51b8bade84271810dc5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3857c50dbb41d1598da1f51b8bade84271810dc5" afterDir="false" />
@@ -41,6 +43,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f886a489afdd7070c8b46d9eba859fece8c2184b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f886a489afdd7070c8b46d9eba859fece8c2184b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -112,11 +115,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linked2Stack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Linked2Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            <state relative-caret-position="358">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding>
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue2Stack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zookeeper/src/test/java/cn/com/zhanss/zookeeper/DistributeServer.java" />
-        <option value="$PROJECT_DIR$/structure/src/main/java/cn/com/zhanss/structure/bstAVL/TestBSTVSTreeMap.java" />
-        <option value="$PROJECT_DIR$/structure/pom.xml" />
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/reflect/BaseDAOImpl.java" />
         <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/lambda/MyTest.java" />
         <option value="$PROJECT_DIR$/queue/pom.xml" />
@@ -237,6 +268,9 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/MyDoubleLinked.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java" />
       </list>
     </option>
   </component>
@@ -425,6 +459,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayQueueTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="sparsearray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -544,11 +599,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Linked2Stack.testMyStack">
+  <component name="RunManager" selected="JUnit.Queue2Stack.testStack">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Linked2Queue.testLinked2Queue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayQueueTest.testArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
@@ -559,8 +614,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.Linked2Queue" />
-      <option name="METHOD_NAME" value="testLinked2Queue" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.ArrayQueueTest" />
+      <option name="METHOD_NAME" value="testArrayQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -571,19 +626,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Linked2Stack.testLinked2Stack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayQueueTest.testArrayStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.stack.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.stack" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.stack.Linked2Stack" />
-      <option name="METHOD_NAME" value="testLinked2Stack" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.queue" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.ArrayQueueTest" />
+      <option name="METHOD_NAME" value="testArrayStack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -617,19 +672,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LinkedListTest1.testSingleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Queue2Stack.testStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.single.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.single" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.single.LinkedListTest1" />
-      <option name="METHOD_NAME" value="testSingleLinkedList" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.stack" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.stack.Queue2Stack" />
+      <option name="METHOD_NAME" value="testStack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -640,18 +695,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TempClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Stack2Queue.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.common.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.TempClass" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.queue" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.Stack2Queue" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -959,19 +1014,19 @@
       <item itemvalue="Tomcat Server.zhanss-mvc" />
       <item itemvalue="Tomcat Server.ssm" />
       <item itemvalue="Tomcat Server.spring-mvc" />
-      <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
-      <item itemvalue="JUnit.Linked2Queue.testLinked2Queue" />
-      <item itemvalue="JUnit.Linked2Stack.testLinked2Stack" />
-      <item itemvalue="JUnit.TempClass.test" />
       <item itemvalue="JUnit.Linked2Stack.testMyStack" />
+      <item itemvalue="JUnit.ArrayQueueTest.testArrayQueue" />
+      <item itemvalue="JUnit.ArrayQueueTest.testArrayStack" />
+      <item itemvalue="JUnit.Stack2Queue.test" />
+      <item itemvalue="JUnit.Queue2Stack.testStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Queue2Stack.testStack" />
+        <item itemvalue="JUnit.Stack2Queue.test" />
+        <item itemvalue="JUnit.ArrayQueueTest.testArrayStack" />
+        <item itemvalue="JUnit.ArrayQueueTest.testArrayQueue" />
         <item itemvalue="JUnit.Linked2Stack.testMyStack" />
-        <item itemvalue="JUnit.Linked2Stack.testLinked2Stack" />
-        <item itemvalue="JUnit.Linked2Queue.testLinked2Queue" />
-        <item itemvalue="JUnit.TempClass.test" />
-        <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -1098,44 +1153,44 @@
       <workItem from="1647961302747" duration="3416000" />
       <workItem from="1648043169223" duration="4481000" />
       <workItem from="1648124497271" duration="30116000" />
-      <workItem from="1648482806493" duration="4385000" />
+      <workItem from="1648482806493" duration="9725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 49m 58s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="ArrayQueueTest_testArrayStack - 2022.03.29 at 12h 54m 56s.xml">
+      <configuration name="ArrayQueueTest.testArrayStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 51m 18s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Stack2Queue_test - 2022.03.29 at 13h 08m 23s.xml">
+      <configuration name="Stack2Queue.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 51m 29s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Stack2Queue_test - 2022.03.29 at 13h 08m 52s.xml">
+      <configuration name="Stack2Queue.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 56m 00s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Stack2Queue_test - 2022.03.29 at 13h 09m 04s.xml">
+      <configuration name="Stack2Queue.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 56m 06s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 23m 38s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 56m 11s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 29m 54s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 56m 56s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 30m 45s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 57m 18s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 32m 43s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 57m 30s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 33m 12s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Linked2Stack_testMyStack - 2022.03.29 at 11h 59m 39s.xml">
-      <configuration name="Linked2Stack.testMyStack" configurationId="JUnit" />
+    <history-entry file="Queue2Stack_testStack - 2022.03.29 at 15h 33m 58s.xml">
+      <configuration name="Queue2Stack.testStack" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="766076000" />
+    <option name="totallyTimeSpent" value="771416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -1154,18 +1209,18 @@
       <window_info id="Structure" order="1" sideWeight="0.50128204" side_tool="true" weight="0.19313304" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37179488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28589743" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.3679487" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.29871795" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.23589744" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32948717" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.2846154" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.21530758" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.26923078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.24320458" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="17" />
@@ -1520,8 +1575,26 @@
           <properties />
           <option name="timeStamp" value="241" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="242" />
+      <option name="time" value="250" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1550,34 +1623,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/MyDoubleLinked.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/wework.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="730" selection-start-line="730" selection-end-line="730" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1757,13 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sparsearray/SparseArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1902,10 +1940,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sparsearray/SparseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="358">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/ArrayQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
