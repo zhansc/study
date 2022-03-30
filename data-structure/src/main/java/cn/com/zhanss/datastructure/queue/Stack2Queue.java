@@ -13,7 +13,7 @@ public class Stack2Queue {
 
     @Test
     public void test() {
-        StackQueue queue = new StackQueue();
+        StackQueue<Integer> queue = new StackQueue<>();
         queue.push(2);
         queue.push(3);
         queue.push(1);

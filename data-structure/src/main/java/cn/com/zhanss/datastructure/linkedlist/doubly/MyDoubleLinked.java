@@ -12,11 +12,11 @@ public class MyDoubleLinked<T> {
     @NoArgsConstructor
     public static class Node<T> {
 
-        private T value;
+        public T value;
 
-        private Node<T> pre;
+        public Node<T> pre;
 
-        private Node<T> next;
+        public Node<T> next;
 
         public Node(T value) {
             this.value = value;
@@ -31,7 +31,7 @@ public class MyDoubleLinked<T> {
     /**
      * 队列头节点
      */
-    private Node<T> head;
+    public Node<T> head;
 
     /**
      * 队列尾节点

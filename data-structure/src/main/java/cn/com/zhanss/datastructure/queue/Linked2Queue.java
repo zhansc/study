@@ -2,7 +2,6 @@ package cn.com.zhanss.datastructure.queue;
 
 import cn.com.zhanss.datastructure.linkedlist.doubly.MyDoubleLinked;
 import cn.com.zhanss.datastructure.linkedlist.single.MySingleLinked;
-import cn.com.zhanss.datastructure.common.entity.Node;
 import lombok.Data;
 import org.junit.Test;
 
@@ -16,11 +15,13 @@ public class Linked2Queue {
 
     @Test
     public void testLinked2Queue() {
-        MySingleLinked linked2Queue = new MySingleLinked();
-        linked2Queue.push(new Node<>(3));
-        linked2Queue.push(new Node<>(1));
-        linked2Queue.push(new Node<>(4));
-        linked2Queue.push(new Node<>(2));
+        MySingleLinked<Integer> linked2Queue = new MySingleLinked<>();
+        linked2Queue.tailPush(3);
+        linked2Queue.tailPush(1);
+        linked2Queue.tailPush(5);
+        linked2Queue.tailPush(0);
+        linked2Queue.tailPush(4);
+
         System.out.println("查看队列大小--->"+ linked2Queue.size());
         System.out.println("查看队列头节点--->"+ linked2Queue.headPeek());
         System.out.println("查看队列尾节点--->"+ linked2Queue.tailPeek());

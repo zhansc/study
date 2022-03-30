@@ -54,6 +54,7 @@
         <zookeeper.version>3.4.10</zookeeper.version>
         <jackson-databind.version>2.9.1</jackson-databind.version>
         <mybatis.version>3.5.2</mybatis.version>
+        <lombok.version>1.18.10</lombok.version>
 
     </properties>
 
@@ -105,7 +106,6 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
-                <scope>test</scope>
             </dependency>
 
             <dependency>
@@ -231,7 +231,11 @@
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson-databind.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

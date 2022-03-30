@@ -41,4 +41,19 @@ public class LinkedListTest1 {
         linkedList.list();
     }
 
+    @Test
+    public void testSingleLinked() {
+        MySingleLinked<Integer> singleLinked = new MySingleLinked<>();
+        singleLinked.tailPush(2);
+        singleLinked.tailPush(3);
+        singleLinked.tailPush(1);
+        singleLinked.tailPush(5);
+        singleLinked.tailPush(4);
+        System.out.println("链表大小-->"+ singleLinked.size());
+
+//        singleLinked.removeNum(7);
+//        singleLinked.removeValue(5);
+        System.out.println("链表中间节点-->"+ singleLinked.middleValue());
+    }
+
 }
