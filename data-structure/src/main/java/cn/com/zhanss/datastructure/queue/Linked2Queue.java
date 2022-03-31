@@ -66,6 +66,27 @@ public class Linked2Queue {
         System.out.println("sortedUsers--->"+ sortedUsers);
     }
 
+    @Test
+    public void testBase() {
+        int a = 10;
+        Integer b = 10;
+        System.out.println(a == b);
+        Integer c = new Integer(10);
+        System.out.println(c==a);
+        Integer c1 = new Integer(10);
+        System.out.println(c==c1);
+        System.out.println(a == c);
+        Integer d = Integer.valueOf(10);
+        System.out.println(a == d);
+        Integer e = Integer.valueOf(1300);
+        Integer e1 = Integer.valueOf(1300);
+        System.out.println(e == e1);
+        int f = 1300;
+        System.out.println(e == f);
+        Integer g = new Integer(1300);
+        System.out.println(g == f);
+    }
+
     /**
      * 队列大小
      */

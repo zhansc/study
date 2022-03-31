@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-structure" />
+        <module name="datastructure" />
         <module name="elasticsearch" />
         <module name="io" />
         <module name="juc" />
@@ -21,6 +22,7 @@
         <module name="structure" />
         <module name="thread" />
         <module name="wework" />
+        <module name="zhanss-mvc" />
         <module name="zhanssmvc" />
         <module name="zookeeper" />
       </profile>
@@ -31,5 +33,10 @@
       <module name="java-api1" target="8" />
       <module name="ssm" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zhanss-mvc" options="-compilerArgs" />
+    </option>
   </component>
 </project>
