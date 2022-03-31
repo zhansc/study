@@ -1,13 +1,9 @@
 
-m
-java:S1149-"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âåÕé8ÑÏ¤ ý/
 r
-java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Õä×ûÿÿÿÿ8ÑÏ¤ ý/
-Q
-java:S3740"/Provide the parametrized type for this generic.(÷Õ§æùÿÿÿÿ8ÖÛÊ ý/
-r
-java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Õä×ûÿÿÿÿ8ÑÏ¤ ý/
+java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Õä×ûÿÿÿÿ8˜³”Ñý/
 m
-java:S1149-"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âåÕé8ÑÏ¤ ý/
-Q
-java:S3740"/Provide the parametrized type for this generic.(÷Õ§æùÿÿÿÿ8ÖÛÊ ý/
+java:S1149-"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âåÕé8˜³”Ñý/
+r
+java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Õä×ûÿÿÿÿ8˜³”Ñý/
+m
+java:S1149-"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âåÕé8˜³”Ñý/

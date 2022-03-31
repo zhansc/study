@@ -10,13 +10,27 @@ import org.junit.Test;
 public class ArraySort {
 
     @Test
-    public void testLtSum() {
+    public void test() {
         int[] arr = new int[]{1,3,4,2,5};
         int sum = ltSum(arr);
         System.out.println("小和sum--->"+ sum);
 
         int mergeSum = processMerge(arr, 0, arr.length - 1);
         System.out.println("小和mergeSum--->"+ mergeSum);
+
+        System.out.println("归并数组打印：");
+        print(arr);
+        System.out.println("\n快排数组打印：");
+        int[] arr1 = new int[]{1,3,4,2,5};
+        quickSort(arr1);
+        print(arr1);
+    }
+
+    public void print(int[] arr) {
+        for (int i = 0; i < arr.length; i ++) {
+            System.out.print(" "+ arr[i]);
+        }
+        System.out.println();
     }
 
     /**
@@ -93,13 +107,55 @@ public class ArraySort {
 
     /**
      * 快速排序
+     * 随机取数组中一个元素为划分值
      * @param arr
-     * @param num
      * @return
      */
-    public int[] quickSort(int[] arr, int num) {
-        // TODO
-
-        return arr;
+    public void quickSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        processQuick(arr, 0, arr.length - 1);
     }
+
+    public void processQuick(int[] arr, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        int less = left - 1;
+        int more = right + 1;
+        // 已数组最后一个元素为划分值时间复杂度O(N^2)，将划分值改为随机值时间复杂度为O(N*logN)
+        int randomNum = randomNum(left, right);
+        // <[i]区  [less  ==[i]区  more]   >[i]区
+        for (int i = left; i < more;) {
+            if (arr[i] < randomNum) {
+                swap(arr, i ++, ++ less);
+            } else if (arr[i] > randomNum) {
+                // 新换过来的元素需要重新比较
+                swap(arr, i, -- more);
+            } else {
+                // 相等区
+                i ++;
+            }
+        }
+        processQuick(arr, left, less - 1);
+        processQuick(arr, more + 1, right);
+    }
+
+    /**
+     * 交换
+     * @param arr 指定数组
+     * @param arrIndex 比较的位置
+     * @param numIndex 划分值位置
+     */
+    public void swap(int[] arr, int arrIndex, int numIndex) {
+        int temp = arr[arrIndex];
+        arr[arrIndex] = arr[numIndex];
+        arr[numIndex] = temp;
+    }
+
+    public int randomNum(int left, int right) {
+        return (int) (Math.random() * (right - left + 1));
+    }
+
 }
