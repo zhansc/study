@@ -138,8 +138,9 @@ public class ArraySort {
                 i ++;
             }
         }
-        //
+        // less 是从-1开始的，且遍历的时候是不包含最后一个的
         processQuick(arr, left, less);
+        // more 是从arr.length开始的，下次递归是不需要减一的
         processQuick(arr, more, right);
     }
 
