@@ -2,8 +2,6 @@ package cn.com.zhanss.datastructure.queue;
 
 import org.junit.Test;
 
-import java.util.Scanner;
-
 /**
  * 数组实现队列
  *
@@ -14,114 +12,99 @@ public class ArrayQueueTest {
 
     @Test
     public void testArrayQueue() {
-        ArrayQueue queue = new ArrayQueue(3);
-        Scanner scanner = new Scanner(System.in);
-        boolean loop = true;
-        System.out.println("a(add)：入队列");
-        System.out.println("r(remove)：出队列");
-        System.out.println("g(get)：查看队列头部");
-        System.out.println("s(show)：显示队列");
-        System.out.println("e(exit)：退出");
-        while (loop) {
-            switch (scanner.next().charAt(0)) {
-                case 'a' :
-                    System.out.println("请输入一个数：");
-                    try {
-                        queue.addQueue(scanner.nextInt());
-                    } catch (Exception e) {
-                        System.out.println(e.getMessage());
-                    }
-                    break;
-                case 'r' :
-                    try {
-                        System.out.println("出队："+ queue.removeQueue());
-                    } catch (Exception e) {
-                        System.out.println(e.getMessage());
-                    }
-                    break;
-                case 'g' :
-                    try {
-                        System.out.println("对头："+ queue.getQueue());
-                    } catch (Exception e) {
-                        System.out.println(e.getMessage());
-                    }
-                    break;
-                case 's' :
-                    queue.showQueue();
-                    break;
-                case 'e' :
-                    scanner.close();
-                    loop = false;
-                    break;
-                default:
-                    break;
-            }
-        }
+        Array2QueueStack queue = new Array2QueueStack();
+        queue.push(2);
+        queue.push(3);
+        queue.push(1);
+        queue.push(5);
+        queue.push(0);
+        queue.push(4);
+
+        System.out.println("队列大小--->"+ queue.size());
+        System.out.println("出队--->"+ queue.headPop());
+        queue.push(41);
+        System.out.println("出队--->"+ queue.headPop());
+        System.out.println("队列大小--->"+ queue.size());
+
+    }
+
+    @Test
+    public void testArrayStack() {
+        Array2QueueStack stack = new Array2QueueStack();
+        stack.push(2);
+        stack.push(3);
+        stack.push(1);
+        stack.push(5);
+        stack.push(0);
+        stack.push(4);
+
+        System.out.println("栈大小--->"+ stack.size());
+        System.out.println("出栈--->"+ stack.tailPop());
+        stack.push(14);
+        System.out.println("出栈--->"+ stack.tailPop());
+        System.out.println("栈大小--->"+ stack.size());
+
     }
 }
 
-class ArrayQueue {
+class Array2QueueStack {
+
+    private Integer defaultMaxSize = 10;
+
+    private Integer[] arr;
+
+    private Integer back = 0;
+
+    public Array2QueueStack() {
+        arr = new Integer[defaultMaxSize];
+    }
+
+    public Array2QueueStack(Integer maxSize) {
+        arr = new Integer[maxSize];
+    }
+
+    public void push(Integer value) {
+        if (value == null) {
+            System.out.println("参数不能为空！！！");
+            return;
+        }
+        arr[back ++] = value;
+    }
+
     /**
-     * 指向队列尾
+     * 头出
+     * @return
      */
-    private int rear = -1;
+    public Integer headPop() {
+        if (back == 0) {
+            System.out.println("空了！！！");
+            return null;
+        }
+        Integer ans = arr[0];
+        // 头出，需要将后置位数据前移一位
+        for(int i = 0; i < back; i ++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[-- back] = null;
+        return ans;
+    }
+
     /**
-     * 指向队列头
+     * 尾出
      */
-    private int front = -1;
+    public Integer tailPop() {
+        if (back == 0) {
+            System.out.println("空了！！！");
+            return null;
+        }
+        return arr[-- back];
+    }
+
     /**
-     * 队列大小
-      */
-    private int maxSize;
-    /**
-     * 数组
+     * 容器大小
+     * @return
      */
-    private int[] arr;
-
-    ArrayQueue (int maxSize) {
-        this.maxSize = maxSize;
-        arr = new int[maxSize];
-    }
-
-    private boolean isFull() {
-        return rear > maxSize - 1;
-    }
-
-    private boolean isEmpty() {
-        return rear == front;
-    }
-
-    public int addQueue (int key) {
-        rear ++;
-        if (isFull()) {
-            throw new RuntimeException("队列已满！");
-        }
-        arr[rear] = key;
-        return key;
-    }
-
-    public int removeQueue () {
-        if (isEmpty()) {
-            throw new RuntimeException("队列为空！");
-        }
-        front ++;
-        return arr[front];
-    }
-
-    public int getQueue () {
-        if (isEmpty()) {
-            throw new RuntimeException("队列为空！");
-        }
-        return arr[front];
-    }
-
-    public void showQueue () {
-        if (isEmpty()) {
-            throw new RuntimeException("队列为空！");
-        }
-        System.out.println("队列：");
-        for (int i = front + 1; i < arr.length; i ++) {
-            System.out.printf("%d\t", arr[i]);
-        }
+    public Integer size() {
+        return back;
     }
 }

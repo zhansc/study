@@ -1,6 +1,9 @@
 package cn.com.zhanss.datastructure.common.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 /**
  * @desc Node
@@ -8,11 +11,18 @@ import lombok.Data;
  * @date 2022/3/2
  */
 @Data
-public class Node {
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class Node<T> {
 
-    private Integer value;
+    private T value;
 
-    private Node last;
+    private Node<T> pre;
 
-    private Node next;
+    private Node<T> next;
+
+    public Node(T value) {
+        this.value = value;
+    }
 }

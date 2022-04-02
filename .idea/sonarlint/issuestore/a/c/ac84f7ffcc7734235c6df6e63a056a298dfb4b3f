@@ -1,9 +1,9 @@
 
-d
-java:S1104"NMake no a static final constant or non-public and provide accessors if needed.(Ë¥ÏÄ
-f
-java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
 j
 java:S1104"TMake nickName a static final constant or non-public and provide accessors if needed.(Åœ¦é
+d
+java:S1104"NMake no a static final constant or non-public and provide accessors if needed.(Ë¥ÏÄ
 k
 java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(©“Îøÿÿÿÿ
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾

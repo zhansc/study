@@ -1,0 +1,87 @@
+
+A
+java:S1068"(Remove this unused "from" private field.(Á­ˆèùÿÿÿÿ
+>
+java:S1068"*Remove this unused "target" private field.(ÂÏÍÁ
+G
+java:S1068".Remove this unused "createTime" private field.(µ¿îáıÿÿÿÿ
+?
+java:S1068"+Remove this unused "msgType" private field.(¶—‹·
+=
+java:S1068")Remove this unused "event" private field.(áîïÇ
+E
+java:S1068",Remove this unused "eventKey" private field.(È™å‚øÿÿÿÿ
+>
+java:S1068"+Remove this unused "agentId" private field.(¶––t
+G
+java:S1068".Remove this unused "changeType" private field.(ÿ•¾¢ıÿÿÿÿ
+<
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+E
+java:S1068",Remove this unused "parentId" private field.(®©’Ãÿÿÿÿÿ
+B
+java:S1068")Remove this unused "order" private field.(š¤Ş´ÿÿÿÿÿ
+=
+java:S1068"*Remove this unused "userId" private field.(íÃË
+K
+java:S1068"2Remove this unused "externalUserId" private field.(Ëü¢üÿÿÿÿÿ
+F
+java:S1068"-Remove this unused "newUserId" private field.(Æ„’Åûÿÿÿÿ
+B
+java:S1068")Remove this unused "state" private field.(µîŠ©øÿÿÿÿ
+C
+java:S1068"/Remove this unused "welcomeCode" private field.(„³ÿı
+G
+java:S1068".Remove this unused "failReason" private field.(õ—Ü¶ıÿÿÿÿ
+C
+java:S1068"*Remove this unused "chatId" private field.(¯ÌÖ÷ıÿÿÿÿ
+D
+java:S1068"0Remove this unused "updateDetail" private field.(ØÁÈÇ
+A
+java:S1068"-Remove this unused "joinScene" private field.(öÄÌ
+F
+java:S1068"-Remove this unused "quitScene" private field.(¼„öÃüÿÿÿÿ
+D
+java:S1068"0Remove this unused "memChangeCnt" private field.(·©«
+G
+java:S1068".Remove this unused "department" private field.(š…¡êûÿÿÿÿ
+K
+java:S1068"2Remove this unused "isLeaderInDept" private field.(¯•ûºûÿÿÿÿ
+>
+java:S1068"*Remove this unused "mobile" private field.(Ë—Æ¿
+F
+java:S1068"-Remove this unused "telephone" private field.(Úœ¦Åıÿÿÿÿ
+E
+java:S1068",Remove this unused "position" private field.(©ùéäıÿÿÿÿ
+>
+java:S1068"*Remove this unused "gender" private field.(ÀÄŒ
+B
+java:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ
+C
+java:S1068"*Remove this unused "status" private field.(¦­œ˜ÿÿÿÿÿ
+>
+java:S1068"*Remove this unused "avatar" private field.(á¬Ï†
+=
+java:S1068")Remove this unused "alias" private field.(œºÈ
+D
+java:S1068"+Remove this unused "address" private field.(÷§ùÿÿÿÿ
+=
+java:S1068")Remove this unused "jobId" private field.(ØéÎ
+=
+java:S1068")Remove this unused "tagId" private field.(ÅÈÁÌ
+?
+java:S1068"+Remove this unused "tagType" private field.(ºı»
+I
+java:S1068"0Remove this unused "addUserItems" private field.(¢í¡¾øÿÿÿÿ
+I
+java:S1068"0Remove this unused "delUserItems" private field.(£Îñ¡ÿÿÿÿÿ
+J
+java:S1068"1Remove this unused "addPartyItems" private field.( ºşÿÿÿÿ
+J
+java:S1068"1Remove this unused "delPartyItems" private field.(×¯£ñıÿÿÿÿ
+D
+java:S1068"+Remove this unused "jobType" private field.(ªÿêÿÿÿÿÿ
+?
+java:S1068"+Remove this unused "errCode" private field.(¡…í›
+C
+java:S1068"*Remove this unused "errMsg" private field.(»¹³¾şÿÿÿÿ

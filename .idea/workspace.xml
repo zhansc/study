@@ -1,138 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="ssm:war exploded" />
-    </artifacts-to-build>
-  </component>
-  <component name="AutomaticModuleUnloader">
-    <loaded-modules>
-      <module name="interviews" />
-      <module name="elasticsearch" />
-      <module name="data-structure" />
-      <module name="juc" />
-      <module name="io" />
-      <module name="queue" />
-      <module name="kafka" />
-      <module name="ssm" />
-      <module name="springboot-mq-produce" />
-      <module name="springboot-mq-consumer" />
-      <module name="structure" />
-      <module name="zookeeper" />
-      <module name="spring" />
-      <module name="thread" />
-      <module name="thread-io" />
-      <module name="zhanssmvc" />
-      <module name="item" />
-    </loaded-modules>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f24121a7-e689-4be1-9ae5-f4595da0e23f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/utils/ComparatorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/dichotomy/DichotomySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272640c602dac51bcfb1c4b9fe6baaed366eaa34" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272640c602dac51bcfb1c4b9fe6baaed366eaa34" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3857c50dbb41d1598da1f51b8bade84271810dc5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3857c50dbb41d1598da1f51b8bade84271810dc5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b7fd40dc5f6a5c4e593167631f6944a7016ed3f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f886a489afdd7070c8b46d9eba859fece8c2184b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f886a489afdd7070c8b46d9eba859fece8c2184b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/rand2Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/rand2Rand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/SingleLinkedListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wework/target/classes/cn/com/zhanss/wework/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/wework/target/classes/cn/com/zhanss/wework/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wework/target/classes/cn/com/zhanss/wework/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/wework/target/classes/cn/com/zhanss/wework/entity/User.class" afterDir="false" />
-    </list>
+    <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
-    <ignored path="$PROJECT_DIR$/structure/target/" />
-    <ignored path="$PROJECT_DIR$/kafka/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/data-structure/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
+    <ignored path="$PROJECT_DIR$/juc/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/nosql/target/" />
+    <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
     <ignored path="$PROJECT_DIR$/queue/target/" />
     <ignored path="$PROJECT_DIR$/springboot-mq-produce/target/" />
-    <ignored path="$PROJECT_DIR$/data-structure/target/" />
-    <ignored path="$PROJECT_DIR$/thread/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/juc/target/" />
-    <ignored path="$PROJECT_DIR$/java-api/target/" />
+    <ignored path="$PROJECT_DIR$/structure/target/" />
     <ignored path="$PROJECT_DIR$/thread-io/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
-    <ignored path="$PROJECT_DIR$/spring/target/" />
-    <ignored path="$PROJECT_DIR$/ssm/target/" />
-    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
-    <ignored path="$PROJECT_DIR$/java-api2/target/" />
     <ignored path="$PROJECT_DIR$/wework/target/" />
-    <ignored path="$PROJECT_DIR$/nosql/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1491889464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="172" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="172" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="5" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="31" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="31" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/LinkedMerge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="57">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,119 +84,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="131" column="51" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/MySingleLinked.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="AnnotationType" />
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>forward</find>
-      <find>yzOrderTime</find>
-      <find>list1.removeAll(</find>
-      <find>list2.removeAll()</find>
-      <find>list2.addAll-----</find>
-      <find>list2.addAll-----&gt;</find>
-      <find>innerUserIds--&gt;</find>
-      <find>list2</find>
-      <find>list2----list2-&gt;</find>
-      <find>list1.containsAll(list2)-----&gt;</find>
-      <find>list1--nonNull---&gt;</find>
-      <find>list2.subList()---</find>
-      <find>list2.subList()-----&gt;</find>
-      <find>d</find>
-      <find>InnerUser</find>
-      <find>计算字节长度---&gt;</find>
-      <find>getb</find>
-      <find>计算字节长度1---&gt;</find>
-      <find>wmqhrsDwAAn1VhAW25WUuNrRYt7KCAHg</find>
-      <find>md51-----&gt;</find>
-      <find>md50-----&gt;</find>
-      <find>static</find>
-      <find>amountInner1---&gt;</find>
-      <find>System</find>
-      <find>fastjson</find>
-      <find>fast</find>
-      <find>HOUR_OF_DAY</find>
-      <find>comparator</find>
-      <find>删除链表</find>
-      <find>(10);</find>
+      <find>leaf-file-name=&quot;LinkedMerge.java&quot;</find>
+      <find>testLinked2Queue</find>
+      <find>MySingleLinked</find>
+      <find>F</find>
     </findStrings>
-    <replaceStrings>
-      <replace>student0</replace>
-      <replace>4.2.5.RELEASE</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HierarchyBrowserManager">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
-    <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/xml/entity/WecomMsg.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/xml/entity/MsgType.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/xml/entity/Event.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/xml/XmlParser.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/ParserTest.java" />
-        <option value="$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/springmvc/viewResoler/MyViewResolver.java" />
-        <option value="$PROJECT_DIR$/ssm/src/test/java/JavaTest.java" />
-        <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper/src/test/java/cn/com/zhanss/zookeeper/DistributeServer.java" />
-        <option value="$PROJECT_DIR$/structure/src/main/java/cn/com/zhanss/structure/bstAVL/TestBSTVSTreeMap.java" />
-        <option value="$PROJECT_DIR$/structure/pom.xml" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/reflect/BaseDAOImpl.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/lambda/MyTest.java" />
-        <option value="$PROJECT_DIR$/queue/pom.xml" />
-        <option value="$PROJECT_DIR$/thread-io/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/queue/service/SpringMQ_Producer.java" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/aes/H5Test.java" />
-        <option value="$PROJECT_DIR$/java-api/pom.xml" />
-        <option value="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/JavaApiApplication.java" />
-        <option value="$PROJECT_DIR$/javaapi/pom.xml" />
-        <option value="$PROJECT_DIR$/wework/src/main/resources/templates/success.html" />
-        <option value="$PROJECT_DIR$/wework/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/lambda/MyTest.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/manager/ThreadManager.java" />
-        <option value="$PROJECT_DIR$/nosql/pom.xml" />
-        <option value="$PROJECT_DIR$/nosql/src/main/resources/templates/success.html" />
-        <option value="$PROJECT_DIR$/nosql/src/main/java/cn/com/zhanssl/nosql/NosqlApplication.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/Person.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/xml/XmlParserConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/WeworkApplication.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/ParserTest.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/IndeController.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/aes/Test.py" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/aes/H5Test.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/randToRand.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/randomTest.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/Node.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/User.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/User.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/utils/ComparatorUtil.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/rand2Rand.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/dichotomy/DichotomySort.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/LinkedListTest1.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -262,53 +128,25 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="E:\MySoft\apache-maven-3.5.3\.m2\repository" />
-        <option name="mavenHome" value="E:/MySoft/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="E:\MySoft\apache-maven-3.5.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-98" />
     <option name="width" value="1007" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
-      <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -360,7 +198,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +209,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="single" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -386,55 +225,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648369461431" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/spring/src/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.17740512" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.com.zhanss.springaop.bean" />
-      <recent name="cn.com.zhanss.spring.factory" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.com.zhanss.spring" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi" />
-      <recent name="$PROJECT_DIR$/wework/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/wework/src/main/resources" />
-      <recent name="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi/parser/xml/entity" />
-      <recent name="$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/javaapi" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.com.zhanss.datastructure.stack" />
-      <recent name="cn.com.zhanss.javaapi.manager" />
-      <recent name="cn.com.zhanss.entity" />
-      <recent name="com.zhanss.framework" />
-      <recent name="com.zhanss.framework.annotation" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java-api/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ssm/src/test/java" />
-      <recent name="$PROJECT_DIR$/ssm/src/main/java" />
-      <recent name="$PROJECT_DIR$/ssm/resources/mapper" />
-      <recent name="$PROJECT_DIR$/ssm/src/main/resources/mapper" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1648745130090" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -448,81 +248,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Linked2Queue.testBase">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DichotomySort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.dichotomy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy.DichotomySort" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DichotomySort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.dichotomy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy.DichotomySort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Linked2Queue.testBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedMerge.test">
+    <configuration name="LinkedMerge.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.Linked2Queue" />
-      <option name="METHOD_NAME" value="testBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Linked2Queue.testSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.queue.Linked2Queue" />
-      <option name="METHOD_NAME" value="testSorted" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest1.testSingleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.single.*" />
@@ -530,22 +258,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.single" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.single.LinkedListTest1" />
-      <option name="METHOD_NAME" value="testSingleLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.single.LinkedMerge" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DatastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="data-structure" />
+      <module name="datastructure" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.zhanss.datastructure.DatastructureApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -607,257 +328,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spring-mvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="ssm:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_study_3" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54499" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssm:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="ssm:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_study_4" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56085" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssm:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="zhanss-mvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="zhanss-mvc">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_study" />
-        <option name="JNDI_PORT" value="1098" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63619" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="zhanss-mvc" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.KafkaApplication" />
-      <item itemvalue="Spring Boot.ZookeeperApplication" />
-      <item itemvalue="Spring Boot.QueueApplication" />
       <item itemvalue="Spring Boot.ThreadApplication" />
-      <item itemvalue="Spring Boot.JucApplication" />
-      <item itemvalue="Spring Boot.StructureApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
-      <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
-      <item itemvalue="Tomcat Server.zhanss-mvc" />
-      <item itemvalue="Tomcat Server.ssm" />
-      <item itemvalue="Tomcat Server.spring-mvc" />
+      <item itemvalue="Spring Boot.ZookeeperApplication" />
+      <item itemvalue="Spring Boot.JucApplication" />
       <item itemvalue="Spring Boot.NosqlApplication" />
-      <item itemvalue="JUnit.DichotomySort" />
-      <item itemvalue="JUnit.DichotomySort.test" />
-      <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
-      <item itemvalue="JUnit.Linked2Queue.testSorted" />
-      <item itemvalue="JUnit.Linked2Queue.testBase" />
+      <item itemvalue="Spring Boot.KafkaApplication" />
+      <item itemvalue="Spring Boot.QueueApplication" />
+      <item itemvalue="Spring Boot.StructureApplication" />
+      <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
+      <item itemvalue="JUnit.LinkedMerge.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Linked2Queue.testBase" />
-        <item itemvalue="JUnit.Linked2Queue.testSorted" />
-        <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
-        <item itemvalue="JUnit.DichotomySort.test" />
-        <item itemvalue="JUnit.DichotomySort" />
+        <item itemvalue="JUnit.LinkedMerge.test" />
       </list>
     </recent_temporary>
   </component>
@@ -866,207 +351,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f24121a7-e689-4be1-9ae5-f4595da0e23f" name="Default" comment="" />
-      <created>1596555658767</created>
+      <changelist id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="" />
+      <created>1648730747416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596555658767</updated>
-      <workItem from="1596555660492" duration="10323000" />
-      <workItem from="1596640438270" duration="564000" />
-      <workItem from="1596641283670" duration="65000" />
-      <workItem from="1596643771994" duration="1007000" />
-      <workItem from="1597947731046" duration="281000" />
-      <workItem from="1598197381791" duration="485000" />
-      <workItem from="1600446564487" duration="2203000" />
-      <workItem from="1601044563436" duration="4778000" />
-      <workItem from="1601309711676" duration="6043000" />
-      <workItem from="1601316249165" duration="172000" />
-      <workItem from="1601316516260" duration="3156000" />
-      <workItem from="1601566203419" duration="3013000" />
-      <workItem from="1602601820099" duration="1410000" />
-      <workItem from="1602654142456" duration="153000" />
-      <workItem from="1602756415219" duration="1071000" />
-      <workItem from="1603211019796" duration="1609000" />
-      <workItem from="1603293125125" duration="60000" />
-      <workItem from="1603524096237" duration="4205000" />
-      <workItem from="1604597360319" duration="1512000" />
-      <workItem from="1604760123007" duration="1570000" />
-      <workItem from="1604852184008" duration="16547000" />
-      <workItem from="1605063074102" duration="505000" />
-      <workItem from="1605111592819" duration="20350000" />
-      <workItem from="1605344559234" duration="1592000" />
-      <workItem from="1605770742836" duration="944000" />
-      <workItem from="1605860761099" duration="35573000" />
-      <workItem from="1607404471772" duration="3532000" />
-      <workItem from="1607507935317" duration="19603000" />
-      <workItem from="1608220525294" duration="3617000" />
-      <workItem from="1608620973287" duration="13353000" />
-      <workItem from="1609745919271" duration="133789000" />
-      <workItem from="1613637772217" duration="31879000" />
-      <workItem from="1614175245389" duration="12759000" />
-      <workItem from="1615107938171" duration="50396000" />
-      <workItem from="1617712379320" duration="651000" />
-      <workItem from="1620654407910" duration="23395000" />
-      <workItem from="1621057631994" duration="5921000" />
-      <workItem from="1624781384992" duration="57960000" />
-      <workItem from="1625106791555" duration="269000" />
-      <workItem from="1626056593107" duration="1659000" />
-      <workItem from="1626080020661" duration="2537000" />
-      <workItem from="1626082715785" duration="79000" />
-      <workItem from="1626082933089" duration="9170000" />
-      <workItem from="1626229525258" duration="2133000" />
-      <workItem from="1626419405713" duration="5104000" />
-      <workItem from="1626660975241" duration="18398000" />
-      <workItem from="1626856635498" duration="21858000" />
-      <workItem from="1627371031432" duration="1767000" />
-      <workItem from="1628055037415" duration="465000" />
-      <workItem from="1628075497429" duration="908000" />
-      <workItem from="1628148231646" duration="2053000" />
-      <workItem from="1628242201159" duration="614000" />
-      <workItem from="1628394933700" duration="7187000" />
-      <workItem from="1628564029047" duration="3344000" />
-      <workItem from="1628586512181" duration="1931000" />
-      <workItem from="1628650949575" duration="3640000" />
-      <workItem from="1629203528201" duration="4270000" />
-      <workItem from="1629340318618" duration="1539000" />
-      <workItem from="1629862841075" duration="1632000" />
-      <workItem from="1629971949522" duration="92000" />
-      <workItem from="1630048624148" duration="3714000" />
-      <workItem from="1630650688348" duration="10000" />
-      <workItem from="1631605097380" duration="2709000" />
-      <workItem from="1631694114109" duration="2170000" />
-      <workItem from="1631879587826" duration="3495000" />
-      <workItem from="1632315407536" duration="1365000" />
-      <workItem from="1632390212359" duration="468000" />
-      <workItem from="1633688345994" duration="1804000" />
-      <workItem from="1633785550655" duration="6472000" />
-      <workItem from="1634195657828" duration="4368000" />
-      <workItem from="1634287757581" duration="706000" />
-      <workItem from="1634299897729" duration="16000" />
-      <workItem from="1635254238094" duration="948000" />
-      <workItem from="1635306061738" duration="2268000" />
-      <workItem from="1636615673762" duration="7601000" />
-      <workItem from="1636946371094" duration="7090000" />
-      <workItem from="1637130953435" duration="10934000" />
-      <workItem from="1637721440029" duration="6165000" />
-      <workItem from="1637899740777" duration="5324000" />
-      <workItem from="1638106301300" duration="9866000" />
-      <workItem from="1638416611368" duration="589000" />
-      <workItem from="1638430134042" duration="1603000" />
-      <workItem from="1638496793145" duration="594000" />
-      <workItem from="1638499013777" duration="4734000" />
-      <workItem from="1638786280652" duration="872000" />
-      <workItem from="1638872178315" duration="12449000" />
-      <workItem from="1639397151899" duration="4305000" />
-      <workItem from="1639481553752" duration="6000" />
-      <workItem from="1639573679682" duration="1405000" />
-      <workItem from="1640000722460" duration="4239000" />
-      <workItem from="1640173924599" duration="1197000" />
-      <workItem from="1640529296015" duration="757000" />
-      <workItem from="1640664727597" duration="2412000" />
-      <workItem from="1640792378924" duration="142000" />
-      <workItem from="1640792526220" duration="5000" />
-      <workItem from="1640792569149" duration="1194000" />
-      <workItem from="1641526177531" duration="3372000" />
-      <workItem from="1641730262142" duration="708000" />
-      <workItem from="1641960885690" duration="5079000" />
-      <workItem from="1642065662818" duration="427000" />
-      <workItem from="1645109232296" duration="2017000" />
-      <workItem from="1645194570739" duration="5737000" />
-      <workItem from="1645839208705" duration="14441000" />
-      <workItem from="1646317723871" duration="2717000" />
-      <workItem from="1646729437974" duration="546000" />
-      <workItem from="1646730084713" duration="1379000" />
-      <workItem from="1647141480607" duration="983000" />
-      <workItem from="1647315874445" duration="3157000" />
-      <workItem from="1647329221536" duration="1522000" />
-      <workItem from="1647498075866" duration="902000" />
-      <workItem from="1647961302747" duration="3416000" />
-      <workItem from="1648043169223" duration="4481000" />
-      <workItem from="1648124497271" duration="8415000" />
-      <workItem from="1648349604913" duration="5344000" />
-      <workItem from="1648382508924" duration="1499000" />
+      <updated>1648730747416</updated>
+      <workItem from="1648730757013" duration="4817000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Linked2Queue_testSorted - 2022.03.27 at 12h 52m 17s.xml">
-      <configuration name="Linked2Queue.testSorted" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 12h 56m 14s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 12h 57m 00s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 12h 58m 10s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 12h 59m 59s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 13h 00m 28s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 13h 03m 56s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 13h 04m 07s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 13h 06m 02s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Linked2Queue_testBase - 2022.03.27 at 13h 06m 51s.xml">
-      <configuration name="Linked2Queue.testBase" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="746833000" />
+    <option name="totallyTimeSpent" value="4817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871793" visible="true" weight="0.23146747" />
-      <window_info id="Structure" order="1" sideWeight="0.50128204" side_tool="true" weight="0.19313304" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.2913257" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948717" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37806875" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3474359" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.3927987" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32948717" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.36923078" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32948717" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5007153" side_tool="true" weight="0.30769232" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.16666667" />
-      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32948717" />
-      <window_info anchor="bottom" id="SonarLint" order="17" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.22995462" />
-      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" order="11" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" id="SciView" order="12" />
-      <window_info anchor="right" id="RestServices" order="13" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1075,607 +407,82 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestForkJoin.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestForkJoin.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java</url>
-          <line>261</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-api/src/main/java/cn/com/zhanss/lambda/MyTest.java</url>
-          <line>460</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/src/test/ProxyText.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/utils/SecurityUtil.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/annotation/proxy/CalculatorProxy.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/src/test/ProxyText.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar!/javax/crypto/Cipher.class</url>
-          <line>754</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/springmvc/controller/ConverterController.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zhanss-mvc/src/main/java/com/zhanss/framework/servlet/DispatcherServlet.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zhanss-mvc/src/main/java/com/zhanss/framework/servlet/DispatcherServlet.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.10.RELEASE/spring-webmvc-5.1.10.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java</url>
-          <line>782</line>
-          <properties />
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.10.RELEASE/spring-webmvc-5.1.10.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1004</line>
-          <properties />
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java</url>
-          <line>816</line>
-          <properties />
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java</url>
-          <line>220</line>
-          <properties />
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolverComposite.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/annotation/RequestParamMethodArgumentResolver.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/annotation/RequestParamMethodArgumentResolver.java</url>
-          <line>202</line>
-          <properties />
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/HandlerMethod.java</url>
-          <line>94</line>
-          <properties />
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-web-4.2.5.RELEASE-sources.jar!/org/springframework/web/method/annotation/ModelAttributeMethodProcessor.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-core-4.2.5.RELEASE-sources.jar!/org/springframework/core/Conventions.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>958</line>
-          <properties />
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java</url>
-          <line>786</line>
-          <properties />
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
-          <line>967</line>
-          <properties />
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
-          <line>858</line>
-          <properties />
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>892</line>
-          <properties />
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.ideaLibSources/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
-          <line>839</line>
-          <properties />
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm/src/test/java/JavaTest.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/springmvc/service/UserServiceImpl.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/springmvc/controller/ConverterController.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ssm/src/main/java/cn/com/zhanss/springmvc/controller/ConverterController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/aes/H5Test.java</url>
-          <line>321</line>
-          <properties />
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/dichotomy/DichotomySort.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>method.getName().equals(&quot;converter&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="setValue">
-      <expression>
-        <expression-string>&quot;name&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;user&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaapi/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/java-api/src/main/resources/hbase.properties.xml" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/JucApplication.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="-5890">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.5.2/spring-boot-2.5.2.jar!/org/springframework/boot/SpringApplication.class" />
-    <entry file="file://$PROJECT_DIR$/wework/wework.iml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="730" selection-start-line="730" selection-end-line="730" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="1003" selection-start-line="1003" selection-end-line="1003" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/resources/templates/success.html">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/reflect/BaseDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/lambda/TaskNotificationVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/lambda/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.8/spring-webmvc-5.3.8.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
-    <entry file="file://$PROJECT_DIR$/nosql/src/main/resources/templates/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/cn/com/zhanssl/nosql/NosqlApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/xml/XmlParserConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/manager/ThreadManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/xml/entity/MsgType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/xml/entity/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/WeworkApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/xml/entity/WecomMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/parser/ParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java" />
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/aes/Test.py" />
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/aes/H5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sparsearray/SparseArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Linked2Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="195">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/MySingleLinked.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/entity/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/rand2Rand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/dichotomy/DichotomySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/HeroNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/LinkedListTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/common/utils/ComparatorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/randomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Linked2Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        <state relative-caret-position="969">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/LinkedMerge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15105">
-          <caret line="828" column="26" selection-start-line="828" selection-start-column="26" selection-end-line="828" selection-end-column="26" />
+        <state relative-caret-position="57">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="131" column="51" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#32532#32533#0" expanded="true" />
-            <element signature="e#32566#32567#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="ideajad">
-    <property name="annotate" value="false" />
-    <property name="annotateFully" value="false" />
-    <property name="braces" value="false" />
-    <property name="clear" value="false" />
-    <property name="confirmNavigationTriggeredDecompile" value="true" />
-    <property name="dead" value="true" />
-    <property name="defaultInitializers" value="false" />
-    <property name="dissassemblerOnly" value="false" />
-    <property name="fieldsFirst" value="true" />
-    <property name="fileExtension" value="java" />
-    <property name="fullyQualifiedNames" value="false" />
-    <property name="indentation" value="4" />
-    <property name="intRadix" value="10" />
-    <property name="lineNumbersAsComments" value="true" />
-    <property name="longRadix" value="10" />
-    <property name="maxStringLength" value="64" />
-    <property name="nocast" value="false" />
-    <property name="noclass" value="false" />
-    <property name="nocode" value="false" />
-    <property name="noconv" value="false" />
-    <property name="noctor" value="false" />
-    <property name="nodos" value="false" />
-    <property name="nofd" value="false" />
-    <property name="noinner" value="false" />
-    <property name="nolvt" value="false" />
-    <property name="nonlb" value="false" />
-    <property name="outputDirectory" value="" />
-    <property name="packFields" value="3" />
-    <property name="packImports" value="7" />
-    <property name="prefixNumericalClasses" value="_cls" />
-    <property name="prefixNumericalFields" value="_fld" />
-    <property name="prefixNumericalLocals" value="_lcl" />
-    <property name="prefixNumericalMethods" value="_mth" />
-    <property name="prefixNumericalParameters" value="_prm" />
-    <property name="prefixUnusedExceptions" value="_ex" />
-    <property name="readonly" value="false" />
-    <property name="safe" value="false" />
-    <property name="sort" value="false" />
-    <property name="spaceAfterKeyword" value="false" />
-    <property name="splitStringsAtNewline" value="false" />
-    <property name="useTabs" value="false" />
   </component>
   <component name="masterDetails">
     <states>
@@ -1686,7 +493,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17740512" />
+                <option value="0.2" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1699,7 +506,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17740512" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1730,20 +537,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>nosql</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.17740512" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>datastructure</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1755,11 +549,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spring-oxm-5.1.16.RELEASE</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17740512" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
