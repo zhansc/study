@@ -30,33 +30,34 @@
     <session id="1491889464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="12" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="12" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1201" />
+          <entry key="java" value="5113" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1201" />
+          <entry key="JAVA" value="5113" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -67,12 +68,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="393">
+              <caret line="548" column="5" lean-forward="true" selection-start-line="530" selection-start-column="4" selection-end-line="548" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="method#maxWidthWithMap#1;class#BinaryTreeTraverse#0" />
               </folding>
             </state>
           </provider>
@@ -186,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649140079200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649300158050" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -204,7 +206,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTraverse.test">
+  <component name="RunManager" selected="JUnit.BinaryTreeTraverse.test2">
+    <configuration name="BinaryTreeTraverse.printTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+      <option name="METHOD_NAME" value="printTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTreeTraverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastructure" />
       <extension name="coverage">
@@ -216,6 +234,22 @@
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTraverse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,10 +346,14 @@
       <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
       <item itemvalue="JUnit.LinkedMerge.test" />
       <item itemvalue="JUnit.BinaryTreeTraverse.test" />
+      <item itemvalue="JUnit.BinaryTreeTraverse.printTree" />
+      <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
         <item itemvalue="JUnit.BinaryTreeTraverse.test" />
+        <item itemvalue="JUnit.BinaryTreeTraverse.printTree" />
         <item itemvalue="JUnit.LinkedMerge.test" />
       </list>
     </recent_temporary>
@@ -332,44 +370,45 @@
       <updated>1648730747416</updated>
       <workItem from="1648730757013" duration="4817000" />
       <workItem from="1648886672480" duration="2777000" />
-      <workItem from="1649065732145" duration="14947000" />
+      <workItem from="1649065732145" duration="16208000" />
+      <workItem from="1649150069468" duration="24858000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 01h 54m 41s.xml">
+    <history-entry file="BinaryTreeTraverse_test - 2022.04.06 at 12h 18m 09s.xml">
       <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 10h 44m 27s.xml">
+    <history-entry file="BinaryTreeTraverse_test - 2022.04.06 at 13h 09m 07s.xml">
       <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 11h 41m 26s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 09m 13s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 11h 47m 42s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 11m 07s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 17m 45s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 11m 28s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 18m 17s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 12m 51s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 19m 14s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 13m 30s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 20m 57s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 16m 16s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 21m 16s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 16m 52s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryTreeTraverse_test - 2022.04.05 at 14h 21m 58s.xml">
-      <configuration name="BinaryTreeTraverse.test" configurationId="JUnit" />
+    <history-entry file="BinaryTreeTraverse_test2 - 2022.04.06 at 13h 17m 16s.xml">
+      <configuration name="BinaryTreeTraverse.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22541000" />
+    <option name="totallyTimeSpent" value="48660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -385,13 +424,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3584288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.19476268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27168575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27332243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.1685761" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3617021" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.4222586" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2913257" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -415,6 +454,38 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java</url>
+          <line>348</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java</url>
+          <line>354</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="levelMap" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -486,20 +557,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="457" column="43" lean-forward="true" selection-start-line="455" selection-start-column="7" selection-end-line="457" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6627#6628#0" expanded="true" />
+            <element signature="e#6668#6669#0" expanded="true" />
+            <element signature="e#15015#15016#0" expanded="true" />
+            <element signature="e#15049#15050#0" expanded="true" />
+            <element signature="e#16316#16317#0" expanded="true" />
+            <element signature="e#16343#16344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+          <folding>
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4360#4361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="664" column="16" selection-start-line="664" selection-start-column="16" selection-end-line="664" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="393">
+          <caret line="548" column="5" lean-forward="true" selection-start-line="530" selection-start-column="4" selection-end-line="548" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="method#maxWidthWithMap#1;class#BinaryTreeTraverse#0" />
           </folding>
         </state>
       </provider>
