@@ -30,34 +30,37 @@
     <session id="1491889464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="13" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="13" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5113" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="6262" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5113" />
+          <entry key="JAVA" value="6262" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -66,15 +69,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/MyUnionSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="548" column="5" lean-forward="true" selection-start-line="530" selection-start-column="4" selection-end-line="548" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="method#maxWidthWithMap#1;class#BinaryTreeTraverse#0" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +100,7 @@
       <find>MySingleLinked</find>
       <find>F</find>
       <find>println</find>
+      <find>findParent</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
@@ -108,6 +113,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/queue/Stack2Queue.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/UnionSet.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/MyUnionSet.java" />
       </list>
     </option>
   </component>
@@ -124,7 +131,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-98" />
     <option name="width" value="1007" />
     <option name="height" value="744" />
@@ -134,7 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,14 +188,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649300158050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1649343431449" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -371,7 +378,8 @@
       <workItem from="1648730757013" duration="4817000" />
       <workItem from="1648886672480" duration="2777000" />
       <workItem from="1649065732145" duration="16208000" />
-      <workItem from="1649150069468" duration="24858000" />
+      <workItem from="1649150069468" duration="29181000" />
+      <workItem from="1649304910630" duration="6342000" />
     </task>
     <servers />
   </component>
@@ -408,13 +416,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48660000" />
+    <option name="totallyTimeSpent" value="59325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -430,8 +438,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3617021" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.4222586" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.23567921" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.7757774" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2913257" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -602,13 +610,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="548" column="5" lean-forward="true" selection-start-line="530" selection-start-column="4" selection-end-line="548" selection-end-column="5" />
+        <state relative-caret-position="219">
+          <caret line="538" column="4" lean-forward="true" selection-start-line="538" selection-start-column="4" selection-end-line="538" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="method#maxWidthWithMap#1;class#BinaryTreeTraverse#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/MyUnionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
           </folding>
         </state>
       </provider>
