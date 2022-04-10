@@ -1,5 +1,6 @@
 package cn.com.zhanss.datastructure.sort;
 
+import cn.com.zhanss.datastructure.heap.MyHeap;
 import org.junit.Test;
 
 /**
@@ -24,6 +25,10 @@ public class ArraySort {
         int[] arr1 = new int[]{19,7,4,2,5};
         quickSort(arr1);
         print(arr1);
+
+        int[] arr2 = new int[]{43,4,7,12,21,1,0,5};
+        heapSort(arr2);
+        print(arr2);
     }
 
     public void print(int[] arr) {
@@ -164,6 +169,26 @@ public class ArraySort {
     public int randomNum(int[] arr) {
         double random = Math.max(Math.random() * (arr.length), Math.random() * (arr.length));
         return arr[(int) (random)];
+    }
+
+    /**
+     * 堆排序
+     * @param arr
+     * @return
+     */
+    public void heapSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
+        MyHeap heap = new MyHeap();
+        for (int i = 0; i < arr.length; i ++) {
+            heap.heapify(arr, i, arr.length);
+        }
+        int heapSize = arr.length;
+        while (heapSize > 0) {
+            swap(arr, 0, -- heapSize);
+            heap.heapify(arr,0, heapSize);
+        }
     }
 
 }

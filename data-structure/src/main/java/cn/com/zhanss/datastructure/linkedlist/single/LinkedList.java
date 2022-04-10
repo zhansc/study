@@ -37,7 +37,19 @@ public class LinkedList {
             // 遍历到链表末尾
             temp = temp.next;
         }
+        // 若需要在链表中间插入节点，此处和break上一句代码重复，但是不影响结果；若是在链表末尾插入节点这句是必须额
         temp.next = node;
+    }
+
+    public void print(HeroNode head) {
+        if (head == null) {
+            return;
+        }
+        HeroNode temp = head.next;
+        while (temp != null) {
+            System.out.print(temp.name + " ");
+            temp = temp.next;
+        }
     }
 
     /**

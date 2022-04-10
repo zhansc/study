@@ -213,17 +213,39 @@ public class MySingleLinked<T> {
             System.out.println("空了！！");
             return null;
         }
-        int middle = size >> 1;
+        int middle = (size & 1) == 1 ? (size >> 1) + 1 : size >> 1;
         Node<T> node = head;
         int count = 1;
         while (node.next != null) {
-            node = node.next;
             if (middle == count) {
                 break;
             }
+            node = node.next;
             count ++;
         }
         return node.value;
+    }
+
+    /**
+     * 快速获取指定链表的中间节点
+     * @param head
+     * @return
+     */
+    public T middleNode(Node<T> head) {
+        if (head == null) {
+            return null;
+        }
+        // 一个或两个节点的时候返回头结点
+        if (size == 1 || size == 2) {
+            return head.value;
+        }
+        Node<T> fast = head;
+        Node<T> slow = head;
+        while (fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow.value;
     }
     
     /**

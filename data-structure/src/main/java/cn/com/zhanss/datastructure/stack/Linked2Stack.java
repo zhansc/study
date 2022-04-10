@@ -53,13 +53,13 @@ public class Linked2Stack<T> {
 
     @Test
     public void testMyStack() {
-        MyStack<String> myStack = new MyStack<>();
-        myStack.push("1");
-        myStack.push("3");
-        myStack.push("1");
-        myStack.push("5");
-        myStack.push("0");
-        myStack.push("4");
+        MyStack<Integer> myStack = new MyStack<>();
+        myStack.push(1);
+        myStack.push(3);
+        myStack.push(1);
+        myStack.push(5);
+        myStack.push(0);
+        myStack.push(4);
 
         System.out.println("查看栈大小1--->"+ myStack.size());
         System.out.println("查看栈最小值--->"+ myStack.min());
