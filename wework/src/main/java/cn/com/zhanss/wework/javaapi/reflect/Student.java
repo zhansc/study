@@ -83,11 +83,11 @@ public class Student extends Person {
         this.age = age;
     }
 
-    public String getAddress() {
+    private String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    private void setAddress(String address) {
         this.address = address;
     }
 

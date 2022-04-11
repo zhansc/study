@@ -1,9 +1,13 @@
-package cn.com.zhanss.thread.singleton;
+package cn.com.zhanss.juc;
 
 import java.util.concurrent.TimeUnit;
 
 /**
  * 线程
+ * 启动一个线程三种方式：
+ * 1）extends Thread（lambda表达式）
+ * 2）implements Runnable
+ * 3）线程池
  *
  * @author zhanss
  * @since 2022-04-07

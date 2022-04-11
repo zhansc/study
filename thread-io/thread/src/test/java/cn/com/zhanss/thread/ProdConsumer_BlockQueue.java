@@ -20,6 +20,7 @@ public class ProdConsumer_BlockQueue {
     private AtomicInteger atomicInteger = new AtomicInteger();
     // 阻塞队列：通用，适配所有的阻塞队列
     private BlockingQueue<String> blockingQueue;
+
     // 让用户自定义
     public ProdConsumer_BlockQueue(BlockingQueue<String> blockingQueue) {
         this.blockingQueue = blockingQueue;
@@ -35,10 +36,10 @@ public class ProdConsumer_BlockQueue {
                 data = atomicInteger.incrementAndGet() + "";
                 // 2秒钟生产一个
                 resultVal = blockingQueue.offer(data, 2L, TimeUnit.SECONDS);
-                if(resultVal) {
-                    System.out.println(Thread.currentThread().getName() + "\t 插入队列成功"+ data);
+                if (resultVal) {
+                    System.out.println(Thread.currentThread().getName() + "\t 插入队列成功" + data);
                 } else {
-                    System.out.println(Thread.currentThread().getName() + "\t 插入队列失败"+ data);
+                    System.out.println(Thread.currentThread().getName() + "\t 插入队列失败" + data);
                 }
                 // 睡一秒钟
                 TimeUnit.SECONDS.sleep(1);
@@ -55,12 +56,12 @@ public class ProdConsumer_BlockQueue {
             while (FLAG) {
                 // 等待2秒
                 data = blockingQueue.poll(2L, TimeUnit.SECONDS);
-                if(StringUtils.isEmpty(data)) {
+                if (StringUtils.isEmpty(data)) {
                     FLAG = false;
                     System.out.println(Thread.currentThread().getName() + "\t 超过2秒没有取到内容，消费退出");
                     return;
                 }
-                System.out.println(Thread.currentThread().getName() + "\t 消费队列成功"+ data);
+                System.out.println(Thread.currentThread().getName() + "\t 消费队列成功" + data);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -77,7 +78,7 @@ public class ProdConsumer_BlockQueue {
             System.out.println(Thread.currentThread().getName() + "\t 生产者启动成功");
             try {
                 prodConsumerBlockQueue.prod();
-            }catch (Exception e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }, "Prod").start();
@@ -88,7 +89,7 @@ public class ProdConsumer_BlockQueue {
             System.out.println();
             try {
                 prodConsumerBlockQueue.consumer();
-            }catch (Exception e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }, "Consumer").start();

@@ -15,7 +15,7 @@ public class ReflectApi {
 
     @Test
     public void test() throws Exception {
-        Class clazz = Class.forName("cn.com.zhanss.reflect.Student");
+        Class clazz = Class.forName("cn.com.zhanss.wework.javaapi.reflect.Student");
         System.out.println("clazz.getName--->"+ clazz.getName());
         // 获取当前类及父类的公共属性
         Field[] fields = clazz.getFields();
@@ -23,6 +23,7 @@ public class ReflectApi {
             System.out.println(field.getName());
         }
         System.out.println("-------------------");
+        // 不包括继承自父类的字段
         fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             System.out.println(field.getName());
@@ -46,7 +47,7 @@ public class ReflectApi {
             System.out.println(method.getName());
         }
 
-        System.out.println("----------getDeclaredMethods获取当前类所有的方法（包含私有方法）---------");
+        System.out.println("----------getDeclaredMethods获取当前类所有的方法（包含私有方法，不包含继承自父类的方法）---------");
         Method[] declaredMethods = clazz.getDeclaredMethods();
         for (Method method : declaredMethods) {
             System.out.println(method.getName());

@@ -1,8 +1,8 @@
 package cn.com.zhanss.wework.javaapi.lambda;
 
 import com.alibaba.fastjson.JSONObject;
-import com.qq.weixin.mp.aes.AesException;
-import com.qq.weixin.mp.aes.WXBizMsgCrypt;
+//import com.qq.weixin.mp.aes.AesException;
+//import com.qq.weixin.mp.aes.WXBizMsgCrypt;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -28,7 +28,7 @@ import java.util.stream.Stream;
  */
 public class MyTest {
 
-    private WXBizMsgCrypt wxBizMsgCrypt;
+//    private WXBizMsgCrypt wxBizMsgCrypt;
 
     private static final String WEB_HOOK_KEY_STR = "key=";
 
@@ -97,14 +97,14 @@ public class MyTest {
         System.out.println("removeTags--->"+ removeTags);
         System.out.println("addTags--->"+ addTags);
 
-        try {
-            this.wxBizMsgCrypt = new WXBizMsgCrypt("aSjQ2se7xWmn5fLr", "kKA5DuWoBQI6xZQ3IJE71ntglJ2F7mqgUObn8XAxE8t", "wxd021c71421c73c46");
-
+//        try {
+//            this.wxBizMsgCrypt = new WXBizMsgCrypt("aSjQ2se7xWmn5fLr", "kKA5DuWoBQI6xZQ3IJE71ntglJ2F7mqgUObn8XAxE8t", "wxd021c71421c73c46");
+//
 //            String decodeStr = wxBizMsgCrypt.verifyUrl(signature, timestamp, nonce, echoStr);
-
-        } catch (AesException e) {
-            throw new RuntimeException("construct wxBizMsgCrypt fail", e.getCause());
-        }
+//
+//        } catch (AesException e) {
+//            throw new RuntimeException("construct wxBizMsgCrypt fail", e.getCause());
+//        }
 
         Set<String> strs = new HashSet<>();
         strs.add("12345");
