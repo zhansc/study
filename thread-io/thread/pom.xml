@@ -56,6 +56,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.xvolks</groupId>
+            <artifactId>xvolks</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
 
