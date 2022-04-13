@@ -20,14 +20,12 @@ public class MyLock implements Lock {
         public boolean tryAcquire(int args) {
             // 获取锁状态
             int state = getState();
-            if (state == 0) {
-                compareAndSetState(0, args);
+            if (compareAndSetState(0, args)) {
                 setExclusiveOwnerThread(Thread.currentThread());
                 return true;
             } else if (getExclusiveOwnerThread() == Thread.currentThread()) {
                 // 可重入锁
-                compareAndSetState(0, args);
-                return true;
+                return compareAndSetState(0, args);
             }
             return false;
         }
@@ -53,12 +51,12 @@ public class MyLock implements Lock {
 
     @Override
     public void lockInterruptibly() throws InterruptedException {
-
+        helper.acquireInterruptibly(1);
     }
 
     @Override
     public boolean tryLock() {
-        return false;
+        return helper.tryAcquire(1);
     }
 
     @Override

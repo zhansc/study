@@ -13,9 +13,11 @@ public class TestThread8Lock {
         new Thread(() -> thread8Lock.getTwo()).start();
 
         new Thread(() -> thread8Lock.getOne()).start();
+
+        new Thread(() -> thread8Lock.getThree()).start();
     }
 
-    private synchronized void getOne() {
+    private static synchronized void getOne() {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -27,5 +29,10 @@ public class TestThread8Lock {
     private synchronized void getTwo() {
 
         System.out.println("two");
+    }
+
+    private void getThree() {
+
+        System.out.println("three");
     }
 }
