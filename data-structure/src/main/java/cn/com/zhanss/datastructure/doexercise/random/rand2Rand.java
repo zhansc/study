@@ -8,7 +8,7 @@ import org.junit.Test;
  * @desc 随机发生器生成
  * @date 2022/2/17
  */
-public class rand2Rand {
+public class Rand2Rand {
 
     /**
      * [1, 5]随机发生器
