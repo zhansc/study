@@ -37,6 +37,7 @@
         <module>thread-io</module>
         <module>spring</module>
         <module>zhanss-mvc</module>
+        <module>desig-nmode</module>
     </modules>
 
     <properties>

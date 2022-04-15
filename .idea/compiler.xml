@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-structure" />
-        <module name="datastructure" />
+        <module name="design-mode" />
         <module name="elasticsearch" />
         <module name="io" />
         <module name="juc" />
@@ -28,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="design-mode" target="1.8" />
       <module name="java-api" target="11" />
       <module name="java-api1" target="8" />
     </bytecodeTargetLevel>
