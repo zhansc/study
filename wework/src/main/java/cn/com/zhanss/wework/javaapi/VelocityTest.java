@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure;
+package cn.com.zhanss.wework.javaapi;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;

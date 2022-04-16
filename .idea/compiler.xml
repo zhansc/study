@@ -19,7 +19,6 @@
         <module name="springboot-mq-consumer" />
         <module name="springboot-mq-produce" />
         <module name="ssm" />
-        <module name="structure" />
         <module name="thread" />
         <module name="wework" />
         <module name="zhanss-mvc" />
@@ -31,6 +30,7 @@
       <module name="design-mode" target="1.8" />
       <module name="java-api" target="11" />
       <module name="java-api1" target="8" />
+      <module name="structure" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

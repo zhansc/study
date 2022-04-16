@@ -1,6 +1,6 @@
 package cn.com.zhanss.datastructure.tree.bstAVL;
 
-import cn.com.zhanss.structure.warmup.TreeNode;
+import lombok.Data;
 import org.springframework.util.ObjectUtils;
 
 import java.util.HashMap;
@@ -226,7 +226,7 @@ class LeetCodeAVL {
     }
 
     public void levelOrder() {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         int preCount = 1;
         int pCount = 0;
@@ -258,4 +258,17 @@ class LeetCodeAVL {
         return size == 0;
     }
 
+}
+
+@Data
+class TreeNode {
+    public Integer value;
+
+    public TreeNode left;
+
+    public TreeNode right;
+
+    public TreeNode(Integer value) {
+        this.value = value;
+    }
 }
