@@ -16,6 +16,16 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <parent>
@@ -33,11 +43,10 @@
         <module>elasticsearch</module>
         <module>springboot-mq-consumer</module>
         <module>springboot-mq-produce</module>
-        <module>structure</module>
         <module>thread-io</module>
         <module>spring</module>
         <module>zhanss-mvc</module>
-        <module>desig-nmode</module>
+        <module>design-mode</module>
     </modules>
 
     <properties>
@@ -77,6 +86,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>RELEASE</version>
+                <optional>true</optional>
+            </dependency>
             <dependency>
                 <groupId>cn.com.zhanss</groupId>
                 <artifactId>datastructure</artifactId>

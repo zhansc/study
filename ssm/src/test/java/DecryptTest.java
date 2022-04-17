@@ -1,3 +1,5 @@
+package java;
+
 import cn.com.zhanss.entity.User;
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Test;

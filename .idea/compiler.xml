@@ -27,7 +27,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="design-mode" target="1.8" />
       <module name="java-api" target="11" />
       <module name="java-api1" target="8" />
       <module name="structure" target="1.8" />

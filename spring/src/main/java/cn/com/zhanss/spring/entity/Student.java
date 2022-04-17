@@ -18,6 +18,10 @@ public class Student {
 
     }
 
+    public Student(String name) {
+        this.name = name;
+    }
+
     public Student(String name, String deptNo) {
         this.name = name;
         this.deptNo = deptNo;

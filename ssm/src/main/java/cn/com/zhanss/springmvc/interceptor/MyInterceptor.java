@@ -26,13 +26,13 @@ public class MyInterceptor implements HandlerInterceptor {
     }
 
     @Override
-    void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
-                    @Nullable ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+                           @Nullable ModelAndView modelAndView) throws Exception {
         System.out.println("执行handle之后，做消息、业务同步等");
     }
 
     @Override
-    void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler,
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler,
                          @Nullable Exception ex) throws Exception {
         System.out.println("最后的最后，做一些连接、线程、锁等的资源的释放操作");
     }

@@ -1,0 +1,18 @@
+hbase:
+  config:
+    ip: 168.172.114.159
+    port: 7001
+    max-size: 900
+
+
+---
+spring:
+     activemq:
+       password: 12123
+
+
+---
+spring:
+  datasource:
+    url: https:www.baidu.com
+    name: doriu

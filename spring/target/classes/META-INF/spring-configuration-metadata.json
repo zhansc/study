@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "hbase.config",
+      "type": "cn.com.zhanss.springboot.config.Hbase",
+      "sourceType": "cn.com.zhanss.springboot.config.HbaseConfig",
+      "sourceMethod": "hbase()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hbase.config.ip",
+      "type": "java.lang.String",
+      "sourceType": "cn.com.zhanss.springboot.config.Hbase"
+    },
+    {
+      "name": "hbase.config.max-size",
+      "type": "java.lang.String",
+      "sourceType": "cn.com.zhanss.springboot.config.Hbase"
+    },
+    {
+      "name": "hbase.config.port",
+      "type": "java.lang.String",
+      "sourceType": "cn.com.zhanss.springboot.config.Hbase"
+    }
+  ],
+  "hints": []
+}
