@@ -1,7 +1,6 @@
 package cn.com.zhanss.datastructure.linkedlist.single;
 
 import cn.com.zhanss.datastructure.linkedlist.HeroNode;
-import lombok.val;
 import org.junit.Test;
 
 /**

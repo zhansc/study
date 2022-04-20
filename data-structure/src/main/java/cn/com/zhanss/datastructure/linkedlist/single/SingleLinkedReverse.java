@@ -17,6 +17,9 @@ public class SingleLinkedReverse {
         singleLinked.tailPush(5);
         singleLinked.tailPush(0);
         singleLinked.tailPush(4);
+
+        reverseV1(singleLinked.head);
+
         System.out.println("队列大小--->"+ singleLinked.size());
         System.out.println("队列头--->"+ singleLinked.headPeek());
         System.out.println("队列尾--->"+ singleLinked.tailPeek());
@@ -56,4 +59,20 @@ public class SingleLinkedReverse {
         return head;
     }
 
+    public MySingleLinked.Node reverseV1(MySingleLinked.Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        MySingleLinked.Node pre = null;
+        MySingleLinked.Node cur = head;
+        MySingleLinked.Node next;
+        while (cur != null) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            head = cur;
+            cur = next;
+        }
+        return head;
+    }
 }

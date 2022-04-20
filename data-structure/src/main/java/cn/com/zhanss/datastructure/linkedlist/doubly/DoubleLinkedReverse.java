@@ -21,6 +21,7 @@ public class DoubleLinkedReverse {
         System.out.println("队列大小--->"+ doubleLinked.size());
 //        System.out.println("队列头--->"+ doubleLinked.headPop());
 
+        MyDoubleLinked.Node<Integer> head1 = reverseV1(doubleLinked.head);
         MyDoubleLinked.Node<Integer> head = reverse(doubleLinked.head);
         System.out.println("队列大小--->"+ doubleLinked.size());
         System.out.println("队列--->"+ head);
@@ -51,6 +52,28 @@ public class DoubleLinkedReverse {
             }
         }
         head.pre = null;
+        return head;
+    }
+
+    public MyDoubleLinked.Node<Integer> reverseV1(MyDoubleLinked.Node<Integer> head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        MyDoubleLinked.Node<Integer> pre = null;
+        MyDoubleLinked.Node<Integer> cur = head;
+        MyDoubleLinked.Node<Integer> next = cur.next;
+        while (cur != null) {
+            cur.next = pre;
+            cur.pre = next;
+            pre = head;
+            cur = next;
+            if (cur != null) {
+                head = cur;
+            }
+            if (next != null) {
+                next = next.next;
+            }
+        }
         return head;
     }
 }
