@@ -22,7 +22,7 @@ public class ArraySort {
         System.out.println("归并数组打印：");
         print(arr);
         System.out.println("\n快排数组打印：");
-        int[] arr1 = new int[]{19,7,4,2,5};
+        int[] arr1 = new int[]{2,0,1};
         quickSort(arr1);
         print(arr1);
 
@@ -65,7 +65,7 @@ public class ArraySort {
     }
 
     /**
-     * 归并排序
+     * 归并排序，并求小和--左边数比自己小的累计和
      * @param arr
      * @param left
      * @param right
@@ -129,7 +129,7 @@ public class ArraySort {
         }
         int less = left - 1;
         int more = right + 1;
-        // 已数组最后一个元素为划分值时间复杂度O(N^2)，将划分值改为随机值时间复杂度为O(N*logN)
+        // 以数组最后一个元素为划分值时间复杂度O(N^2)，将划分值改为随机值时间复杂度为O(N*logN)
         int randomNum = /*randomNum(arr)*/arr[right];
         // <[i]区  [less  ==[i]区  more]   >[i]区
         for (int i = left; i < more;) {
