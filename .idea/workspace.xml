@@ -47,9 +47,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="2" />
-          <entry key="class" value="35" />
+          <entry key="class" value="36" />
           <entry key="factories" value="5" />
-          <entry key="java" value="539" />
+          <entry key="java" value="555" />
           <entry key="json" value="1" />
           <entry key="jsp" value="1" />
           <entry key="pom" value="7" />
@@ -62,8 +62,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="35" />
-          <entry key="JAVA" value="539" />
+          <entry key="CLASS" value="36" />
+          <entry key="JAVA" value="555" />
           <entry key="JSON" value="1" />
           <entry key="JSP" value="1" />
           <entry key="Manifest" value="2" />
@@ -76,8 +76,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="27" />
-          <entry key="java" value="30514" />
+          <entry key="dummy" value="42" />
+          <entry key="java" value="32237" />
           <entry key="properties" value="83" />
           <entry key="xml" value="73" />
           <entry key="yaml" value="260" />
@@ -85,8 +85,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30514" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="JAVA" value="32237" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Properties" value="83" />
           <entry key="XML" value="73" />
           <entry key="YAML" value="260" />
@@ -99,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="1169">
               <caret line="140" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,12 +112,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="371">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/LinkedHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="298" column="51" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#29576#0" expanded="true" />
+                <element signature="e#19667#19668#0" expanded="true" />
+                <element signature="e#19695#19696#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="846" column="28" selection-start-line="846" selection-start-column="28" selection-end-line="846" selection-end-column="28" />
+              <folding>
+                <element signature="e#19103#19104#0" expanded="true" />
+                <element signature="e#19161#19162#0" expanded="true" />
+                <element signature="e#23628#23629#0" expanded="true" />
+                <element signature="e#23682#23683#0" expanded="true" />
+                <element signature="e#24329#24330#0" expanded="true" />
+                <element signature="e#24394#24395#0" expanded="true" />
+                <element signature="e#66765#66766#0" expanded="true" />
+                <element signature="e#66822#66823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,26 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iden124335jlda</find>
-      <find>finalize</find>
-      <find>inputst</find>
-      <find>OrderPizza</find>
-      <find>registerBeanDefinitionParser</find>
-      <find>parsers</find>
-      <find>Reference</find>
-      <find>ReferenceBean</find>
-      <find>initialized</find>
-      <find>DubboNamespaceHandler</find>
-      <find>createProxy</find>
-      <find>invoker.invoke</find>
-      <find>optimizers</find>
-      <find>exporterMap</find>
-      <find>urls</find>
-      <find>export</find>
-      <find>PROXY_FACTORY</find>
-      <find>print5</find>
-      <find>ReentrantLock</find>
-      <find>export(</find>
       <find>tryAcquires</find>
       <find>Node.SHARED</find>
       <find>SHARED</find>
@@ -164,6 +178,26 @@
       <find>array</find>
       <find>contains</find>
       <find>contains(</find>
+      <find>putval(</find>
+      <find>LinkedList</find>
+      <find>last</find>
+      <find>pollLast</find>
+      <find>LinkedHashMap</find>
+      <find>put</find>
+      <find>newnode</find>
+      <find>newNode</find>
+      <find>afterNodeInsertion</find>
+      <find>thread</find>
+      <find>run(</find>
+      <find>afterNodeAccess</find>
+      <find>group</find>
+      <find>get(Object</find>
+      <find>put(</find>
+      <find>remove(</find>
+      <find>remove</find>
+      <find>putVal</find>
+      <find>removeEldestEntry</find>
+      <find>lruHash</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
@@ -176,9 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/jvm/TestJvm.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/ConvertSortedArrayToBST.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/VelocityTest.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/SumArrays.java" />
         <option value="$PROJECT_DIR$/ssm/pom.xml" />
         <option value="$PROJECT_DIR$/ssm/src/test/java/DecryptTest.java" />
@@ -227,6 +258,9 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/IndexSort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/StackLru.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/ArrayLru.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java" />
       </list>
     </option>
   </component>
@@ -320,18 +354,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
+              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="lru" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,7 +376,7 @@
     <property name="SearchEverywhereHistoryKey" value="ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651491185023" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651572175390" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pay-cardvoucher-biz" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15780446" />
@@ -387,7 +411,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StrExercise.test">
+  <component name="RunManager">
     <configuration name="IndexSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -398,6 +422,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.sort" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.sort.IndexSort" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapLru.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.lru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.lru" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.lru.LinkedHashMapLru" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -415,22 +455,6 @@
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly.LinkedListWindows" />
       <option name="METHOD_NAME" value="testWindows" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyUnionSet.StudentFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.MyUnionSet" />
-      <option name="METHOD_NAME" value="StudentFilter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -541,19 +565,19 @@
       <item itemvalue="Spring Boot.QueueApplication" />
       <item itemvalue="Spring Boot.StructureApplication" />
       <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
-      <item itemvalue="JUnit.MyUnionSet.StudentFilter" />
       <item itemvalue="JUnit.LinkedListWindows.testWindows" />
       <item itemvalue="JUnit.IndexSort.test" />
       <item itemvalue="JUnit.SingleLinkedReverse.test" />
       <item itemvalue="JUnit.StrExercise.test" />
+      <item itemvalue="JUnit.LinkedHashMapLru.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedHashMapLru.test" />
         <item itemvalue="JUnit.StrExercise.test" />
         <item itemvalue="JUnit.SingleLinkedReverse.test" />
         <item itemvalue="JUnit.IndexSort.test" />
         <item itemvalue="JUnit.LinkedListWindows.testWindows" />
-        <item itemvalue="JUnit.MyUnionSet.StudentFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -585,50 +609,50 @@
       <workItem from="1650449090960" duration="23352000" />
       <workItem from="1650513802436" duration="7849000" />
       <workItem from="1650551165366" duration="58320000" />
-      <workItem from="1650974731398" duration="41811000" />
+      <workItem from="1650974731398" duration="63944000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StrExercise_test - 2022.05.02 at 17h 56m 12s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 19m 25s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 17h 59m 26s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 26m 02s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 04m 27s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 26m 19s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 04m 39s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 27m 14s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 51m 22s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 31m 07s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 53m 04s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 38m 18s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 54m 08s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 38m 37s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 54m 25s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 40m 24s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 56m 08s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 42m 19s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StrExercise_test - 2022.05.02 at 18h 58m 54s.xml">
-      <configuration name="StrExercise.test" configurationId="JUnit" />
+    <history-entry file="ArrayLru_test - 2022.05.03 at 14h 43m 42s.xml">
+      <configuration name="ArrayLru.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346867000" />
+    <option name="totallyTimeSpent" value="369000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24281392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -639,7 +663,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.23076923" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.48608837" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49848714" weight="0.5613748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -651,7 +675,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -924,6 +948,24 @@
           <properties />
           <option name="timeStamp" value="208" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -936,92 +978,11 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/config/spring/schema/DubboBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/com/alibaba/dubbo/rpc/ProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/protocol/AbstractInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="e#2122#2123#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/protocol/injvm/InjvmInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/protocol/injvm/InjvmProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/protocol/AsyncToSyncInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/com/alibaba/dubbo/rpc/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/remoting/exchange/support/ExchangeHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/remoting/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/remoting/exchange/ExchangeChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/Invocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/org/apache/dubbo/rpc/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1296,33 +1257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/doubly/LinkedListWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sort/IndexSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#reverse#0;class#SingleLinkedReverse#0" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,11 +1299,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/StackLru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reverse#0;class#SingleLinkedReverse#0" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/juc/WhatIsThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/doubly/LinkedListWindows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/juc/WhatIsSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="706" column="24" selection-start-line="706" selection-start-column="12" selection-end-line="706" selection-end-column="24" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="633" column="30" selection-start-line="633" selection-start-column="26" selection-end-line="633" selection-end-column="30" />
+        <state relative-caret-position="366">
+          <caret line="846" column="28" selection-start-line="846" selection-start-column="28" selection-end-line="846" selection-end-column="28" />
           <folding>
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
             <element signature="e#23628#23629#0" expanded="true" />
             <element signature="e#23682#23683#0" expanded="true" />
             <element signature="e#24329#24330#0" expanded="true" />
@@ -1376,12 +1410,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.11.0.0/kafka-clients-0.11.0.0.jar!/org/apache/kafka/common/cache/LRUCache.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="298" column="51" selection-start-line="298" selection-start-column="51" selection-end-line="298" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#29576#0" expanded="true" />
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19695#19696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
           </folding>
         </state>
       </provider>
