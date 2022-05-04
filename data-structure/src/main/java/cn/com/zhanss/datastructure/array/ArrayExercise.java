@@ -1,6 +1,7 @@
 package cn.com.zhanss.datastructure.array;
 
 import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
+import cn.com.zhanss.datastructure.heap.MyHeap;
 import cn.com.zhanss.datastructure.sort.ArraySort;
 import org.junit.Test;
 
@@ -44,12 +45,75 @@ public class ArrayExercise {
         list.add("c");
         list.add("b");
         list.set(1, "bb");
+
+        int[] findKthLargest = new int[]{3,2,1,5,6,4};
+        int kthLargest = findKthLargest(findKthLargest, 3);
+        System.out.println("----kthLargest1------>"+ kthLargest);
+
+        kthLargest = findKthLargestV1(findKthLargest, 2);
+        System.out.println("----kthLargest2------>"+ kthLargest);
+
+
         System.out.println("----end------");
     }
 
+    /**
+     * 利用大根堆排序
+     * @param nums
+     * @param k
+     * @return
+     */
+    public int findKthLargest(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || nums.length < k || k < 1) {
+            return -1;
+        }
+        MyHeap heap = new MyHeap(nums.length);
+        for (int num : nums) {
+            heap.heapInsert(num);
+        }
+        int res = -1;
+        while (k > 0) {
+            res = heap.pop();
+            k --;
+        }
+        return res;
+    }
+
+    /**
+     * 给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
+     *
+     * 请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+     * 输入: [3,2,1,5,6,4] 和 k = 2
+     * 输出: 5
+     * @param nums
+     * @param k
+     * @return
+     */
+    public int findKthLargestV1(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || nums.length < k || k < 1) {
+            return -1;
+        }
+        if (nums.length == 1 && k == 1) {
+            return nums[0];
+        }
+        int i = 0, j;
+        for (; i < nums.length; i ++) {
+            for (j = i + 1; j < nums.length; j ++) {
+                // 选择排序：倒序排
+                if (nums[i] < nums[j]) {
+                    swap(nums, i, j);
+                }
+            }
+            if (i == (k-1)) {
+                return nums[i];
+            }
+        }
+        return -1;
+    }
+
     public void print(int[] arr) {
-        for (int i = 0; i < arr.length; i ++) {
-            System.out.print(arr[i] + " ");
+        for (int anArr : arr) {
+            System.out.print(anArr + " ");
         }
         System.out.println();
     }

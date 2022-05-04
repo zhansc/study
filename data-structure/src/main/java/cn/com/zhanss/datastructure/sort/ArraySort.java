@@ -3,6 +3,8 @@ package cn.com.zhanss.datastructure.sort;
 import cn.com.zhanss.datastructure.heap.MyHeap;
 import org.junit.Test;
 
+import java.util.PriorityQueue;
+
 /**
  * @desc 数组排序
  * @author zhanshuchan
@@ -26,7 +28,11 @@ public class ArraySort {
         quickSort(arr1);
         print(arr1);
 
-        int[] arr2 = new int[]{43,4,7,12,21,1,0,5};
+        int[] arr2 = new int[]{3,2,1,5,6,4};
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+        for (int i = 0; i < arr2.length; i ++) {
+            priorityQueue.add(arr2[i]);
+        }
         heapSort(arr2);
         print(arr2);
     }

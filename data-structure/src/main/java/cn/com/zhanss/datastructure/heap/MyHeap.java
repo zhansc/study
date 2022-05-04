@@ -18,6 +18,10 @@ public class MyHeap {
     public MyHeap() {
     }
 
+    public MyHeap(int capacity) {
+        this.arr = new int[capacity];
+    }
+
     /**
      * 堆中插入元素
      * @param num
