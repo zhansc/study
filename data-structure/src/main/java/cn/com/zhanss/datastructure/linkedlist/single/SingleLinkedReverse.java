@@ -3,6 +3,7 @@ package cn.com.zhanss.datastructure.linkedlist.single;
 import lombok.Data;
 import org.junit.Test;
 
+
 /**
  * @desc 单链表反转
  * @author zhanshuchan
@@ -119,6 +120,11 @@ public class SingleLinkedReverse {
         }
     }
 
+    /**
+     * 双向链表反转
+     * @param head
+     * @return
+     */
     public Node reverseV2(Node head) {
         if (head == null || head.next == null) {
             return head;
@@ -139,14 +145,6 @@ public class SingleLinkedReverse {
         return head;
     }
 
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -164,5 +162,93 @@ public class SingleLinkedReverse {
             }
         }
         return head;
+    }
+
+    /**
+     * 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
+     * k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，
+     * 那么请将最后剩余的节点保持原有顺序。
+     * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
+     * @param head
+     * @param k
+     * @return
+     */
+    public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null) {
+            return head;
+        }
+        return reverseK(head, k);
+    }
+
+    /**
+     * 递归单链表，每k个元素反转一次
+     * @param head
+     * @param k
+     * @return
+     */
+    private ListNode reverseK(ListNode head, int k) {
+        if (head == null) {
+            return head;
+        }
+        int kIndex = k;
+        ListNode nextLoop = head;
+        while (kIndex > 0 && nextLoop != null) {
+            nextLoop = nextLoop.next;
+            kIndex --;
+        }
+        ListNode tail = null;
+        if (nextLoop != null) {
+            tail = reverseK(nextLoop, k);
+        }
+        // 节点数够k整数倍，则反转
+        if (kIndex <= 0) {
+            // 从head到nextLoop节点完成反转
+            ListNode listNode = reverseInner(head, nextLoop);
+            // 当前循环中的尾节点的next即为子循环返回的头节点
+            head.next = tail;
+            return listNode;
+        }
+        // 否则返回源链头
+        return head;
+    }
+
+    /**
+     * 将从节点head到指定节点nextLoop节点的链表反转
+     * @param head
+     * @param nextLoop
+     * @return
+     */
+    private ListNode reverseInner(ListNode head, ListNode nextLoop) {
+        if (head == null || head == nextLoop) {
+            return head;
+        }
+        ListNode pre = null;
+        ListNode cur = head;
+        ListNode next;
+        while (cur != nextLoop ){
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            head = cur;
+            cur = next;
+        }
+        return head;
+    }
+
+    @Test
+    public void testReverseKGroup() {
+        ListNode head = new ListNode(1);
+        ListNode a = new ListNode(2);
+        head.next = a;
+        ListNode listNode = reverseKGroup(head, 2);
+        System.out.println(listNode);
+    }
+
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
