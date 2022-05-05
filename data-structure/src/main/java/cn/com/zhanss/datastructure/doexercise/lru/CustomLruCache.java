@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * 自定义LRU缓存
  * HashMap + 双向链表
- *
+ * https://leetcode-cn.com/problems/lru-cache/
  * @author zhanss
  * @since 2022-05-04
  */

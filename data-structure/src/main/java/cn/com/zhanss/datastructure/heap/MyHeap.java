@@ -60,6 +60,21 @@ public class MyHeap {
     }
 
     /**
+     * 查看对顶弹出元素
+     * @return
+     */
+    public Integer peek() {
+        if (heapSize == 0) {
+            return null;
+        }
+        return arr[0];
+    }
+
+    public boolean isEmpty() {
+        return arr == null || heapSize == 0;
+    }
+
+    /**
      * 堆化
      * 堆顶元素一直下沉，直到没有左孩子了或不再小于左右孩子节点值
      */

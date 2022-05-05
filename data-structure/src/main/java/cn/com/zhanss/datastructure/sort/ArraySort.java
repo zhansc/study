@@ -4,6 +4,7 @@ import cn.com.zhanss.datastructure.heap.MyHeap;
 import org.junit.Test;
 
 import java.util.PriorityQueue;
+import java.util.Random;
 
 /**
  * @desc 数组排序
@@ -24,7 +25,7 @@ public class ArraySort {
         System.out.println("归并数组打印：");
         print(arr);
         System.out.println("\n快排数组打印：");
-        int[] arr1 = new int[]{2,0,1};
+        int[] arr1 = new int[]{5,7,2,1};
         quickSort(arr1);
         print(arr1);
 
@@ -35,6 +36,10 @@ public class ArraySort {
         }
         heapSort(arr2);
         print(arr2);
+
+        int[] maxSubArr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
+        int i = maxSubArray(maxSubArr);
+        System.out.println("=====i======>"+ i);
     }
 
     public void print(int[] arr) {
@@ -136,7 +141,8 @@ public class ArraySort {
         int less = left - 1;
         int more = right + 1;
         // 以数组最后一个元素为划分值时间复杂度O(N^2)，将划分值改为随机值时间复杂度为O(N*logN)
-        int randomNum = /*randomNum(arr)*/arr[right];
+//        int randomNum = arr[right];
+        int randomNum = randomNum(arr, left, right);
         // <[i]区  [less  ==[i]区  more]   >[i]区
         for (int i = left; i < more;) {
             if (arr[i] < randomNum) {
@@ -172,9 +178,9 @@ public class ArraySort {
      * @param arr
      * @return
      */
-    public int randomNum(int[] arr) {
-        double random = Math.max(Math.random() * (arr.length), Math.random() * (arr.length));
-        return arr[(int) (random)];
+    public int randomNum(int[] arr, int left, int right) {
+        int i = new Random().nextInt(right - left + 1) + left;
+        return arr[i];
     }
 
     /**
@@ -197,4 +203,37 @@ public class ArraySort {
         }
     }
 
+    /**
+     * 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+     *
+     * 子数组 是数组中的一个连续部分。
+     * 输入：nums = [-2,1,-3,4,-1,2,1,-5,4]
+     * 输出：6
+     * 解释：连续子数组 [4,-1,2,1] 的和最大，为 6 。
+     * https://leetcode-cn.com/problems/maximum-subarray/
+     * @param nums
+     * @return
+     */
+    public int maxSubArray(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int left = 0;
+        int right;
+        Integer max = null;
+        while (left < nums.length) {
+            int count = 0;
+            right = left;
+            while (right < nums.length) {
+                count += nums[right];
+                max = max == null ? count : Math.max(max, count);
+                right ++;
+            }
+            left ++;
+        }
+        return max;
+    }
 }

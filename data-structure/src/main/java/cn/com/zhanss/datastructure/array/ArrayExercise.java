@@ -25,7 +25,8 @@ public class ArrayExercise {
         int[] sumArr = sumArrays(arr1, arr2);
         print(sumArr);
 
-        List<List<Integer>> sumsSort = threeSumBySort(new int[]{-1,0,1,2,-1,-4});
+        int[] threeSumBySort = new int[]{0};
+        List<List<Integer>> sumsSort = threeSumBySort(threeSumBySort);
         System.out.println(sumsSort);
 
         int[] nums = new int[]{2,0,1};
@@ -154,8 +155,59 @@ public class ArrayExercise {
     }
 
     /**
+     * a + b + c = 0
+     * 排序 + 双指针
+     * https://leetcode-cn.com/problems/3sum/
+     * 时间复杂度O(N^2)
+     * @param nums
+     * @return
+     */
+    public List<List<Integer>> threeSum(int[] nums) {
+        int n = nums.length;
+        // 先排序
+        Arrays.sort(nums);
+        List<List<Integer>> ans = new ArrayList<>();
+        // 枚举 a
+        for (int first = 0; first < n; ++first) {
+            // 需要和上一次枚举的数不相同
+            if (first > 0 && nums[first] == nums[first - 1]) {
+                continue;
+            }
+            // c 对应的指针初始指向数组的最右端
+            int third = n - 1;
+            int target = -nums[first];
+            // 枚举 b
+            for (int second = first + 1; second < n; ++second) {
+                // 需要和上一次枚举的数不相同
+                if (second > first + 1 && nums[second] == nums[second - 1]) {
+                    continue;
+                }
+                // 需要保证 b 的指针在 c 的指针的左侧
+                while (second < third && nums[second] + nums[third] > target) {
+                    --third;
+                }
+                // 如果指针重合，随着 b 后续的增加
+                // 数组是有序的，就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
+                if (second == third) {
+                    break;
+                }
+                if (nums[second] + nums[third] == target) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[first]);
+                    list.add(nums[second]);
+                    list.add(nums[third]);
+                    ans.add(list);
+                }
+            }
+        }
+        return ans;
+    }
+
+    /**
      * 求数组中a + b + c = 0 不重复的a/b/c数组
      * nums = [-1,0,1,2,-1,-4]
+     *
+     * https://leetcode-cn.com/problems/3sum/
      * @param nums
      * @return
      */
