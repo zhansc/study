@@ -4,7 +4,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * 数组时间LRU缓存
+ * LRU缓存
  *
  * @author zhanss
  * @since 2022-05-02
