@@ -21,6 +21,8 @@ import java.lang.annotation.*;
 @Documented
 public @interface SameTenant {
 
+    int max() default 0;
+
     String message() default "用户不存在或者不属于当前组织";
 
     Class<?>[] groups() default {};
@@ -33,17 +35,18 @@ public @interface SameTenant {
      */
     class StringChecker implements ConstraintValidator<SameTenant, String> {
 
+        private int max;
+
         @Override
         public void initialize(SameTenant arg0) {
+
+            System.out.println("validator init1");
+            this.max = arg0.max();
         }
 
         @Override
         public boolean isValid(String uid, ConstraintValidatorContext context) {
-            if (StringUtils.isBlank(uid)) {
-
-                return true;
-            }
-            return false;
+            return !StringUtils.isBlank(uid) || max < uid.length();
         }
     }
 
@@ -55,14 +58,12 @@ public @interface SameTenant {
 
         @Override
         public void initialize(SameTenant arg0) {
+            System.out.println("validator init2");
         }
 
         @Override
         public boolean isValid(Long uid, ConstraintValidatorContext context) {
-            if (null == uid) {
-                return true;
-            }
-            return false;
+            return null == uid;
         }
     }
 }
