@@ -1,4 +1,4 @@
-package cn.com.zhanss.entity;
+package cn.com.zhanss.wework.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

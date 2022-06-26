@@ -1,4 +1,4 @@
-package cn.com.zhanss.entity;
+package cn.com.zhanss.wework.entity;
 
 /**
  * Created by leduo on 17/4/17.

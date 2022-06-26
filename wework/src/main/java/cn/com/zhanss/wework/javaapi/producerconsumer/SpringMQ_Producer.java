@@ -1,4 +1,4 @@
-package cn.com.zhanss.queue.service;
+package cn.com.zhanss.wework.javaapi.producerconsumer;
 
 import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
 import org.springframework.beans.factory.annotation.Autowired;

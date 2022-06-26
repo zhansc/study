@@ -1,6 +1,6 @@
-package java;
+package cn.com.zhanss.wework.javaapi.aes;
 
-import cn.com.zhanss.entity.User;
+import cn.com.zhanss.wework.entity.User;
 import org.apache.commons.codec.binary.Base64;
 import org.junit.Test;
 
@@ -43,17 +43,17 @@ public class DecryptTest {
         //解密
         User[] users = new User[3];
         for (int i = 0; i < 3;) {
-            User user = new User(i, "name"+i, i / 2 == 0 ? 2 : 1, "123456"+ i);
+            User user = User.builder().id(i).name("name"+ i).phone("123456"+ i).build();
             try {
                 System.out.println("data2 before");
                 String decodeResult = decryptByPriKey(encodeResult, priKey);
                 System.out.println("data2-->"+ decodeResult);
-                user.setUserName("解密成功"+i);
+                user.setName("解密成功"+i);
             } catch (Exception e) {
                 encodeResult = encryptByPubKey(data, pubKey);
                 String decodeResult = decryptByPriKey(encodeResult, priKey);
                 System.out.println("data22-->"+ decodeResult);
-                user.setUserName("解密失败"+i);
+                user.setName("解密失败"+i);
 //            throw e;
             }
             users[i] = user;

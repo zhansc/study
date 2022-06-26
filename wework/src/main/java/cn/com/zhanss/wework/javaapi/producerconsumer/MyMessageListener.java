@@ -1,4 +1,4 @@
-package cn.com.zhanss.queue.service;
+package cn.com.zhanss.wework.javaapi.producerconsumer;
 
 import org.springframework.stereotype.Component;
 
