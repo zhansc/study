@@ -3,30 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -46,7 +22,9 @@
         <module>thread-io</module>
         <module>spring</module>
         <module>zhanss-mvc</module>
+        <module>data-structure</module>
         <module>design-mode</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -80,7 +58,9 @@
         <mybatis.version>3.5.2</mybatis.version>
         <lombok.version>1.18.10</lombok.version>
         <jol-core.version>0.9</jol-core.version>
-        <datastructure.version>0.0.1-SNAPSHOT</datastructure.version>
+        <data-structure.version>0.0.1-SNAPSHOT</data-structure.version>
+        <arthas.version>3.6.3</arthas.version>
+        <spring-boot-configuration-processor.version>2.7.3</spring-boot-configuration-processor.version>
 
     </properties>
 
@@ -89,13 +69,8 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-configuration-processor</artifactId>
-                <version>RELEASE</version>
+                <version>${spring-boot-configuration-processor.version}</version>
                 <optional>true</optional>
-            </dependency>
-            <dependency>
-                <groupId>cn.com.zhanss</groupId>
-                <artifactId>datastructure</artifactId>
-                <version>${datastructure.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.openjdk.jol</groupId>
@@ -277,6 +252,11 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.taobao.arthas</groupId>
+                <artifactId>arthas-spring-boot-starter</artifactId>
+                <version>${arthas.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.com.zhanss</groupId>
-    <artifactId>datastructure</artifactId>
+    <artifactId>data-structure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>datastructure</name>
+    <name>data-structure</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
