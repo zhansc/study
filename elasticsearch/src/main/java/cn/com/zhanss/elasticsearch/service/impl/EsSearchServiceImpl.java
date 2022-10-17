@@ -1,5 +1,6 @@
 package cn.com.zhanss.elasticsearch.service.impl;
 
+import cn.com.zhanss.elasticsearch.dto.SanguoSearchDTO;
 import cn.com.zhanss.elasticsearch.service.EsSearchService;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -60,5 +61,24 @@ public class EsSearchServiceImpl implements EsSearchService {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getString());
+    }
+
+    public static SanguoSearchDTO getString() {
+        String str = "A";
+        SanguoSearchDTO searchDTO = new SanguoSearchDTO();
+        try {
+            str = "B";
+            searchDTO.setName(str);
+            return searchDTO;
+        } finally {
+            System.out.println("finally change return string to C");
+            str = "C";
+            searchDTO.setName(str);
+            return searchDTO;
+        }
     }
 }

@@ -1,4 +1,4 @@
-package cn.com.zhanss.springboot;
+package cn.com.zhanss.springboot.conditional;
 
 import cn.com.zhanss.spring.entity.Student;
 import cn.com.zhanss.spring.entity.Teacher;
