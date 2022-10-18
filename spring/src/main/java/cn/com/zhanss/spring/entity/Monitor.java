@@ -21,6 +21,9 @@ public class Monitor {
 
     public String deptNo;
 
+    public Monitor() {
+    }
+
     public Monitor(String name) {
         this.name = name;
     }
