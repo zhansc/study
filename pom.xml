@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.8.RELEASE</version>
+        <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -25,6 +25,7 @@
         <module>data-structure</module>
         <module>design-mode</module>
         <module>common</module>
+        <module>javaee</module>
     </modules>
 
     <properties>
@@ -32,7 +33,7 @@
         <commons-conllections.version>3.2.1</commons-conllections.version>
         <fastjson.version>1.2.49</fastjson.version>
         <spring-boot-starter-test.version>2.2.0.RELEASE</spring-boot-starter-test.version>
-        <spring-boot-starter-data-jdbc.version>2.1.8.RELEASE</spring-boot-starter-data-jdbc.version>
+        <spring-boot-starter-data-jdbc.version>2.5.2</spring-boot-starter-data-jdbc.version>
         <dubbo.version>2.7.3</dubbo.version>
         <junit.version>4.12</junit.version>
         <cglib.version>3.3.0</cglib.version>

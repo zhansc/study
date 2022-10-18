@@ -40,7 +40,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <version>2.0.7.RELEASE</version>
         </dependency>
         <!--首先这并不是报错了，意思是：这个表示程序正常执行完毕退出了。这就表示项目启动成功后了，
             此时运行，最后运行完毕自动退出。但我们是需要访问路径的，所以需要引入web jar包-->
