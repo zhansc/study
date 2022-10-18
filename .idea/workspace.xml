@@ -84,7 +84,7 @@
           <entry key="Protocol" value="2" />
           <entry key="class" value="70" />
           <entry key="factories" value="5" />
-          <entry key="java" value="975" />
+          <entry key="java" value="976" />
           <entry key="jpg" value="2" />
           <entry key="json" value="1" />
           <entry key="jsp" value="1" />
@@ -103,7 +103,7 @@
         <counts>
           <entry key="CLASS" value="70" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="975" />
+          <entry key="JAVA" value="976" />
           <entry key="JSON" value="1" />
           <entry key="JSP" value="1" />
           <entry key="Manifest" value="2" />
@@ -157,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="86">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -399,6 +399,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaee" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -466,7 +476,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1666081318862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1666081526969" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/juc/pom.xml" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15780446" />
@@ -757,7 +767,7 @@
       <workItem from="1665656643910" duration="8705000" />
       <workItem from="1666003796652" duration="259000" />
       <workItem from="1666004843768" duration="1354000" />
-      <workItem from="1666075167755" duration="6129000" />
+      <workItem from="1666075167755" duration="6959000" />
     </task>
     <servers />
   </component>
@@ -794,13 +804,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523431000" />
+    <option name="totallyTimeSpent" value="524261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.30076337" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.2519084" />
       <window_info id="Structure" order="1" sideWeight="0.5032467" side_tool="true" weight="0.24281392" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -817,7 +826,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49618322" weight="0.37049744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49618322" visible="true" weight="0.61921096" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038168" side_tool="true" weight="0.43396226" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.21955404" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -1004,9 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TwinsLock.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestChannel.java">
@@ -1269,10 +1275,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="86">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
