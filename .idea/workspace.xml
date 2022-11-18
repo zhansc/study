@@ -48,11 +48,12 @@
     <session id="1491889464">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -63,8 +64,10 @@
           <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="1" />
@@ -75,7 +78,7 @@
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -83,35 +86,35 @@
           <entry key="ConfigurableApplicationContext" value="1" />
           <entry key="MF" value="3" />
           <entry key="Protocol" value="2" />
-          <entry key="class" value="70" />
+          <entry key="class" value="74" />
           <entry key="factories" value="5" />
-          <entry key="java" value="976" />
+          <entry key="java" value="991" />
           <entry key="jpg" value="2" />
           <entry key="json" value="1" />
           <entry key="jsp" value="1" />
           <entry key="log" value="1" />
-          <entry key="pom" value="19" />
-          <entry key="properties" value="14" />
+          <entry key="pom" value="20" />
+          <entry key="properties" value="15" />
           <entry key="trace" value="4" />
           <entry key="tree" value="2" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="99" />
+          <entry key="xml" value="101" />
           <entry key="yaml" value="3" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="70" />
+          <entry key="CLASS" value="74" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="976" />
+          <entry key="JAVA" value="991" />
           <entry key="JSON" value="1" />
           <entry key="JSP" value="1" />
           <entry key="Manifest" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Properties" value="14" />
+          <entry key="Properties" value="15" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="118" />
+          <entry key="XML" value="121" />
           <entry key="YAML" value="5" />
           <entry key="spring.factories" value="5" />
         </counts>
@@ -119,18 +122,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="83" />
-          <entry key="java" value="43720" />
+          <entry key="java" value="47665" />
           <entry key="properties" value="227" />
-          <entry key="xml" value="433" />
+          <entry key="xml" value="454" />
           <entry key="yaml" value="260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43720" />
+          <entry key="JAVA" value="47665" />
           <entry key="PLAIN_TEXT" value="83" />
           <entry key="Properties" value="227" />
-          <entry key="XML" value="433" />
+          <entry key="XML" value="454" />
           <entry key="YAML" value="260" />
         </counts>
       </usages-collector>
@@ -142,78 +145,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/JavaeeApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/WarmupApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="269">
+              <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="method#parseWithSpace1#0;class#SearchExpression#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaee/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/RPN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaee/src/main/resources/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/juc/WhatIsSynchronized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/juc/WhatIsThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/ThreadApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="1178">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,9 +197,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>studentEnable---&gt;</find>
-      <find>Student</find>
-      <find>studentEnable</find>
       <find>flag---&gt;</find>
       <find>getStudent(</find>
       <find>getTeacher(</find>
@@ -262,6 +224,9 @@
       <find>Rand2Rand</find>
       <find>data-structure&lt;</find>
       <find>ConfigurableApplicationContext</find>
+      <find>==</find>
+      <find>exist</find>
+      <find>不支持自定义字段</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
@@ -275,15 +240,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/jvm/proxy/CalculatorProxy.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/design-mode/src/main/java/cn/com/zhanss/creationalpatterns/FactoryPattern.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/enums/FileType.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/com/zhanss/common/exception/ErrorCode.java" />
-        <option value="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/service/impl/MaterialServiceImpl.java" />
         <option value="$PROJECT_DIR$/tree" />
-        <option value="$PROJECT_DIR$/data-structure/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/business/EsAPI.java" />
         <option value="$PROJECT_DIR$/zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/src/main/java/resources/application.properties" />
@@ -330,6 +292,10 @@
         <option value="$PROJECT_DIR$/javaee/src/main/resources/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/javaee/pom.xml" />
         <option value="$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java" />
+        <option value="$PROJECT_DIR$/javaee/src/main/resources/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/data-structure/pom.xml" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/RPN.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" />
       </list>
     </option>
   </component>
@@ -383,7 +349,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -395,39 +360,98 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="javaee" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wework" type="462c0819:PsiDirectoryNode" />
+              <item name="javaapi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -443,7 +467,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1667444644221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1668766906690" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15780446" />
@@ -455,16 +479,13 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\resources\META-INF" />
+      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.com.zhanss.springboot.myimport" />
       <recent name="cn.com.zhanss" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\java\cn\com\zhanss\javaee\juc" />
-      <recent name="E:\youzan\IdeaProjects\study\juc\src\main\java\cn\com\zhanss\juc" />
-      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main\resources" />
-      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main\java\resources" />
-      <recent name="E:\youzan\IdeaProjects\study\wework\src\main\java\cn\com\zhanss\wework\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.com.zhanss.elasticsearch" />
@@ -473,9 +494,12 @@
       <recent name="cn.com.zhanss.wework.javaapi" />
       <recent name="cn.com.zhanss.jvm" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\resources\META-INF" />
-      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\youzan\IdeaProjects\study\data-structure\src\main\java\cn\com\zhanss\datastructure\stack" />
+      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\java\cn\com\zhanss\javaee\juc" />
+      <recent name="E:\youzan\IdeaProjects\study\juc\src\main\java\cn\com\zhanss\juc" />
+      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main\resources" />
+      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main\java\resources" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -500,20 +524,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyAgent">
-    <configuration name="ConditionalOnStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.springboot.conditional.ConditionalOnStudent" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.springboot.conditional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SearchExpression">
     <configuration name="MyAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.javaee.jvm.MyAgent" />
       <module name="javaee" />
@@ -521,6 +532,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.com.zhanss.javaee.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.stack.SearchExpression" />
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -662,19 +686,19 @@
       <item itemvalue="Spring Boot.SpringbootMqProduceApplication" />
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
-      <item itemvalue="Application.ConditionalOnStudent" />
       <item itemvalue="Application.StudentConfig" />
       <item itemvalue="Application.MyAgent" />
       <item itemvalue="Spring Boot.WarmupApplication" />
       <item itemvalue="Spring Boot.JavaeeApplication" />
+      <item itemvalue="Application.SearchExpression" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchExpression" />
         <item itemvalue="Application.MyAgent" />
         <item itemvalue="Spring Boot.JavaeeApplication" />
         <item itemvalue="Spring Boot.WarmupApplication" />
         <item itemvalue="Application.StudentConfig" />
-        <item itemvalue="Application.ConditionalOnStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -739,7 +763,10 @@
       <workItem from="1666004843768" duration="1354000" />
       <workItem from="1666075167755" duration="7598000" />
       <workItem from="1666159341583" duration="208000" />
-      <workItem from="1667442910812" duration="1618000" />
+      <workItem from="1667442910812" duration="2646000" />
+      <workItem from="1667446319837" duration="3142000" />
+      <workItem from="1668666731548" duration="8591000" />
+      <workItem from="1668735511304" duration="16438000" />
     </task>
     <servers />
   </component>
@@ -776,7 +803,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526726000" />
+    <option name="totallyTimeSpent" value="555925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,7 +818,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.26259542" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" weight="0.26183206" />
       <window_info id="Structure" order="1" sideWeight="0.5032467" side_tool="true" weight="0.24281392" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -801,14 +828,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49770993" visible="true" weight="0.2555746" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.4373928" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32761577" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49770993" weight="0.3327616" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.25385934" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.23842196" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.3053173" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50229007" side_tool="true" weight="0.32761577" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.21955404" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
@@ -895,6 +922,18 @@
           <properties />
           <option name="timeStamp" value="311" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
+          <line>300</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -921,44 +960,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/juc/src/test/java/cn/com/zhanss/juc/JucApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/test/java/cn/com/zhanss/juc/TestPipe.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestNonBlockingIO.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestPipe.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/TestBlockingIO.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/test/java/cn/com/zhanss/juc/TestNonBlockingIO.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/test/java/cn/com/zhanss/juc/TestBlockingIO.java" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/juc/src/main/java/cn/com/zhanss/juc/JucApplication.java" />
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestVolatile.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TwinsLockTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TwinsLock.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestChannel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestNonBlockingIO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestReeTrantLock.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestThread8Lock.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.7.4/spring-boot-starter-test-2.7.4.pom" />
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/MyLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/juc/TestBlockingIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
@@ -985,10 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,22 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread-io/io/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1133,11 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,18 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/resources/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1181,17 +1145,177 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <caret line="59" column="72" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaee/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/JavaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/MonotoneStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1982">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/sparsearray/SparseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/DAS-security/技术文档/RPN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2090">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/DAS-security/技术文档/SearchExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3485" />
+      </provider>
+    </entry>
+    <entry file="file://E:/MySoft/apache-maven-3.5.3/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/com/google/guava/guava/28.0-jre/guava-28.0-jre.jar!/com/google/common/primitives/Ints.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/com/google/guava/guava/28.0-jre/guava-28.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.48/tomcat-embed-core-9.0.48.jar!/org/apache/catalina/startup/MimeTypeMappings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="357" selection-start-line="357" selection-end-line="357" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/WarmupApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="740" column="14" selection-start-line="740" selection-start-column="14" selection-end-line="740" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/org/apache/commons/collections/BufferOverflowException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/RPN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="method#parseWithSpace1#0;class#SearchExpression#0" />
           </folding>
         </state>
       </provider>

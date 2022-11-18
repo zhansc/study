@@ -45,7 +45,7 @@
             <artifactId>junit</artifactId>
             <scope>compile</scope>
         </dependency>
-        <!--模板渲染引擎之velocity-->
+        <!--模板渲染引擎之velocity，类似于freemarker-->
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
@@ -54,6 +54,12 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.0-jre</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
