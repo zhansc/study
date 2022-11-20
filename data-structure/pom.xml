@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.RELEASE</version>
+        <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.com.zhanss</groupId>
-    <artifactId>datastructure</artifactId>
+    <artifactId>data-structure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>datastructure</name>
+    <name>data-structure</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -45,7 +45,7 @@
             <artifactId>junit</artifactId>
             <scope>compile</scope>
         </dependency>
-        <!--模板渲染引擎之velocity-->
+        <!--模板渲染引擎之velocity，类似于freemarker-->
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
@@ -54,6 +54,12 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.0-jre</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

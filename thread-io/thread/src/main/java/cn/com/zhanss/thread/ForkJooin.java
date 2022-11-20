@@ -1,18 +1,14 @@
 package cn.com.zhanss.thread;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.junit.Test;
+import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
+import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
-import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
-import org.springframework.util.CollectionUtils;
 
 /**
  * fork/join

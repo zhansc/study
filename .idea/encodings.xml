@@ -2,41 +2,24 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data-structure" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/data-structure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-mode" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/design-mode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elasticsearch" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaee" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaee" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/juc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/juc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nosql" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nosql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/queue" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/queue/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mq-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-mq-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mq-produce" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-mq-produce/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/structure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread-io" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread-io/io" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thread-io/io/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thread-io/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thread-io/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread-io/thread" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/thread-io/thread/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wework" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wework/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhanss-mvc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zhanss-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zookeeper/src/main/java" charset="UTF-8" />
   </component>
 </project>

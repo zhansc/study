@@ -9,6 +9,11 @@
   ],
   "properties": [
     {
+      "name": "hbase.config.idle-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.com.zhanss.springboot.config.HbaseConfigProperties"
+    },
+    {
       "name": "hbase.config.ip",
       "type": "java.lang.String",
       "sourceType": "cn.com.zhanss.springboot.config.Hbase"

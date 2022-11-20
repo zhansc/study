@@ -1,7 +1,7 @@
 import cn.com.zhanss.annotation.proxy.CalculatorProxy;
 import cn.com.zhanss.annotation.service.Calculator;
 import cn.com.zhanss.annotation.service.MyCalculator;
-import cn.com.zhanss.annotation.service.TeacherService;
+import cn.com.zhanss.annotation.service.TeacherServiceImpl;
 import cn.com.zhanss.spring.entity.Person;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,8 +32,8 @@ public class SpringTest {
 
         System.out.println(new Date());
 
-        TeacherService teacherService = context.getBean("teacherService", TeacherService.class);
-        teacherService.save();
+        TeacherServiceImpl teacherServiceImpl = context.getBean("teacherServiceImpl", TeacherServiceImpl.class);
+        teacherServiceImpl.save();
 
     }
 
