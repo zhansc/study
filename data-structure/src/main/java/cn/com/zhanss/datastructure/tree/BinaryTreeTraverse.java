@@ -2,7 +2,6 @@ package cn.com.zhanss.datastructure.tree;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.val;
 import org.junit.Test;
 
 import java.util.*;

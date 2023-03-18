@@ -1,0 +1,18 @@
+my:
+  fieldMap:
+    alarmId: 告警ID
+    alarmName: 告警名称
+    incidentDesc: 事件描述
+    srcAddress: 目标地址
+
+  fieldList:
+    - alarm
+    - incident
+    - address
+    - elephant
+    - monkey
+
+  ring:
+    alarm: 告警一次
+
+

@@ -2,6 +2,7 @@ package cn.com.zhanss;
 
 import cn.com.zhanss.spring.entity.Monitor;
 import cn.com.zhanss.springboot.config.HbaseConfigProperties;
+import cn.com.zhanss.springboot.config.MyConfig;
 import cn.com.zhanss.springboot.enable.EnableMonitor;
 import cn.com.zhanss.springboot.myimport.StudentImportSelector;
 import org.springframework.boot.SpringApplication;
@@ -17,7 +18,7 @@ import org.springframework.context.annotation.Import;
  * @author zhanss
  * @since 2022-04-16
  */
-@EnableConfigurationProperties(HbaseConfigProperties.class)
+@EnableConfigurationProperties({HbaseConfigProperties.class, MyConfig.class})
 @SpringBootApplication
 @Import(value = {StudentImportSelector.class })
 @EnableMonitor

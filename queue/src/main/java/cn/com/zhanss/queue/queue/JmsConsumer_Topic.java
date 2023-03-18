@@ -1,9 +1,5 @@
 package cn.com.zhanss.queue.queue;
 
-import org.apache.activemq.ActiveMQConnectionFactory;
-
-import javax.jms.*;
-
 /**
  * 消费者
  *

@@ -2,7 +2,6 @@ package cn.com.zhanss.springboot.conditional;
 
 import cn.com.zhanss.spring.entity.Student;
 import cn.com.zhanss.spring.entity.Teacher;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.AutoConfigureOrder;
@@ -13,6 +12,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import org.junit.Test;
 import java.util.Map;
 
 /**

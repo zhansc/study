@@ -9,13 +9,10 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.9" />
-          <element id="library" level="project" name="spring-aop-4.2.5.RELEASE" />
-          <element id="library" level="project" name="lib" />
           <element id="library" level="module" name="JUnit4" module-name="ssm" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.27" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
-          <element id="library" level="project" name="spring-oxm-5.1.16.RELEASE" />
         </element>
       </element>
     </root>

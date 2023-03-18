@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="opendistro-sql-1.13.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/app/elasticsearch-7.13.2/plugins/opendistro-sql/opendistro-sql-1.13.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

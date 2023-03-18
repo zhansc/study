@@ -1,7 +1,7 @@
 package cn.com.zhanss.thread;
 
 import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
-import org.springframework.util.CollectionUtils;
+import org.apache.commons.collections.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /**
  * @author zhanss
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringbootMqConsumerApplication8899 {
 
     public static void main(String[] args) {
