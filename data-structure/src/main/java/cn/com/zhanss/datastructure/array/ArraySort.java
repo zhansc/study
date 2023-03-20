@@ -1,6 +1,7 @@
-package cn.com.zhanss.datastructure.sort;
+package cn.com.zhanss.datastructure.array;
 
 import cn.com.zhanss.datastructure.heap.MyHeap;
+import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;
 
 import java.util.PriorityQueue;
@@ -12,6 +13,104 @@ import java.util.Random;
  * @date 2022/3/29
  */
 public class ArraySort {
+
+    @Test
+    public void test0() {
+        // 比较排序：不稳定
+        int[] arr = new int[]{6,14,5,7,9,12,7,1,3,10};
+        for (int i = 0; i < arr.length; i ++) {
+            for (int j = i + 1; j < arr.length; j ++) {
+                if (arr[i] <= arr[j]) {
+                    continue;
+                }
+                swap(arr, i, j);
+            }
+        }
+        // 冒泡排序：稳定排序
+        int[] arr1 = new int[]{6,14,5,7,9,12,7,1,3,10};
+        for (int i = 0; i < arr1.length - 1; i ++) {
+            for (int j = 0; j < arr1.length - 1; j ++) {
+                if (arr1[j] <= arr1[j + 1]) {
+                    continue;
+                }
+                swap(arr1, j, j + 1);
+            }
+        }
+        // 插入排序：从二个数开始，从当前位置往前遍历，找到第一个比j位置小的数，插入到j的前面
+        int[] arr2 = new int[]{6,14,5,7,9,12,7,1,3,10};
+        for (int i = 1; i < arr2.length; i ++) {
+            for (int j = i; j > 0; j --) {
+                if (arr2[j - 1] <= arr2[j]) {
+                    continue;
+                }
+                swap(arr2, j, j - 1);
+            }
+        }
+        System.out.println("ending...");
+    }
+
+    @Test
+    public void test2() {
+        int[] arr = new int[]{6,14,5,7,9,12,7,1,3,10};
+        // 快速排序
+        int[] result = quickSort(0, arr.length - 1, arr);
+        System.out.println("quickSort ending..."+ JSONObject.toJSONString(result));
+    }
+    private int[] quickSort(int left, int right, int[] arr) {
+        if (left >= right || arr.length <= 1) {
+            return arr;
+        }
+        int temp = arr[rangeRandom(left, right)];
+        int lte = left - 1;
+        int gte = right + 1;
+        for (int i = left; i < gte;) {
+            if (arr[i] > temp) {
+                swap(arr, i, -- gte);
+            } else if(arr[i] == temp)  {
+                i ++;
+            } else {
+                swap(arr, i ++, ++ lte);
+            }
+        }
+        quickSort(left, lte, arr);
+        quickSort(gte, right, arr);
+        return arr;
+    }
+    private int rangeRandom(int left, int right) {
+        int random;
+        do {
+            random = (int) (Math.random() * right);
+        } while (random < left);
+        return random;
+    }
+
+    public void test3() {
+        int[] arr = new int[]{6,14,5,7,9,12,7,1,3,10};
+        // 归并排序
+        mergeSort(0, arr.length - 1, arr);
+        System.out.println("mergeSort ending..."+ JSONObject.toJSONString(arr));
+    }
+    private void mergeSort(int left, int right, int[] arr) {
+
+        // 避免right+left溢出
+//        int middle = left + (right - left) / 2;
+//        int[] merge = new int[right - left + 1];
+//        int i = 0;
+//        while (i < lteArr.length && i < gteArr.length) {
+//            if (lteArr[i] <= gteArr[i]) {
+//                merge[i] = lteArr[i];
+//            } else {
+//                merge[i] = gteArr[i];
+//            }
+//            i ++;
+//        }
+//        while (i < lteArr.length) {
+//            merge[i ++] = lteArr[i];
+//        }
+//        while (i < gteArr.length) {
+//            merge[i ++] = gteArr[i];
+//        }
+    }
 
     @Test
     public void test() {
@@ -31,8 +130,8 @@ public class ArraySort {
 
         int[] arr2 = new int[]{3,2,1,5,6,4};
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
-        for (int i = 0; i < arr2.length; i ++) {
-            priorityQueue.add(arr2[i]);
+        for (int i1 : arr2) {
+            priorityQueue.add(i1);
         }
         heapSort(arr2);
         print(arr2);
@@ -43,8 +142,8 @@ public class ArraySort {
     }
 
     public void print(int[] arr) {
-        for (int i = 0; i < arr.length; i ++) {
-            System.out.print(" "+ arr[i]);
+        for (int i1 : arr) {
+            System.out.print(" " + i1);
         }
         System.out.println();
     }
@@ -56,7 +155,7 @@ public class ArraySort {
      * 4左边 1，3
      * 2左边 1
      * 5左边 1，3，4，2
-     * @param arr
+     * @param arr [1, 3, 4, 2, 5]
      * @return
      */
     public int ltSum(int[] arr) {

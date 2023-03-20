@@ -89,7 +89,7 @@ public class Rand2Rand {
      * @param maxValue
      * @return
      */
-    public int[] lenRandomValueRandom(int maxLen, int maxValue) {
+    public static int[] lenRandomValueRandom(int maxLen, int maxValue) {
         int arrLen = (int) (Math.random() * maxLen);
         int[] arr = new int[arrLen];
         for (int i = 0; i < arrLen; i++) {

@@ -2,7 +2,6 @@ package cn.com.zhanss.datastructure.array;
 
 import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
 import cn.com.zhanss.datastructure.heap.MyHeap;
-import cn.com.zhanss.datastructure.sort.ArraySort;
 import org.junit.Test;
 
 import java.util.*;
@@ -17,10 +16,9 @@ public class ArrayExercise {
 
     @Test
     public void testSumArrays() {
-        Rand2Rand rand2Rand = new Rand2Rand();
-        int[] arr1 = rand2Rand.lenRandomValueRandom(8, 20);
+        int[] arr1 = Rand2Rand.lenRandomValueRandom(8, 20);
         print(arr1);
-        int[] arr2 = rand2Rand.lenRandomValueRandom(12, 10);
+        int[] arr2 = Rand2Rand.lenRandomValueRandom(12, 10);
         print(arr2);
         int[] sumArr = sumArrays(arr1, arr2);
         print(sumArr);

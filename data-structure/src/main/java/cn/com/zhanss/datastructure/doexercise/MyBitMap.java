@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure.sort;
+package cn.com.zhanss.datastructure.doexercise;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
