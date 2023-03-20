@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure;
+package cn.com.zhanss.datastructure.map;
 
 import lombok.Data;
 import org.junit.Test;
