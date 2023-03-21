@@ -16,7 +16,8 @@ public class Rand2Rand {
      * @return
      */
     public int f() {
-        return (int) (Math.random() * 5) + 1;
+        // [0, 4] + 1
+        return (int) (Math.random() * 3) + 1;
     }
 
     /**
@@ -28,8 +29,8 @@ public class Rand2Rand {
         int ans;
         do {
             ans = f();
-        } while (ans == 3);
-        return ans < 3 ? 0 : 1;
+        } while (ans == 2);
+        return ans < 2 ? 0 : 1;
     }
 
     /**
@@ -49,6 +50,12 @@ public class Rand2Rand {
      * @return
      */
     public int f06() {
+        int ran;
+        do {
+            ran = f07() - 1;
+        } while (ran < 0);
+        System.out.println("方案一#######[0, 6]等概率#######"+ran);
+
         int ans;
         do {
             ans = f07();
@@ -77,11 +84,17 @@ public class Rand2Rand {
     public int g01() {
         int ans;
         do {
-            ans = f();
-        } while (ans == f());
+            ans = f34();
+        } while (ans == f34());
         return ans;
     }
 
+    @Test
+    public void test() {
+        for (int i = 0; i < 20; i ++) {
+            System.out.println(g01());
+        }
+    }
     /**
      * 指定最大数组长度和数据组最大值，返回一个随机数组
      *
@@ -96,57 +109,6 @@ public class Rand2Rand {
             arr[i] = (int) (Math.random() * maxValue);
         }
         return arr;
-    }
-
-    @Test
-    public void testSingleList() {
-        Node head = new Node();
-        head.setValue(1);
-        Node node1 = new Node();
-        node1.setValue(2);
-        head.setNext(node1);
-        Node node2 = new Node();
-        node2.setValue(3);
-        node1.setNext(node2);
-
-//        recursion(head, 4);
-        printNode(head);
-
-        head = reversSingleList(head);
-        System.out.println("\n==================");
-
-        printNode(head);
-    }
-
-    private void printNode(Node head) {
-        do {
-            System.out.print(head.getValue() + " ");
-            head = head.getNext();
-        } while (head != null);
-    }
-
-    public Node recursion(Node node, Integer nodeDepth) {
-        node.setValue(--nodeDepth);
-        if (nodeDepth < 1) {
-            return node;
-        }
-        Node next = new Node();
-        node.setNext(next);
-        next.setNext(recursion(next, nodeDepth));
-        return node;
-    }
-
-    public Node reversSingleList(Node head) {
-        Node pre = null;
-        Node next;
-
-        while (head != null) {
-            next = head.getNext();
-            head.setNext(pre);
-            pre = head;
-            head = next;
-        }
-        return pre;
     }
 
 }

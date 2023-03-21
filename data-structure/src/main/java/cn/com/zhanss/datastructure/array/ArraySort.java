@@ -2,6 +2,7 @@ package cn.com.zhanss.datastructure.array;
 
 import cn.com.zhanss.datastructure.heap.MyHeap;
 import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
 import java.util.PriorityQueue;
@@ -12,6 +13,7 @@ import java.util.Random;
  * @author zhanshuchan
  * @date 2022/3/29
  */
+@Slf4j
 public class ArraySort {
 
     @Test
@@ -325,12 +327,27 @@ public class ArraySort {
      * @return
      */
     @Test
-    public void testSubArr() {
+    public void testSubArr() throws Exception{
         int[] maxSubArr = new int[]{-2,1,2,4,-1,2,1,-5,4};
-        int ans = maxSubArray(maxSubArr);
-        System.out.println(ans);
+        try {
+            int ans = maxSubArray(maxSubArr);
+            System.out.println(ans);
+        } catch (Exception e) {
+            // 重复输出异常日志
+//            log.error("异常信息-->", e);
+            log.error("异常信息-->不要重复打印异常信息，打印请求参数：{}", JSONObject.toJSONString(maxSubArr));
+            throw new Exception(e);
+        }
     }
     public int maxSubArray(int[] nums) {
+        int nn = 0;
+        try {
+            int mm = 1 / nn;
+        } catch (Exception e) {
+            // 异常堆栈信息e 被丢弃了
+//            throw new RuntimeException("非法参数", e);
+            throw new RuntimeException("非法参数");
+        }
         if (nums == null || nums.length == 0) {
             return 0;
         }

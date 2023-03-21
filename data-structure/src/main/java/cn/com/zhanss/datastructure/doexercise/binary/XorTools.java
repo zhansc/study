@@ -33,18 +33,18 @@ public class XorTools {
             return;
         }
         int eor = 0;
-        for (int i = 0; i < arr.length; i ++) {
+        for (int i2 : arr) {
             // eor = 出现奇数次的两个数a 和 b的异或，且这两个数必不相等
-            eor ^= arr[i];
+            eor ^= i2;
         }
         // 提取eor 最右侧的1，这个1是(a ^ b)中取的
         int rightOne = eor & (~ eor + 1);
 
         int onlyOne = 0;
-        for (int i = 0; i < arr.length; i ++) {
+        for (int i1 : arr) {
             // 则a 或 b中该位置肯定有一个是1，那么先将该位置是1的这个数取出来
-            if ((arr[i] & rightOne) != 0) {
-                onlyOne ^= arr[i];
+            if ((i1 & rightOne) != 0) {
+                onlyOne ^= i1;
             }
         }
         System.out.println(onlyOne + "  "+ (eor ^ onlyOne));
