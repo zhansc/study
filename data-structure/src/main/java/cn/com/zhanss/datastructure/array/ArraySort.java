@@ -84,32 +84,42 @@ public class ArraySort {
         return random;
     }
 
+    @Test
     public void test3() {
         int[] arr = new int[]{6,14,5,7,9,12,7,1,3,10};
         // 归并排序
-        mergeSort(0, arr.length - 1, arr);
-        System.out.println("mergeSort ending..."+ JSONObject.toJSONString(arr));
+        int[] result = mergeSort(0, arr.length - 1, arr);
+        System.out.println("mergeSort ending..."+ JSONObject.toJSONString(result));
     }
-    private void mergeSort(int left, int right, int[] arr) {
-
+    private int[] mergeSort(int left, int right, int[] arr) {
+        if (left >= right || arr.length <= 1) {
+            // base场景
+            return new int[]{arr[left]};
+        }
         // 避免right+left溢出
-//        int middle = left + (right - left) / 2;
-//        int[] merge = new int[right - left + 1];
-//        int i = 0;
-//        while (i < lteArr.length && i < gteArr.length) {
-//            if (lteArr[i] <= gteArr[i]) {
-//                merge[i] = lteArr[i];
-//            } else {
-//                merge[i] = gteArr[i];
-//            }
-//            i ++;
-//        }
-//        while (i < lteArr.length) {
-//            merge[i ++] = lteArr[i];
-//        }
-//        while (i < gteArr.length) {
-//            merge[i ++] = gteArr[i];
-//        }
+        int middle = left + (right - left) / 2;
+        int[] lteArr = mergeSort(left, middle, arr);
+        int[] gteArr = mergeSort(middle + 1, right, arr);
+
+        // merge操作
+        int[] merge = new int[right - left + 1];
+        int li = 0;
+        int gi = 0;
+        int i = 0;
+        while (li < lteArr.length && gi < gteArr.length) {
+            if (lteArr[li] <= gteArr[gi]) {
+                merge[i ++] = lteArr[li ++];
+            } else {
+                merge[i ++] = gteArr[gi ++];
+            }
+        }
+        while (li < lteArr.length) {
+            merge[i ++] = lteArr[li ++];
+        }
+        while (gi < gteArr.length) {
+            merge[i ++] = gteArr[gi ++];
+        }
+        return merge;
     }
 
     @Test
