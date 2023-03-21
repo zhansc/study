@@ -146,7 +146,7 @@ public class ArraySort {
         heapSort(arr2);
         print(arr2);
 
-        int[] maxSubArr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
+        int[] maxSubArr = new int[]{-2,1,2,4,-1,2,1,-5,4};
         int i = maxSubArray(maxSubArr);
         System.out.println("=====i======>"+ i);
     }
@@ -211,6 +211,7 @@ public class ArraySort {
         while (left <= middle && p <= right) {
             if (arr[left] < arr[p]) {
                 // 此处(right - p + 1) 跨度不能是(right - middle)，因为p 会自增，跨度是变化的
+                // [left, middle] [p, right] p位置大于left位置数，则p之后的数都大于left位置数
                 ans += (right - p + 1) * arr[left];
                 help[index ++] = arr[left ++];
             } else {
@@ -319,26 +320,32 @@ public class ArraySort {
      * 输入：nums = [-2,1,-3,4,-1,2,1,-5,4]
      * 输出：6
      * 解释：连续子数组 [4,-1,2,1] 的和最大，为 6 。
+     * 解析思路：滑动窗口
      * https://leetcode-cn.com/problems/maximum-subarray/
-     * @param nums
      * @return
      */
+    @Test
+    public void testSubArr() {
+        int[] maxSubArr = new int[]{-2,1,2,4,-1,2,1,-5,4};
+        int ans = maxSubArray(maxSubArr);
+        System.out.println(ans);
+    }
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
         }
+        int max = nums[0];
         if (nums.length == 1) {
-            return nums[0];
+            return max;
         }
         int left = 0;
         int right;
-        Integer max = null;
         while (left < nums.length) {
             int count = 0;
             right = left;
             while (right < nums.length) {
                 count += nums[right];
-                max = max == null ? count : Math.max(max, count);
+                max = Math.max(max, count);
                 right ++;
             }
             left ++;
