@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/randomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,20 +53,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="538">
+              <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="567">
+              <caret line="117" column="42" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -88,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>juc</find>
       <find>org.junit</find>
       <find>junit</find>
       <find>lombok</find>
@@ -118,6 +116,7 @@
       <find>快速</find>
       <find>arr1</find>
       <find>i</find>
+      <find>.value</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
@@ -146,10 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/elasticsearch/ElasticSearchApplication.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/service/impl/TeacherService.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/TestImport.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/myimport/TestImport.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/myimport/StudentImportSelector.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/conditional/Conditional.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/conditional/ConditionOnStudent.java" />
@@ -193,10 +188,14 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/MyBitMap.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/Heap1.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/SingleLinkLruCache.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomeLinkLruCache.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" />
       </list>
     </option>
   </component>
@@ -229,8 +228,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-204" />
+    <option name="x" value="-1918" />
+    <option name="y" value="-38" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -243,6 +242,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,8 +321,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -344,9 +343,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1679401440642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1679488041374" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../worksheet" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15780446" />
@@ -403,38 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Rand2Rand.test">
-    <configuration name="ArraySort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.array" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.array.ArraySort" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.array" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.array.ArraySort" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DoubleLinkLruCache.testLruCache">
     <configuration name="ArraySort.testSubArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -462,6 +430,23 @@
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.dichotomy.DichotomySort" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleLinkLruCache.testLruCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.lru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.lru" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache" />
+      <option name="METHOD_NAME" value="testLruCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -573,8 +558,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArraySort.test" />
-      <item itemvalue="JUnit.ArraySort" />
+      <item itemvalue="JUnit.ArraySort.testSubArr" />
+      <item itemvalue="JUnit.DichotomySort" />
+      <item itemvalue="JUnit.Rand2Rand.test" />
+      <item itemvalue="JUnit.DoubleLinkLruCache.testLruCache" />
       <item itemvalue="Spring Boot.ThreadApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
@@ -586,17 +573,13 @@
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.SpringbootMqConsumerApplication8888" />
-      <item itemvalue="JUnit.ArraySort.testSubArr" />
-      <item itemvalue="JUnit.DichotomySort" />
-      <item itemvalue="JUnit.Rand2Rand.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoubleLinkLruCache.testLruCache" />
+        <item itemvalue="JUnit.ArraySort.testSubArr" />
         <item itemvalue="JUnit.Rand2Rand.test" />
         <item itemvalue="JUnit.DichotomySort" />
-        <item itemvalue="JUnit.ArraySort.testSubArr" />
-        <item itemvalue="JUnit.ArraySort.test" />
-        <item itemvalue="JUnit.ArraySort" />
       </list>
     </recent_temporary>
   </component>
@@ -677,44 +660,45 @@
       <workItem from="1676989217476" duration="5000" />
       <workItem from="1676989232978" duration="1898000" />
       <workItem from="1679292703921" duration="19367000" />
-      <workItem from="1679363876126" duration="23807000" />
+      <workItem from="1679363876126" duration="24248000" />
+      <workItem from="1679453697463" duration="12577000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 36m 48s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 17h 28m 43s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 38m 02s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 08m 37s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 38m 32s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 10m 11s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 40m 40s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 12m 24s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 41m 16s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 12m 57s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 41m 38s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 14m 08s.xml">
+      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 52m 35s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="CustomLruCache_test - 2023.03.22 at 19h 19m 31s.xml">
+      <configuration name="CustomLruCache.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 53m 00s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="CustomLruCache_test - 2023.03.22 at 19h 21m 43s.xml">
+      <configuration name="CustomLruCache.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 53m 47s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 19m 54s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Rand2Rand_test - 2023.03.21 at 19h 55m 29s.xml">
-      <configuration name="Rand2Rand.test" configurationId="JUnit" />
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 22m 41s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599099000" />
+    <option name="totallyTimeSpent" value="612117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,7 +713,7 @@
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.22103004" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" sideWeight="0.5032467" side_tool="true" weight="0.24281392" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,16 +723,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32761577" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" visible="true" weight="0.26703912" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.59217876" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.41899443" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.4905028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.2424581" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.30167598" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.26703912" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31843576" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39106146" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49770993" weight="0.5849057" />
@@ -850,6 +834,12 @@
           <properties />
           <option name="timeStamp" value="328" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -889,34 +879,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaee/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="59" column="72" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/resources/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/jvm/MyAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/JavaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1134,23 +1096,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/Heap1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/randomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/Heap1.java" />
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/randomTest.java" />
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/IndexSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
@@ -1165,21 +1112,6 @@
           <folding>
             <element signature="e#3173#3174#0" expanded="true" />
             <element signature="e#3201#3202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="356" column="9" lean-forward="true" selection-start-line="356" selection-start-column="9" selection-end-line="356" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test0#0;class#ArraySort#0" />
-            <element signature="method#test3#0;class#ArraySort#0" />
-            <element signature="method#ltSum#0;class#ArraySort#0" />
-            <element signature="method#processMerge#0;class#ArraySort#0" />
-            <element signature="method#merge#0;class#ArraySort#0" />
           </folding>
         </state>
       </provider>
@@ -1226,24 +1158,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java">
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java" />
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="464">
+          <caret line="354" column="31" lean-forward="true" selection-start-line="354" selection-start-column="31" selection-end-line="354" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test0#0;class#ArraySort#0" />
+            <element signature="method#test3#0;class#ArraySort#0" />
+            <element signature="method#ltSum#0;class#ArraySort#0" />
+            <element signature="method#processMerge#0;class#ArraySort#0" />
+            <element signature="method#merge#0;class#ArraySort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/LinkedHashMapLru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomeLinkLruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="class#DoubleLinkedList#0;class#CustomLruCache#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="567">
+          <caret line="117" column="42" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java">
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="538">
+          <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
