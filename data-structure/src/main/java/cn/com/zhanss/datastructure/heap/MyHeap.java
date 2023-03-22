@@ -31,10 +31,10 @@ public class MyHeap {
         if (num == null) {
             return false;
         }
-        int index = heapSize;
+        int index = heapSize, parentIndex;
         arr[heapSize ++] = num;
         while (index > 0) {
-            int parentIndex = (index - 1) / 2;
+            parentIndex = (index - 1) / 2;
             if (arr[index] > arr[parentIndex]) {
                 swap(arr, index, parentIndex);
             }
@@ -44,7 +44,7 @@ public class MyHeap {
     }
 
     /**
-     * 从对顶弹出元素（弹出最大值）
+     * 从堆顶弹出元素（弹出最大值）
      * @return
      */
     public Integer pop() {

@@ -84,8 +84,7 @@ public class ForkJooin {
 
         public static void main(String[] args) {
             // 生成随机数组
-            Rand2Rand rand2Rand = new Rand2Rand();
-            int[] randomArr = rand2Rand.lenRandomValueRandom(10000000, 10);
+            int[] randomArr = Rand2Rand.lenRandomValueRandom(10000000, 10);
 
             long start = System.currentTimeMillis();
 //            Long sum = sumArr(randomArr);

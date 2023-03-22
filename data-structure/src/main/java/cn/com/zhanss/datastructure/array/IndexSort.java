@@ -1,4 +1,4 @@
-package cn.com.zhanss.datastructure.sort;
+package cn.com.zhanss.datastructure.array;
 
 import org.junit.Test;
 
