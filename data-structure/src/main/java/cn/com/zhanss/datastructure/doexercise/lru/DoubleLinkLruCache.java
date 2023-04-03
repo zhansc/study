@@ -108,13 +108,13 @@ public class DoubleLinkLruCache {
          */
         public void addFirst(Node node) {
             if (head.next == null) {
-                head.next = node;
                 tail.next = node;
-                return;
+            } else {
+                node.next = head.next;
+                head.next.pre = node;
             }
-            node.next = head.next;
-            head.next.pre = node;
             head.next = node;
+            node.pre = head;
         }
 
         /**

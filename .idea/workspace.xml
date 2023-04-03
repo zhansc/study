@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
-    <ignored path="$PROJECT_DIR$/design-mode/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-produce/target/" />
-    <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
-    <ignored path="$PROJECT_DIR$/queue/target/" />
-    <ignored path="$PROJECT_DIR$/kafka/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
-    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
-    <ignored path="$PROJECT_DIR$/javaee/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/wework/target/" />
-    <ignored path="$PROJECT_DIR$/nosql/target/" />
-    <ignored path="$PROJECT_DIR$/data-structure/target/" />
-    <ignored path="$PROJECT_DIR$/spring/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,31 +31,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="study" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="117" column="42" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,8 +94,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/design-mode/src/main/java/cn/com/zhanss/creationalpatterns/FactoryPattern.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/jvm/proxy/CalculatorProxy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/design-mode/src/main/java/cn/com/zhanss/creationalpatterns/FactoryPattern.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -210,11 +166,6 @@
         <option name="userSettingsFile" value="C:\mysoft\apache-maven-3.5.3\conf\settings.xml" />
         <option name="workOffline" value="true" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -389,18 +340,6 @@
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.DoubleLinkLruCache.testLruCache">
     <configuration name="ArraySort.testSubArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -662,6 +601,8 @@
       <workItem from="1679292703921" duration="19367000" />
       <workItem from="1679363876126" duration="24248000" />
       <workItem from="1679453697463" duration="12577000" />
+      <workItem from="1680186955957" duration="598000" />
+      <workItem from="1680527032625" duration="4965000" />
     </task>
     <servers />
   </component>
@@ -755,21 +696,14 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -795,53 +729,49 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/elasticsearch/service/impl/EsSearchServiceImpl.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/elasticsearch/controller/EsAPI.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="289" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.4.3/elasticsearch-rest-client-6.4.3-sources.jar!/org/elasticsearch/client/RestClient.java</url>
           <line>225</line>
-          <properties />
           <option name="timeStamp" value="294" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.4.3/elasticsearch-rest-client-6.4.3-sources.jar!/org/elasticsearch/client/RestClient.java</url>
           <line>484</line>
-          <properties />
           <option name="timeStamp" value="296" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.8.4/elasticsearch-rest-client-6.8.4.jar!/org/elasticsearch/client/RestClient.class</url>
           <line>297</line>
-          <properties />
           <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
-          <line>238</line>
-          <properties />
-          <option name="timeStamp" value="318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
-          <line>300</line>
-          <properties />
-          <option name="timeStamp" value="328" />
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="353" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="349" />
+          <line>84</line>
+          <option name="timeStamp" value="356" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$DoubleLinkList" memberName="tail" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="value" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="next" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="this$0" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$DoubleLinkList" memberName="head" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="levelMap" />
