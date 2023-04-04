@@ -5,28 +5,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/ElasticSearchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/config/ElasticsearchConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/controller/EsAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/controller/SanGuoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/dto/SanguoSearchDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/service/EsSearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/service/impl/EsSearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/cn/com/zhanss/elasticsearch/vo/SearchSanguoVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/WarmupApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/dao/BaseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/dao/StudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/dao/TeacherDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/proxy/CalculatorProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/service/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/service/MyCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/service/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/service/TeacherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/utils/LogUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/utils/Security.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/annotation/utils/SecurityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/aop/AfterAdvisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/aop/AopHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/aop/BeforeAdvisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/entity/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/entity/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/factory/MyFactoryBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/service/impl/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/spring/service/impl/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/Conditional$ConditionalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/Conditional$StudentBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/Conditional$TeacherBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/Conditional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/ConditionalOnStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/StudentConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/conditional/TeacherConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/config/Hbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/config/HbaseConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/config/HbaseConfigProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/config/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/enable/EnableMonitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/enable/MonitorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/myimport/StudentImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/myimport/TeacherImportSelector$MyGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/cn/com/zhanss/springboot/myimport/TeacherImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/ThreadApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsSynchronized$LockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsSynchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsThread$T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsThread$T2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/juc/WhatIsThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/CustomReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/FinalizeEscapeGC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/TestJvm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/VmOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/proxy/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/jvm/proxy/CalculatorProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/thread/ForkJooin$CountTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/classes/cn/com/zhanss/thread/ForkJooin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/CallableDemo$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ErrorAndException$metaSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ErrorAndException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ProdConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ProdConsumer_BlockQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ProdConsumer_Condition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ReferenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton4$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/TestStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ThreadApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/target/test-classes/cn/com/zhanss/thread/ThreadPool.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
     <ignored path="$PROJECT_DIR$/design-mode/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-produce/target/" />
     <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
-    <ignored path="$PROJECT_DIR$/queue/target/" />
-    <ignored path="$PROJECT_DIR$/kafka/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
-    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
-    <ignored path="$PROJECT_DIR$/javaee/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/wework/target/" />
-    <ignored path="$PROJECT_DIR$/nosql/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/data-structure/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/javaee/target/" />
+    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/nosql/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mq-produce/target/" />
+    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
+    <ignored path="$PROJECT_DIR$/thread-io/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/queue/target/" />
+    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
+    <ignored path="$PROJECT_DIR$/wework/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +149,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="125" column="5" selection-start-line="124" selection-start-column="9" selection-end-line="125" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,8 +280,8 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/SingleLinkLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomeLinkLruCache.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f1eb79bf-9428-4b5a-bd3f-d71168cf334b/console.sql" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java" />
       </list>
     </option>
   </component>
@@ -202,11 +296,6 @@
         <option name="userSettingsFile" value="C:\mysoft\apache-maven-3.5.3\conf\settings.xml" />
         <option name="workOffline" value="true" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -285,16 +374,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="doexercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,7 +415,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1679488204881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680601772833" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -656,48 +735,52 @@
       <workItem from="1676989232978" duration="1898000" />
       <workItem from="1679292703921" duration="19367000" />
       <workItem from="1679363876126" duration="24248000" />
+      <workItem from="1679453697463" duration="12577000" />
+      <workItem from="1680186955957" duration="598000" />
+      <workItem from="1680527032625" duration="4965000" />
       <workItem from="1679453697463" duration="13074000" />
       <workItem from="1679559582183" duration="549000" />
       <workItem from="1680250582596" duration="4157000" />
       <workItem from="1680492916802" duration="4488000" />
       <workItem from="1680596252193" duration="461000" />
+      <workItem from="1680597271049" duration="4529000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 10m 11s.xml">
-      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 12m 24s.xml">
-      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 12m 57s.xml">
-      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleLinkLruCache_testLruCache - 2023.03.22 at 19h 14m 08s.xml">
-      <configuration name="SingleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomLruCache_test - 2023.03.22 at 19h 19m 31s.xml">
-      <configuration name="CustomLruCache.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomLruCache_test - 2023.03.22 at 19h 21m 43s.xml">
-      <configuration name="CustomLruCache.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 19m 54s.xml">
-      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 22m 41s.xml">
-      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 25m 44s.xml">
       <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DoubleLinkLruCache_testLruCache - 2023.03.22 at 20h 29m 18s.xml">
       <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 16h 49m 37s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 16h 56m 50s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 17m 40s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 18m 06s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 27m 46s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 45m 35s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 49m 30s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DoubleLinkLruCache_testLruCache - 2023.04.04 at 17h 50m 13s.xml">
+      <configuration name="DoubleLinkLruCache.testLruCache" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622269000" />
+    <option name="totallyTimeSpent" value="626798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,8 +793,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" weight="0.22961374" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49675325" visible="true" weight="0.1949244" />
       <window_info id="Structure" order="1" sideWeight="0.5032467" side_tool="true" weight="0.24281392" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -722,15 +806,15 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.41899443" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.31843576" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.35280642" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.24971363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" visible="true" weight="0.25655645" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.33104238" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.26703912" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.39106146" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3906071" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49770993" weight="0.5849057" />
@@ -744,7 +828,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1567888" />
+      <window_info anchor="right" id="Database" order="6" weight="0.15658747" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="RestServices" order="9" weight="0.2740458" />
@@ -822,28 +906,10 @@
           <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
-          <line>238</line>
-          <properties />
-          <option name="timeStamp" value="318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java</url>
-          <line>300</line>
-          <properties />
-          <option name="timeStamp" value="328" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java</url>
-          <line>83</line>
+          <line>92</line>
           <properties />
-          <option name="timeStamp" value="349" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="352" />
+          <option name="timeStamp" value="353" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -851,6 +917,7 @@
       <configuration name="JUnit">
         <watch expression="levelMap" />
         <watch expression="outs[0]" />
+        <watch expression="lruCache.cache.head" />
       </configuration>
     </watches-manager>
   </component>
@@ -884,20 +951,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/MonotoneStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/Queue2Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/DAS-security/技术文档/RPN.java" />
     <entry file="file://E:/DAS-security/技术文档/SearchExpression.java" />
     <entry file="file://E:/MySoft/apache-maven-3.5.3/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.pom" />
@@ -1202,16 +1255,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomeLinkLruCache.java" />
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f1eb79bf-9428-4b5a-bd3f-d71168cf334b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1221,8 +1264,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="125" column="5" selection-start-line="124" selection-start-column="9" selection-end-line="125" selection-end-column="5" />
+        <state relative-caret-position="395">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/config/SerializationOptimizerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/DoubleLinkLruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

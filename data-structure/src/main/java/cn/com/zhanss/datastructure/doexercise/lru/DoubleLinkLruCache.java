@@ -15,8 +15,10 @@ public class DoubleLinkLruCache {
         private Node pre;
         private Node next;
 
-        private Node() {}
-        private Node(int key, int value){
+        private Node() {
+        }
+
+        private Node(int key, int value) {
             this.key = key;
             this.value = value;
         }
@@ -42,6 +44,7 @@ public class DoubleLinkLruCache {
         public Node set(int key, int value) {
             if (map.containsKey(key)) {
                 Node node = map.get(key);
+                // 将node放到头部
                 cache.swap(node);
                 return node;
             }
@@ -55,13 +58,13 @@ public class DoubleLinkLruCache {
         }
 
         /**
-         *
          * @param key
          * @return value
          */
         public int get(int key) {
             if (map.containsKey(key)) {
                 Node node = map.get(key);
+                // 将node放到头部
                 cache.swap(node);
                 return node.value;
             }
@@ -79,13 +82,13 @@ public class DoubleLinkLruCache {
         lruCache.set(5, 5);
         lruCache.set(6, 6);
 
-        System.out.println("lruCache get(6)---"+ lruCache.get(6));
-        System.out.println("lruCache get(2)---"+ lruCache.get(2));
-        System.out.println("lruCache get(1)---"+ lruCache.get(1));
-        System.out.println("lruCache get(1)---"+ lruCache.get(1));
-        System.out.println("lruCache get(5)---"+ lruCache.get(5));
-        System.out.println("lruCache get(5)---"+ lruCache.get(5));
-        System.out.println("lruCache get(9)---"+ lruCache.get(9));
+        System.out.println("lruCache get(6)---" + lruCache.get(6));
+        System.out.println("lruCache get(2)---" + lruCache.get(2));
+        System.out.println("lruCache get(1)---" + lruCache.get(1));
+        System.out.println("lruCache get(1)---" + lruCache.get(1));
+        System.out.println("lruCache get(5)---" + lruCache.get(5));
+        System.out.println("lruCache get(5)---" + lruCache.get(5));
+        System.out.println("lruCache get(9)####" + lruCache.get(9));
 
         System.out.println("lruCache end");
     }
@@ -96,30 +99,34 @@ public class DoubleLinkLruCache {
          */
         private Node head = new Node();
         /**
-         * 尾指针
+         * 尾指针：删除操作
          */
         private Node tail = new Node();
 
-        public DoubleLinkList(){}
+        public DoubleLinkList() {
+        }
+
         /**
          * 时间复杂度是O(1)
          * 从头开始添加
+         *
          * @param node
          */
         public void addFirst(Node node) {
             if (head.next == null) {
-                head.next = node;
                 tail.next = node;
-                return;
+            } else {
+                node.next = head.next;
+                node.next.pre = node;
             }
-            node.next = head.next;
-            head.next.pre = node;
             head.next = node;
+            node.pre = head;
         }
 
         /**
          * 时间复杂度O(n)
          * 默认删除最近最少使用的一个
+         *
          * @return
          */
         public void remove() {
@@ -128,19 +135,23 @@ public class DoubleLinkLruCache {
         }
 
         private void swap(Node temp) {
-            if (temp == null || temp.pre == null) {
+            // 缓存或节点为空或当前节点就是头节点则不用交换
+            if (head == null || temp == null || temp.pre == head) {
                 return;
             }
+            // 将temp节点从链表中拿下来
             temp.pre.next = temp.next;
             if (temp.next != null) {
                 temp.next.pre = temp.pre;
             } else {
                 tail.next = tail.next.pre;
             }
-
+            // 将temp节点插入头部
             temp.next = head.next;
             head.next.pre = temp;
+            // head头节点志向temp
             head.next = temp;
+            temp.pre = head;
         }
     }
 

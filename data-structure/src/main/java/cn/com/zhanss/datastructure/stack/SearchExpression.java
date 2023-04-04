@@ -5,10 +5,8 @@ import com.google.common.collect.Lists;
 import com.google.common.primitives.Ints;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections.BufferOverflowException;
-import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.collections.ListUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -343,14 +341,14 @@ public class SearchExpression extends RPN {
                 lastOp = item;
                 // 表达式开头直接提供条件Op，没有提供字段和属性值
                 if (CollectionUtils.isEmpty(subItemList)) {
-                    throw new BufferOverflowException("KQL语法解析错误，请输入完整表达式！");
+                    throw new RuntimeException("KQL语法解析错误，请输入完整表达式！");
                 }
                 andItemList.add(subItemList);
                 subItemList = null;
             } else if (Condition.OR.key.equals(item)) {
                 lastOp = item;
                 if (CollectionUtils.isEmpty(subItemList)) {
-                    throw new BufferOverflowException("KQL语法解析错误，请输入完整表达式！");
+                    throw new RuntimeException("KQL语法解析错误，请输入完整表达式！");
                 }
                 orItemList.add(subItemList);
                 subItemList = null;
@@ -359,14 +357,14 @@ public class SearchExpression extends RPN {
                     subItemList = new ArrayList<>();
                 } else if (subItemList.size() >= 3) {
                     // 字段名+操作符+属性值，不超过三项
-                    throw new BufferOverflowException("KQL语法解析错误，请输入正确的表达式！");
+                    throw new RuntimeException("KQL语法解析错误，请输入正确的表达式！");
                 }
                 subItemList.add(item);
             }
         }
         // 最后一组仅提供条件Op，没有提供字段和属性值
         if (CollectionUtils.isEmpty(subItemList)) {
-            throw new BufferOverflowException("KQL语法解析错误，请输入完整表达式！");
+            throw new RuntimeException("KQL语法解析错误，请输入完整表达式！");
         }
         // 最后一组
         if (Condition.AND.key.equals(lastOp)) {
@@ -407,7 +405,7 @@ public class SearchExpression extends RPN {
         List<String> fieldList = Arrays.asList("alarmTag","destHostName", "category", "attacker");
         if (singleKql.size() <= 1) {
             log.error("KQL语法解析错误，请输入完整表达式！");
-            throw new BufferOverflowException("KQL语法解析错误，请输入完整表达式！");
+            throw new RuntimeException("KQL语法解析错误，请输入完整表达式！");
         }
         String field;
         KqlGroupDTO kqlGroup = new KqlGroupDTO();
@@ -419,7 +417,7 @@ public class SearchExpression extends RPN {
                 boolean isOp = Op.isOp(field);
                 if (!isOp) {
                     log.error("KQL语法解析错误，请输入完整或正确的表达式！");
-                    throw new BufferOverflowException("KQL语法解析错误，请输入完整或正确的表达式！");
+                    throw new RuntimeException("KQL语法解析错误，请输入完整或正确的表达式！");
                 }
                 kqlGroup.setOperator(field);
             } else if (single == 2) {
@@ -428,7 +426,7 @@ public class SearchExpression extends RPN {
             } else {
                 if ((!fieldList.contains(field))) {
                     log.error("不支持自定义字段 ( '" + field + "' ) 查询！");
-                    throw new BufferOverflowException("不支持自定义字段 ( '" + field + "' ) 查询！");
+                    throw new RuntimeException("不支持自定义字段 ( '" + field + "' ) 查询！");
                 }
                 kqlGroup.setField(field);
             }
