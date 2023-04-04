@@ -142,6 +142,22 @@ public class LinkedList {
         return temp;
     }
 
+    public void reverseNode1() {
+        if (head == null || head.next == null || head.next.next == null) {
+            return;
+        }
+        HeroNode pre = null;
+        // head.next是一个指针
+        HeroNode cur = head.next;
+        while (cur != null) {
+            cur = cur.next;
+            head.next.next = pre;
+            pre = head.next;
+            head.next = cur;
+        }
+        head.next = pre;
+    }
+
     public void reverseNode() {
         HeroNode current = head.next;
         // 链表为空或链表只有一个节点，直接返回

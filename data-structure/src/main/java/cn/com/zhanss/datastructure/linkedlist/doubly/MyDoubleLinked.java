@@ -150,4 +150,25 @@ public class MyDoubleLinked<T> {
         size --;
         return ans.value;
     }
+
+    /**
+     * 双链表反转
+     */
+    public void reverse() {
+        if (head == null || head.next == null || head.next.next == null) {
+            return;
+        }
+        Node<T> pre = null;
+        Node<T> cur = head;
+        tail = head;
+        while (cur != null) {
+            cur = cur.next;
+            head.next = pre;
+            head.pre = cur;
+
+            pre = head;
+            head = cur;
+        }
+        head = pre;
+    }
 }

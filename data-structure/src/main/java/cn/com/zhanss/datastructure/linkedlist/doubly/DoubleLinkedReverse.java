@@ -12,15 +12,16 @@ public class DoubleLinkedReverse {
     @Test
     public void test() {
         MyDoubleLinked<Integer> doubleLinked = new MyDoubleLinked<>();
-        doubleLinked.headPush(2);
-        doubleLinked.headPush(3);
-        doubleLinked.headPush(1);
+        doubleLinked.headPush(6);
         doubleLinked.headPush(5);
-        doubleLinked.headPush(0);
         doubleLinked.headPush(4);
+        doubleLinked.headPush(3);
+        doubleLinked.headPush(2);
+        doubleLinked.headPush(1);
         System.out.println("队列大小--->"+ doubleLinked.size());
 //        System.out.println("队列头--->"+ doubleLinked.headPop());
 
+        doubleLinked.reverse();
         MyDoubleLinked.Node<Integer> head1 = reverseV1(doubleLinked.head);
         MyDoubleLinked.Node<Integer> head = reverse(doubleLinked.head);
         System.out.println("队列大小--->"+ doubleLinked.size());

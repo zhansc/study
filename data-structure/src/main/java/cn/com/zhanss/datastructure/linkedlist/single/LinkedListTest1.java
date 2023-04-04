@@ -41,7 +41,7 @@ public class LinkedListTest1 {
         linkedList.list();
         System.out.println("倒数第几个节点："+ linkedList.getIndex(0));
 
-        linkedList.reverseNode();
+        linkedList.reverseNode1();
         System.out.println("\n反转链表");
         linkedList.list();
     }

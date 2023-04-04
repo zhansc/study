@@ -1,7 +1,5 @@
 package cn.com.zhanss.datastructure.linkedlist;
 
-import lombok.Data;
-
 /**
  * 英雄节点
  *
