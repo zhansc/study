@@ -1,23 +1,17 @@
 package cn.com.zhanss.datastructure.tree.rbt;
 
+import cn.com.zhanss.datastructure.tree.Node;
+
 /**
  * 构建一棵树
  *
  * @author zhanss
  * @since 2022-04-25
  */
-public class TreeBuilder {
+public class TreeBuilder extends Node {
 
-    public static class Node {
-        private Integer value;
-
-        private Node left;
-
-        private  Node right;
-
-        public Node(Integer value) {
-            this.value = value;
-        }
+    public TreeBuilder(Integer value) {
+        super(value);
     }
 
     /**
@@ -30,13 +24,13 @@ public class TreeBuilder {
         return generateRandom(1, maxLevel, maxValue);
     }
 
-    private static Node generateRandom(Integer levle, Integer maxLevel, Integer maxValue) {
-        if (levle > maxLevel || maxLevel < 0.5) {
+    private static Node generateRandom(Integer level, Integer maxLevel, Integer maxValue) {
+        if (level > maxLevel || maxLevel < 0.5) {
             return null;
         }
         Node head = new Node((int) (Math.random() * maxValue));
-        head.left = generateRandom(levle + 1, maxLevel, maxValue);
-        head.right = generateRandom(levle + 1, maxLevel, maxValue);
+        head.setLeft(generateRandom(level + 1, maxLevel, maxValue));
+        head.setRight(generateRandom(level + 1, maxLevel, maxValue));
         return head;
     }
 }

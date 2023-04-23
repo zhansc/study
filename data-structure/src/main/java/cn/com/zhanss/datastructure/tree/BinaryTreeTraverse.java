@@ -1,8 +1,10 @@
 package cn.com.zhanss.datastructure.tree;
 
+import cn.com.zhanss.datastructure.tree.rbt.TreeBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
 import java.util.*;
 
@@ -12,31 +14,10 @@ import java.util.*;
  * @author zhanss
  * @since 2022-04-04
  */
-public class BinaryTreeTraverse {
+public class BinaryTreeTraverse extends Node {
 
-    public static class Node {
-        private Integer value;
-
-        private Node left;
-
-        private Node right;
-
-        public Node(Integer value) {
-            this.value = value;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (!(o instanceof Node)) return false;
-            Node node = (Node) o;
-            return Objects.equals(value, node.value);
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(value);
-        }
+    public BinaryTreeTraverse(Integer value) {
+        super(value);
     }
 
     @Test
@@ -80,7 +61,7 @@ public class BinaryTreeTraverse {
      * 后序遍历二叉树
      * @param head
      */
-    public void posterior(Node head) {
+    public static void posterior(Node head) {
         if (head == null) {
             return;
         }
@@ -102,11 +83,20 @@ public class BinaryTreeTraverse {
         }
     }
 
+    public static void main(String[] args) {
+        Node randomBST = TreeBuilder.generateRandomBST(4, 20);
+        System.out.println(" in2  start");
+        posterior(randomBST);
+        System.out.println(" in  start");
+        pos(randomBST);
+        System.out.println(" end");
+    }
+
     /**
      * 后序遍历
      * @param head
      */
-    public void pos(Node head) {
+    public static void pos(Node head) {
         if (head == null) {
             return;
         }
@@ -124,9 +114,24 @@ public class BinaryTreeTraverse {
                 stack.add(head.right);
             }
         }
-        while (!temp.isEmpty()) {
+        while (!temp.empty()) {
             head = temp.pop();
-            System.out.print(head.value + " ");
+            System.out.print(" " + head.value);
+        }
+    }
+
+    public static void in2(Node head) {
+        Stack<Node> stack = new Stack<>();
+        stack.push(head);
+        while (!CollectionUtils.isEmpty(stack)) {
+            Node pop = stack.pop();
+            if (pop.left != null){
+                in2(pop.left);
+            }
+            System.out.print(" " + pop.value);
+            if (pop.right != null) {
+                in2(pop.right);
+            }
         }
     }
 
@@ -134,7 +139,7 @@ public class BinaryTreeTraverse {
      * 中序遍历
      * @param head
      */
-    public void in(Node head) {
+    public static void in(Node head) {
         if (head == null) {
             return;
         }
@@ -152,11 +157,26 @@ public class BinaryTreeTraverse {
         }
     }
 
+    public static void pre2(Node head) {
+        LinkedList<Node> linkedList = new LinkedList<>();
+        linkedList.push(head);
+        while (!CollectionUtils.isEmpty(linkedList)) {
+            Node pop = linkedList.pop();
+            System.out.println(pop.value);
+            if (pop.left != null) {
+                pre2(pop.left);
+            }
+            if (pop.right != null) {
+                pre2(pop.right);
+            }
+        }
+    }
+
     /**
      * 先序遍历
      * @param head
      */
-    public void pre(Node head) {
+    public static void pre(Node head) {
         if (head == null) {
             return;
         }
