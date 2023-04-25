@@ -12,6 +12,8 @@ public class Node {
 
     Node right;
 
+    public Node(){}
+
     public Node(Integer value) {
         this.value = value;
     }

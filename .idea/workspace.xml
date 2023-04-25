@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/number/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TreeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TreeBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/design-mode/target/" />
@@ -59,14 +60,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/number/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="194" column="5" lean-forward="true" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+            <state relative-caret-position="235">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding>
+                <element signature="method#smallestEvenMultiple#0;class#Solution#0;class#Test1#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="50" column="27" selection-start-line="43" selection-start-column="12" selection-end-line="50" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#test#0;class#BinaryTreeTraverse#0" />
+                <element signature="method#reverseOddLevels#0;class#Solution#0;class#TestTree#0" />
               </folding>
             </state>
           </provider>
@@ -85,12 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lombok</find>
-      <find>JavaeeApplication</find>
-      <find>spring-boot-start</find>
-      <find>spring-boot-starter&lt;</find>
-      <find>spring-boot</find>
-      <find>2.5.2</find>
       <find>spring-boot-starter</find>
       <find>2.1.8</find>
       <find>spring-boot-starter-data-jdbc</find>
@@ -114,13 +121,22 @@
       <find>i</find>
       <find>.value</find>
       <find>[0</find>
+      <find>gene</find>
+      <find>gener</find>
       <find>random</find>
+      <find>character</find>
+      <find>root.</find>
+      <find>TreeNode</find>
+      <find>.right</find>
     </findStrings>
     <replaceStrings>
       <replace>print</replace>
       <replace />
       <replace>arr2</replace>
       <replace>li</replace>
+      <replace>temp.</replace>
+      <replace>Node</replace>
+      <replace>.right()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/conditional/TeacherConfig.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/spring/service/impl/StudentService.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/enable/EnableMonitor.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/springboot/enable/MonitorService.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/cn/com/zhanss/WarmupApplication.java" />
@@ -191,9 +205,11 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/LinkedList.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/doubly/DoubleLinkedReverse.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/doubly/MyDoubleLinked.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TreeBuilder.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/number/Test1.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java" />
       </list>
     </option>
   </component>
@@ -287,6 +303,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,7 +324,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="rbt" type="462c0819:PsiDirectoryNode" />
+              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +353,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682253393579" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682405501301" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -388,9 +414,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeTraverse">
-    <configuration name="BinaryTreeTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+  <component name="RunManager" selected="JUnit.TestTree.test">
+    <configuration name="BinaryTreeTraverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
@@ -398,68 +423,72 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleLinkedReverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.doubly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly.DoubleLinkedReverse" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest1.testSingleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTraverse.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.single.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.single" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.single.LinkedListTest1" />
-      <option name="METHOD_NAME" value="testSingleLinkedList" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListWindows.testWindows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeTraverse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.doubly.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.doubly.LinkedListWindows" />
-      <option name="METHOD_NAME" value="testWindows" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBitMap.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.MyBitMap" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.number" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.number.Test1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.doexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree.doexercise" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.doexercise.TestTree" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -557,11 +586,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeTraverse" />
-      <item itemvalue="JUnit.MyBitMap.test" />
-      <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
-      <item itemvalue="JUnit.DoubleLinkedReverse.test" />
-      <item itemvalue="JUnit.LinkedListWindows.testWindows" />
+      <item itemvalue="JUnit.BinaryTreeTraverse.test" />
+      <item itemvalue="JUnit.BinaryTreeTraverse.test1" />
+      <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
+      <item itemvalue="JUnit.Test1.test1" />
       <item itemvalue="Spring Boot.ThreadApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
@@ -573,14 +601,15 @@
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.SpringbootMqConsumerApplication8888" />
+      <item itemvalue="JUnit.TestTree.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTreeTraverse" />
-        <item itemvalue="JUnit.LinkedListWindows.testWindows" />
-        <item itemvalue="JUnit.DoubleLinkedReverse.test" />
-        <item itemvalue="JUnit.LinkedListTest1.testSingleLinkedList" />
-        <item itemvalue="JUnit.MyBitMap.test" />
+        <item itemvalue="JUnit.TestTree.test" />
+        <item itemvalue="JUnit.Test1.test1" />
+        <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
+        <item itemvalue="JUnit.BinaryTreeTraverse.test" />
+        <item itemvalue="JUnit.BinaryTreeTraverse.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -672,44 +701,46 @@
       <workItem from="1680596252193" duration="461000" />
       <workItem from="1680597271049" duration="12149000" />
       <workItem from="1682064025227" duration="12087000" />
-      <workItem from="1682215879799" duration="13136000" />
+      <workItem from="1682215879799" duration="13603000" />
+      <workItem from="1682299822331" duration="19787000" />
+      <workItem from="1682386426482" duration="13059000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 34m 43s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 34m 49s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 36m 42s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 39m 28s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 38m 30s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 40m 26s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 39m 05s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 40m 34s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 40m 37s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 41m 05s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 41m 17s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 41m 26s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleLinkedReverse_test - 2023.04.04 at 20h 41m 48s.xml">
-      <configuration name="DoubleLinkedReverse.test" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 41m 45s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListWindows_testWindows - 2023.04.21 at 16h 14m 22s.xml">
-      <configuration name="LinkedListWindows.testWindows" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 44m 00s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListWindows_testWindows - 2023.04.21 at 16h 14m 57s.xml">
-      <configuration name="LinkedListWindows.testWindows" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 44m 45s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LinkedListWindows_testWindows - 2023.04.21 at 16h 15m 19s.xml">
-      <configuration name="LinkedListWindows.testWindows" configurationId="JUnit" />
+    <history-entry file="TestTree_test - 2023.04.25 at 14h 47m 53s.xml">
+      <configuration name="TestTree.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659641000" />
+    <option name="totallyTimeSpent" value="692954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,7 +755,7 @@
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" visible="true" weight="0.24406047" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" visible="true" weight="0.21058315" />
       <window_info id="Structure" order="1" sideWeight="0.5065274" side_tool="true" weight="0.25971922" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -735,15 +766,15 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.49541286" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.19610092" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.39678898" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.23050459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.20756881" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.26376146" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.18119267" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3906071" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38990825" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49770993" weight="0.5849057" />
@@ -842,6 +873,18 @@
           <properties />
           <option name="timeStamp" value="370" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java</url>
+          <line>524</line>
+          <properties />
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -870,6 +913,31 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>stack.pop().getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stack.pop()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>indexList.get(chNum)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(indexList.get(chNum) - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>indexList.get(chNum - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>arr[i]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -882,78 +950,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/ZookeeperApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/DatastructureApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="83" column="25" selection-start-line="79" selection-start-column="12" selection-end-line="83" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#parseWithSpace1#0;class#SearchExpression#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/map/MyUnionSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-io/io/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-io/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.3-beta/zookeeper-3.5.3-beta.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168" />
@@ -1033,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1059,16 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/config/SerializationOptimizerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,13 +1080,6 @@
             <element signature="e#1001#1002#0" expanded="true" />
             <element signature="e#1049#1050#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1238,38 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/ReflectUtilForTreemap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TreeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1283,11 +1223,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="194" column="5" lean-forward="true" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+        <state relative-caret-position="298">
+          <caret line="553" column="7" lean-forward="true" selection-start-line="553" selection-start-column="7" selection-end-line="553" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#test#0;class#BinaryTreeTraverse#0" />
+            <element signature="method#maxWidthWithMap#0;class#BinaryTreeTraverse#0" />
+            <element signature="method#maxWidthWithoutMap#0;class#BinaryTreeTraverse#0" />
+            <element signature="e#8207#8208#0" expanded="true" />
+            <element signature="e#8229#8230#0" expanded="true" />
+            <element signature="method#printTree#0;class#BinaryTreeTraverse#0" />
+            <element signature="method#getSpace#0;class#BinaryTreeTraverse#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TreeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/TestRBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1109">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/AVLEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/AVLIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/AVLMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/ConvertSortedArrayToBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="263" column="6" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/bstAVL/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/rbt/ReflectUtilForTreemap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="3314" column="76" selection-start-line="3314" selection-start-column="67" selection-end-line="3314" selection-end-column="76" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/config/SerializationOptimizerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/number/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="method#smallestEvenMultiple#0;class#Solution#0;class#Test1#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="50" column="27" selection-start-line="43" selection-start-column="12" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reverseOddLevels#0;class#Solution#0;class#TestTree#0" />
           </folding>
         </state>
       </provider>

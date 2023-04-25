@@ -1,8 +1,10 @@
 package cn.com.zhanss.datastructure.tree;
 
 import cn.com.zhanss.datastructure.tree.rbt.TreeBuilder;
+import javafx.scene.NodeBuilder;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.junit.Test;
 import org.springframework.util.CollectionUtils;
 
@@ -14,11 +16,10 @@ import java.util.*;
  * @author zhanss
  * @since 2022-04-04
  */
+@Data
 public class BinaryTreeTraverse extends Node {
 
-    public BinaryTreeTraverse(Integer value) {
-        super(value);
-    }
+    public BinaryTreeTraverse() {}
 
     @Test
     public void test() {
@@ -81,15 +82,6 @@ public class BinaryTreeTraverse extends Node {
                 head = node;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        Node randomBST = TreeBuilder.generateRandomBST(4, 20);
-        System.out.println(" in2  start");
-        posterior(randomBST);
-        System.out.println(" in  start");
-        pos(randomBST);
-        System.out.println(" end");
     }
 
     /**
@@ -300,6 +292,11 @@ public class BinaryTreeTraverse extends Node {
         return max;
     }
 
+    @Test
+    public void test1() {
+        printTree(TreeBuilder.generateRandomBST(3, 8));
+    }
+
     /**
      * 打印树形二叉树
      * @param head
@@ -459,7 +456,7 @@ public class BinaryTreeTraverse extends Node {
             maxSubBSTSize = leftInfo.maxSubBSTSize;
         }
         maxSubBSTSize = Math.max(maxSubBSTSize, rightInfo == null ? 0 : rightInfo.maxSubBSTSize);
-        Boolean isAllBST = false;
+        boolean isAllBST = false;
         if (
                 // 满足2）
                 (leftInfo == null || leftInfo.isAllBST)
@@ -521,6 +518,11 @@ public class BinaryTreeTraverse extends Node {
             return null;
         }
         return firstAncestorProcess(head, a, b).ancestor;
+    }
+
+    public static void main(String[] args) {
+        Node randomBST = TreeBuilder.generateRandomBST(4, 20);
+        firstAncestor(randomBST, null, null);
     }
 
     private static FirstAncestorInfo firstAncestorProcess(Node head, Node a, Node b) {
