@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="497" column="39" lean-forward="true" selection-start-line="497" selection-start-column="39" selection-end-line="497" selection-end-column="39" />
+            <state relative-caret-position="286">
+              <caret line="533" column="24" lean-forward="true" selection-start-line="533" selection-start-column="24" selection-end-line="533" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#findKthLargestV1#0;class#ArrayExercise#0" />
@@ -69,10 +70,13 @@
                 <element signature="method#threeSumBySort#0;class#ArrayExercise#0" />
                 <element signature="method#sortColors#0;class#ArrayExercise#0" />
                 <element signature="method#merge#0;class#ArrayExercise#0" />
-                <element signature="e#8918#8919#0" expanded="true" />
-                <element signature="e#8984#8985#0" expanded="true" />
+                <element signature="e#8982#8983#0" expanded="true" />
+                <element signature="e#9048#9049#0" expanded="true" />
                 <element signature="method#getRow#0;class#ArrayExercise#0" />
                 <element signature="method#rotate#0;class#ArrayExercise#0" />
+                <element signature="method#process#0;class#Solution#0;class#ArrayExercise#0" />
+                <element signature="e#15843#15844#0" expanded="true" />
+                <element signature="e#15907#15908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,16 +300,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -335,7 +329,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682423846837" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682511991865" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -571,6 +565,8 @@
       <item itemvalue="JUnit.BinaryTreeTraverse.test" />
       <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
       <item itemvalue="JUnit.Test1.test1" />
+      <item itemvalue="JUnit.TestTree.test" />
+      <item itemvalue="JUnit.ArrayExercise.test" />
       <item itemvalue="Spring Boot.ThreadApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
@@ -582,8 +578,6 @@
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.SpringbootMqConsumerApplication8888" />
-      <item itemvalue="JUnit.TestTree.test" />
-      <item itemvalue="JUnit.ArrayExercise.test" />
     </list>
     <recent_temporary>
       <list>
@@ -685,44 +679,45 @@
       <workItem from="1682064025227" duration="12087000" />
       <workItem from="1682215879799" duration="13603000" />
       <workItem from="1682299822331" duration="19787000" />
-      <workItem from="1682386426482" duration="26106000" />
+      <workItem from="1682386426482" duration="26946000" />
+      <workItem from="1682472747780" duration="12961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 34m 13s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 17h 44m 19s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 35m 44s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 08m 27s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 40m 47s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 09m 45s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 45m 37s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 10m 02s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 45m 55s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 15m 56s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 47m 02s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 32m 10s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 47m 17s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 45m 58s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 48m 07s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 48m 34s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 48m 34s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 19h 57m 19s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.04.25 at 17h 48m 51s.xml">
+    <history-entry file="ArrayExercise_test - 2023.04.26 at 20h 02m 39s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="706001000" />
+    <option name="totallyTimeSpent" value="719802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,7 +732,7 @@
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" visible="true" weight="0.19708423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" visible="true" weight="0.20032397" />
       <window_info id="Structure" order="1" sideWeight="0.5065274" side_tool="true" weight="0.25971922" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -749,12 +744,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.4048165" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.5206422" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" weight="0.38876146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.26376146" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.18119267" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.38990825" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
@@ -860,6 +855,18 @@
           <line>524</line>
           <properties />
           <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
+          <line>500</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
+          <line>522</line>
+          <properties />
+          <option name="timeStamp" value="381" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1273,20 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/config/SerializationOptimizerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1321,10 +1314,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper/src/main/java/cn/com/zhanss/zookeeper/config/SerializationOptimizerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="497" column="39" lean-forward="true" selection-start-line="497" selection-start-column="39" selection-end-line="497" selection-end-column="39" />
+        <state relative-caret-position="286">
+          <caret line="533" column="24" lean-forward="true" selection-start-line="533" selection-start-column="24" selection-end-line="533" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findKthLargestV1#0;class#ArrayExercise#0" />
@@ -1333,10 +1340,13 @@
             <element signature="method#threeSumBySort#0;class#ArrayExercise#0" />
             <element signature="method#sortColors#0;class#ArrayExercise#0" />
             <element signature="method#merge#0;class#ArrayExercise#0" />
-            <element signature="e#8918#8919#0" expanded="true" />
-            <element signature="e#8984#8985#0" expanded="true" />
+            <element signature="e#8982#8983#0" expanded="true" />
+            <element signature="e#9048#9049#0" expanded="true" />
             <element signature="method#getRow#0;class#ArrayExercise#0" />
             <element signature="method#rotate#0;class#ArrayExercise#0" />
+            <element signature="method#process#0;class#Solution#0;class#ArrayExercise#0" />
+            <element signature="e#15843#15844#0" expanded="true" />
+            <element signature="e#15907#15908#0" expanded="true" />
           </folding>
         </state>
       </provider>

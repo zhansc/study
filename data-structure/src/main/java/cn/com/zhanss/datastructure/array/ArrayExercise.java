@@ -2,9 +2,7 @@ package cn.com.zhanss.datastructure.array;
 
 import cn.com.zhanss.datastructure.doexercise.random.Rand2Rand;
 import cn.com.zhanss.datastructure.heap.MyHeap;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.junit.Test;
 
 import java.util.*;
@@ -455,7 +453,7 @@ public class ArrayExercise {
      */
     @Test
     public void test() {
-        String[] words = new String[]{"abcd"};
+        String[] words = new String[]{"abc","ab","bc","b"};
         int[] scores = new Solution().sumPrefixScores(words);
         Arrays.stream(scores).forEach(item -> System.out.print(" "+ item));
         System.out.println();
@@ -464,15 +462,15 @@ public class ArrayExercise {
     /**
      * 前缀树
      */
-    class Solution {
+    class Solution1 {
         @Data
-        @Getter
-        @Setter
+        @NoArgsConstructor
+        @AllArgsConstructor
         class PrefixTree {
             int pass;
             int end;
             Character ch;
-            PrefixTree next;
+            Map<Character, PrefixTree> nexts;
         }
         public int[] sumPrefixScores(String[] words) {
             int length = words.length;
@@ -481,30 +479,142 @@ public class ArrayExercise {
             }
             int i = 0;
             int[] answers = new int[length];
-            Map<String, Integer> cache = new HashMap<>();
-            Map<String, Integer> subCache = new HashMap<>();
             PrefixTree prefixTree = new PrefixTree();
+            // 构建前缀树
             for (String word : words) {
-                answers[i ++] = process(prefixTree, words, word);
+                insert(prefixTree, word);
+            }
+            for (String word : words) {
+                answers[i ++] = process(prefixTree, word);
             }
             return answers;
         }
-        private int process(PrefixTree prefixTree, String[] words, String word) {
+        private int process(PrefixTree prefixTree, String word) {
             if (word == null || word.length() == 0) {
                 return 0;
             }
+            int max = 0;
+            boolean prefix = true;
+            Map<Character, PrefixTree> nexts = prefixTree.nexts;
             for (Character ch : word.toCharArray()) {
-                if (prefixTree.ch.equals(ch)) {
-                    prefixTree.pass ++;
+                PrefixTree next;
+                if (!isEmpty(nexts) && nexts.containsKey(ch)) {
+                    next = nexts.get(ch);
+                    max += next.pass;
+                    nexts = next.nexts;
                 } else {
-                    PrefixTree next = new PrefixTree();
-                    next.ch = ch;
-                    next.pass ++;
-                    prefixTree.next = next;
+                    prefix = false;
+                }
+                if (!prefix) {
+                    break;
                 }
             }
-            prefixTree.end ++;
-            return 0;
+            return max;
+        }
+        private void insert(PrefixTree prefixTree, String word) {
+            if (word == null || word.length() == 0) {
+                return;
+            }
+            Map<Character, PrefixTree> nexts1 = prefixTree.nexts;
+            boolean first = true;
+            PrefixTree next = null;
+            for (Character ch : word.toCharArray()) {
+                Map<Character, PrefixTree> nexts = new HashMap<>();
+                if (nexts1 == null) {
+                    nexts1 = new HashMap<>();
+                    next = new PrefixTree(1, 0, ch, null);
+                    nexts1.put(ch, next);
+                    prefixTree.setNexts(nexts1);
+                    first = false;
+                    continue;
+                }
+                if (next != null && next.nexts != null && next.nexts.containsKey(ch)) {
+                    next = next.nexts.get(ch);
+                    next.pass ++;
+                } else {
+                    next = new PrefixTree(1, 0, ch, null);
+                    nexts1.put(ch, next);
+                    first = false;
+                    continue;
+                }
+                first = false;
+                if (next.nexts.containsKey(ch)) {
+                    next = next.nexts.get(ch);
+                } else {
+                    nexts.put(ch, new PrefixTree(1, 0, ch, null));
+                    next.nexts.putAll(nexts);
+                }
+                if (next.ch.equals(ch)) {
+                    next.pass ++;
+                }
+            }
+        }
+        private boolean isEmpty(Map<Character, PrefixTree> trees) {
+            return trees == null || trees.size() == 0;
+        }
+    }
+
+    class Solution {
+        public int[] sumPrefixScores(String[] words) {
+            Trie tree = new Trie();
+            for (String word : words) {
+                tree.insert(word);
+            }
+            int[] res = new int[words.length];
+            for (int i = 0; i < words.length; i++) {
+                String word = words[i];
+                res[i] = tree.searchWord(word);
+            }
+            return res;
+        }
+    }
+
+    class Trie {
+        Node root;
+
+        public Trie() {
+            root = new Node();
+        }
+
+        public void insert(String word) {
+            Node current = root;
+            for (char c : word.toCharArray()) {
+                if (current.nodeMap.containsKey(c)) {
+                    current.nodeMap.get(c).cnt = current.nodeMap.get(c).cnt + 1;
+                    current = current.nodeMap.get(c);
+                } else {
+                    Node node = new Node();
+                    node.cnt = 1;
+                    current.nodeMap.put(c, node);
+                    current = node;
+                }
+            }
+            current.isEnd = true;
+        }
+
+        public int searchWord(String word) {
+            int sum = 0;
+            Node current = root;
+            for (char c : word.toCharArray()) {
+                if (current.nodeMap.containsKey(c)) {
+                    sum += current.nodeMap.get(c).cnt;
+                    current = current.nodeMap.get(c);
+                } else {
+                    return 0;
+                }
+            }
+            return sum;
+        }
+
+        class Node {
+            boolean isEnd;
+            int cnt = 0;
+            Map<Character, Node> nodeMap;
+
+            public Node() {
+                this.isEnd = false;
+                this.nodeMap = new HashMap<>();
+            }
         }
     }
 }
