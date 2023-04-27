@@ -453,105 +453,10 @@ public class ArrayExercise {
      */
     @Test
     public void test() {
-        String[] words = new String[]{"abc","ab","bc","b"};
+        String[] words = new String[]{"abcd"};
         int[] scores = new Solution().sumPrefixScores(words);
         Arrays.stream(scores).forEach(item -> System.out.print(" "+ item));
         System.out.println();
-    }
-
-    /**
-     * 前缀树
-     */
-    class Solution1 {
-        @Data
-        @NoArgsConstructor
-        @AllArgsConstructor
-        class PrefixTree {
-            int pass;
-            int end;
-            Character ch;
-            Map<Character, PrefixTree> nexts;
-        }
-        public int[] sumPrefixScores(String[] words) {
-            int length = words.length;
-            if (words.length == 0) {
-                return null;
-            }
-            int i = 0;
-            int[] answers = new int[length];
-            PrefixTree prefixTree = new PrefixTree();
-            // 构建前缀树
-            for (String word : words) {
-                insert(prefixTree, word);
-            }
-            for (String word : words) {
-                answers[i ++] = process(prefixTree, word);
-            }
-            return answers;
-        }
-        private int process(PrefixTree prefixTree, String word) {
-            if (word == null || word.length() == 0) {
-                return 0;
-            }
-            int max = 0;
-            boolean prefix = true;
-            Map<Character, PrefixTree> nexts = prefixTree.nexts;
-            for (Character ch : word.toCharArray()) {
-                PrefixTree next;
-                if (!isEmpty(nexts) && nexts.containsKey(ch)) {
-                    next = nexts.get(ch);
-                    max += next.pass;
-                    nexts = next.nexts;
-                } else {
-                    prefix = false;
-                }
-                if (!prefix) {
-                    break;
-                }
-            }
-            return max;
-        }
-        private void insert(PrefixTree prefixTree, String word) {
-            if (word == null || word.length() == 0) {
-                return;
-            }
-            Map<Character, PrefixTree> nexts1 = prefixTree.nexts;
-            boolean first = true;
-            PrefixTree next = null;
-            for (Character ch : word.toCharArray()) {
-                Map<Character, PrefixTree> nexts = new HashMap<>();
-                if (nexts1 == null) {
-                    nexts1 = new HashMap<>();
-                    next = new PrefixTree(1, 0, ch, null);
-                    nexts1.put(ch, next);
-                    prefixTree.setNexts(nexts1);
-                    first = false;
-                    continue;
-                }
-                if (next != null && next.nexts != null && next.nexts.containsKey(ch)) {
-                    next = next.nexts.get(ch);
-                    next.pass ++;
-                } else {
-                    next = new PrefixTree(1, 0, ch, null);
-                    nexts1.put(ch, next);
-                    first = false;
-                    continue;
-                }
-                first = false;
-                if (next.nexts.containsKey(ch)) {
-                    next = next.nexts.get(ch);
-                } else {
-                    nexts.put(ch, new PrefixTree(1, 0, ch, null));
-                    next.nexts.putAll(nexts);
-                }
-                if (next.ch.equals(ch)) {
-                    next.pass ++;
-                }
-            }
-        }
-        private boolean isEmpty(Map<Character, PrefixTree> trees) {
-            return trees == null || trees.size() == 0;
-        }
     }
 
     class Solution {
@@ -568,53 +473,43 @@ public class ArrayExercise {
             return res;
         }
     }
-
+    /**
+     * 前缀树
+     */
     class Trie {
+        class Node {
+            boolean isEnd;
+            int cnt = 1;
+            // 数组比列表和hash更省空间，效率更高
+            Node[] children = new Node[26];
+        }
         Node root;
-
         public Trie() {
             root = new Node();
         }
-
         public void insert(String word) {
             Node current = root;
-            for (char c : word.toCharArray()) {
-                if (current.nodeMap.containsKey(c)) {
-                    current.nodeMap.get(c).cnt = current.nodeMap.get(c).cnt + 1;
-                    current = current.nodeMap.get(c);
+            for (char ch : word.toCharArray()) {
+                int index = ch - 'a';
+                if (current.children[index] == null) {
+                    current.children[index] = new Node();
                 } else {
-                    Node node = new Node();
-                    node.cnt = 1;
-                    current.nodeMap.put(c, node);
-                    current = node;
+                    current.children[index].cnt ++;
                 }
+                current = current.children[index];
             }
             current.isEnd = true;
         }
-
         public int searchWord(String word) {
             int sum = 0;
             Node current = root;
-            for (char c : word.toCharArray()) {
-                if (current.nodeMap.containsKey(c)) {
-                    sum += current.nodeMap.get(c).cnt;
-                    current = current.nodeMap.get(c);
-                } else {
-                    return 0;
-                }
+            for (char ch : word.toCharArray()) {
+                int index = ch - 'a';
+                if (current.children[index] == null) return sum;
+                current = current.children[index];
+                sum += current.cnt;
             }
             return sum;
-        }
-
-        class Node {
-            boolean isEnd;
-            int cnt = 0;
-            Map<Character, Node> nodeMap;
-
-            public Node() {
-                this.isEnd = false;
-                this.nodeMap = new HashMap<>();
-            }
         }
     }
 }
