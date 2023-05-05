@@ -90,7 +90,7 @@ public class ArrayExercise {
      * @return
      */
     public int findKthLargestV1(int[] nums, int k) {
-        if (nums == null || nums.length == 0 || nums.length < k || k < 1) {
+        if (nums == null || nums.length < k || k < 1) {
             return -1;
         }
         if (nums.length == 1 && k == 1) {
@@ -454,12 +454,116 @@ public class ArrayExercise {
     @Test
     public void test() {
         String[] words = new String[]{"abcd"};
-        int[] scores = new Solution().sumPrefixScores(words);
-        Arrays.stream(scores).forEach(item -> System.out.print(" "+ item));
+        String[] names = new String[]{"IEO","Sgizfdfrims","QTASHKQ","Vk","RPJOFYZUBFSIYp","EPCFFt","VOYGWWNCf","WSpmqvb"};
+        int[] height = new int[]{17233,32521,14087,42738,46669,65662,43204,8224};
+        String[] strings = new Solution().sortPeople(names, height);
         System.out.println();
     }
 
     class Solution {
+        /**
+            给你一个字符串数组 names ，和一个由 互不相同 的正整数组成的数组 heights 。两个数组的长度均为 n 。
+            对于每个下标 i，names[i] 和 heights[i] 表示第 i 个人的名字和身高。
+            请按身高 降序 顺序返回对应的名字数组 names 。
+
+            示例 1：
+            输入：names = ["Mary","John","Emma"], heights = [180,165,170]
+            输出：["Mary","Emma","John"]
+            解释：Mary 最高，接着是 Emma 和 John 。
+
+            示例 2：
+            输入：names = ["Alice","Bob","Bob"], heights = [155,185,150]
+            输出：["Bob","Alice","Bob"]
+            解释：第一个 Bob 最高，然后是 Alice 和第二个 Bob 。
+
+            链接：https://leetcode.cn/problems/sort-the-people
+         */
+        public String[] sortPeople(String[] names, int[] heights) {
+            if (names == null || names.length == 0 || heights == null || heights.length == 0) {
+                return null;
+            }
+            // 排序
+            CustomHeap customHeap = new CustomHeap(10);
+            customHeap.batchInsert(heights);
+            String[] ans = new String[heights.length];
+            int i = 0;
+            int pop = customHeap.pop(heights);
+            while (pop > -1) {
+                ans[i ++] = names[pop];
+                pop = customHeap.pop(heights);
+            }
+            return ans;
+        }
+
+        class CustomHeap {
+            private int heapSize = -1;
+            private int[] arr;
+
+            public CustomHeap() {
+                new CustomHeap(10);
+            }
+            public CustomHeap(int heapSize) {
+                this.arr = new int[heapSize];
+            }
+            public void batchInsert(int[] arr) {
+                if (arr == null || arr.length == 0) {
+                    return;
+                }
+                for (int i = 0; i < arr.length; i ++) {
+                    insert(arr, i);
+                }
+            }
+
+            /**
+             * 堆中存储得是数据得下标
+             * @param source
+             * @param numIndex
+             */
+            public void insert(int[] source, int numIndex) {
+                int index = ++ heapSize, parent = (index - 1) >> 1;
+                if (heapSize > arr.length) {
+                    System.out.println("堆已满！");
+                    return;
+                }
+                arr[index] = numIndex;
+                while (parent >= 0) {
+                    if (source[arr[index]] > source[arr[parent]]) {
+                        ArrayExercise.this.swap(arr, index, parent);
+                    }
+                    index = parent;
+                    parent = (index - 1) >> 1;
+                }
+            }
+            public int pop (int[] source) {
+                if (heapSize < 0) {
+                    return -1;
+                }
+                int num = arr[0];
+                ArrayExercise.this.swap(arr, 0, heapSize);
+                heapify(source);
+                return num;
+            }
+            public void heapify(int[] source) {
+                int index = -- heapSize, parent = (heapSize - 1) >> 1;
+                while (parent >= 0) {
+                    if (source[arr[index]] > source[arr[parent]]) {
+                        ArrayExercise.this.swap(arr, index, parent);
+                    }
+                    index = parent;
+                    parent = (index - 1) >> 1;
+                }
+            }
+        }
+
+        private void swap(int[] heights, int a, int b) {
+            heights[a] = heights[a] ^ heights[b];
+            heights[b] = heights[a] ^ heights[b];
+            heights[a] = heights[a] ^ heights[b];
+        }
+
+        /**
+         * 前缀树
+         */
         public int[] sumPrefixScores(String[] words) {
             Trie tree = new Trie();
             for (String word : words) {
@@ -473,9 +577,6 @@ public class ArrayExercise {
             return res;
         }
     }
-    /**
-     * 前缀树
-     */
     class Trie {
         class Node {
             boolean isEnd;
