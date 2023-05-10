@@ -7,6 +7,8 @@
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/design-mode/target/" />
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="494" column="23" lean-forward="true" selection-start-line="494" selection-start-column="23" selection-end-line="494" selection-end-column="23" />
+            <state relative-caret-position="137">
+              <caret line="463" column="18" selection-start-line="463" selection-start-column="18" selection-end-line="463" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sumArrays#0;class#ArrayExercise#0" />
@@ -73,22 +75,6 @@
                 <element signature="e#8981#8982#0" expanded="true" />
                 <element signature="method#getRow#0;class#ArrayExercise#0" />
                 <element signature="method#rotate#0;class#ArrayExercise#0" />
-                <element signature="docComment;method#sortPeople#0;class#Solution#0;class#ArrayExercise#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-              <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
-                <element signature="e#1422#1423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +186,6 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/Heap1.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/SingleLinkLruCache.java" />
@@ -217,6 +202,7 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/number/Test1.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/doexercise/TestTree.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" />
       </list>
@@ -246,8 +232,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1738" />
-    <option name="y" value="-21" />
+    <option name="x" value="-1537" />
+    <option name="y" value="-14" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -259,66 +245,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -341,17 +268,17 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683289128207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683709519778" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../worksheet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15780446" />
     <property name="project.structure.side.proportion" value="0.36954504" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -403,6 +330,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ArrayExercise.test">
+    <configuration name="MyHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.heap.MyHeap" />
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayExercise.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
@@ -419,33 +359,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeTraverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHeap.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
+      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.heap" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.heap.MyHeap" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTreeTraverse.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.tree" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.tree.BinaryTreeTraverse" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -574,8 +498,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BinaryTreeTraverse.test" />
-      <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
       <item itemvalue="JUnit.Test1.test1" />
       <item itemvalue="JUnit.TestTree.test" />
       <item itemvalue="JUnit.ArrayExercise.test" />
@@ -590,14 +512,16 @@
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.SpringbootMqConsumerApplication8888" />
+      <item itemvalue="JUnit.MyHeap.test" />
+      <item itemvalue="Application.MyHeap" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ArrayExercise.test" />
+        <item itemvalue="Application.MyHeap" />
+        <item itemvalue="JUnit.MyHeap.test" />
         <item itemvalue="JUnit.TestTree.test" />
         <item itemvalue="JUnit.Test1.test1" />
-        <item itemvalue="JUnit.BinaryTreeTraverse.test2" />
-        <item itemvalue="JUnit.BinaryTreeTraverse.test" />
       </list>
     </recent_temporary>
   </component>
@@ -696,44 +620,48 @@
       <workItem from="1682561126030" duration="16607000" />
       <workItem from="1682662301255" duration="1687000" />
       <workItem from="1683183705916" duration="10990000" />
-      <workItem from="1683267667255" duration="2941000" />
+      <workItem from="1683267667255" duration="3172000" />
+      <workItem from="1683336785041" duration="2574000" />
+      <workItem from="1683374680810" duration="3134000" />
+      <workItem from="1683530232573" duration="601000" />
+      <workItem from="1683705264880" duration="4237000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 17h 46m 37s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 07m 29s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 00m 49s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 08m 05s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 05m 53s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 09m 43s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 07m 55s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 10m 05s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 08m 53s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 17m 28s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 09m 38s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 26m 08s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.04 at 21h 13m 12s.xml">
+    <history-entry file="MyHeap_test - 2023.05.10 at 16h 26m 22s.xml">
+      <configuration name="MyHeap.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHeap_test - 2023.05.10 at 16h 31m 38s.xml">
+      <configuration name="MyHeap.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 16h 41m 35s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.05 at 20h 08m 14s.xml">
-      <configuration name="ArrayExercise.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.05 at 20h 13m 52s.xml">
-      <configuration name="ArrayExercise.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayExercise_test - 2023.05.05 at 20h 18m 15s.xml">
+    <history-entry file="ArrayExercise_test - 2023.05.10 at 17h 04m 29s.xml">
       <configuration name="ArrayExercise.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="752189000" />
+    <option name="totallyTimeSpent" value="762966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +676,7 @@
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" weight="0.21112311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" weight="0.2149028" />
       <window_info id="Structure" order="1" sideWeight="0.5065274" side_tool="true" weight="0.25971922" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -759,13 +687,13 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.30848625" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.6020642" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.3417431" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.33830276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.22997712" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.10869565" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.18119267" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.38990825" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
@@ -874,21 +802,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
-          <line>494</line>
-          <properties />
-          <option name="timeStamp" value="385" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
           <line>459</line>
           <properties />
-          <option name="timeStamp" value="386" />
+          <option name="timeStamp" value="403" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
-          <line>491</line>
+          <line>566</line>
           <properties />
-          <option name="timeStamp" value="388" />
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="418" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -917,6 +851,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(index - 1) &gt;&gt; 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>stack.pop().getValue()</expression-string>
         <language-id>JAVA</language-id>
@@ -1014,21 +953,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/StrExercise.java" />
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="354" column="31" lean-forward="true" selection-start-line="354" selection-start-column="31" selection-end-line="354" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test0#0;class#ArraySort#0" />
-            <element signature="method#test3#0;class#ArraySort#0" />
-            <element signature="method#ltSum#0;class#ArraySort#0" />
-            <element signature="method#processMerge#0;class#ArraySort#0" />
-            <element signature="method#merge#0;class#ArraySort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/mysoft/Java/jdk1.8.0_351/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1345,10 +1269,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="307" column="21" selection-start-line="307" selection-start-column="21" selection-end-line="307" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test0#0;class#ArraySort#0" />
+            <element signature="method#test3#0;class#ArraySort#0" />
+            <element signature="method#ltSum#0;class#ArraySort#0" />
+            <element signature="method#processMerge#0;class#ArraySort#0" />
+            <element signature="method#merge#0;class#ArraySort#0" />
+            <element signature="method#processQuick#0;class#ArraySort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="494" column="23" lean-forward="true" selection-start-line="494" selection-start-column="23" selection-end-line="494" selection-end-column="23" />
+        <state relative-caret-position="137">
+          <caret line="463" column="18" selection-start-line="463" selection-start-column="18" selection-end-line="463" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sumArrays#0;class#ArrayExercise#0" />
@@ -1360,20 +1313,6 @@
             <element signature="e#8981#8982#0" expanded="true" />
             <element signature="method#getRow#0;class#ArrayExercise#0" />
             <element signature="method#rotate#0;class#ArrayExercise#0" />
-            <element signature="docComment;method#sortPeople#0;class#Solution#0;class#ArrayExercise#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
           </folding>
         </state>
       </provider>

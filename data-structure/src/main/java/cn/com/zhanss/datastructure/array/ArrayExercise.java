@@ -454,13 +454,36 @@ public class ArrayExercise {
     @Test
     public void test() {
         String[] words = new String[]{"abcd"};
-        String[] names = new String[]{"IEO","Sgizfdfrims","QTASHKQ","Vk","RPJOFYZUBFSIYp","EPCFFt","VOYGWWNCf","WSpmqvb"};
-        int[] height = new int[]{17233,32521,14087,42738,46669,65662,43204,8224};
+        String[] names = new String[]{"Mary","John","Emma"};
+        int[] height = new int[]{180,165,170};
         String[] strings = new Solution().sortPeople(names, height);
         System.out.println();
     }
 
+    /**
+     * 利用Java排序API
+     */
     class Solution {
+        public String[] sortPeople(String[] names, int[] heights) {
+            int n = names.length;
+            Integer[] indices = new Integer[n];
+            for (int i = 0; i < n; i++) {
+                indices[i] = i;
+            }
+            Arrays.sort(indices, (a, b) -> heights[b] - heights[a]);
+            String[] res = new String[n];
+            for (int i = 0; i < n; i++) {
+                res[i] = names[indices[i]];
+            }
+            return res;
+        }
+    }
+
+
+    /**
+     * 自定义堆排序实现
+     */
+    class Solution1 {
         /**
             给你一个字符串数组 names ，和一个由 互不相同 的正整数组成的数组 heights 。两个数组的长度均为 n 。
             对于每个下标 i，names[i] 和 heights[i] 表示第 i 个人的名字和身高。
@@ -483,12 +506,12 @@ public class ArrayExercise {
                 return null;
             }
             // 排序
-            CustomHeap customHeap = new CustomHeap(10);
+            CustomHeap customHeap = new CustomHeap(names.length);
             customHeap.batchInsert(heights);
             String[] ans = new String[heights.length];
             int i = 0;
             int pop = customHeap.pop(heights);
-            while (pop > -1) {
+            while (pop >= 0) {
                 ans[i ++] = names[pop];
                 pop = customHeap.pop(heights);
             }
@@ -496,7 +519,7 @@ public class ArrayExercise {
         }
 
         class CustomHeap {
-            private int heapSize = -1;
+            private int heapSize;
             private int[] arr;
 
             public CustomHeap() {
@@ -520,37 +543,37 @@ public class ArrayExercise {
              * @param numIndex
              */
             public void insert(int[] source, int numIndex) {
-                int index = ++ heapSize, parent = (index - 1) >> 1;
-                if (heapSize > arr.length) {
-                    System.out.println("堆已满！");
-                    return;
-                }
-                arr[index] = numIndex;
-                while (parent >= 0) {
+                int index = heapSize, parent;
+                arr[heapSize ++] = numIndex;
+                while (index > 0) {
+                    parent = (index - 1) / 2;
                     if (source[arr[index]] > source[arr[parent]]) {
                         ArrayExercise.this.swap(arr, index, parent);
                     }
                     index = parent;
-                    parent = (index - 1) >> 1;
                 }
             }
             public int pop (int[] source) {
-                if (heapSize < 0) {
+                if (heapSize <= 0) {
                     return -1;
                 }
                 int num = arr[0];
-                ArrayExercise.this.swap(arr, 0, heapSize);
-                heapify(source);
+                ArrayExercise.this.swap(arr, 0, -- heapSize);
+                heapify(source, 0);
                 return num;
             }
-            public void heapify(int[] source) {
-                int index = -- heapSize, parent = (heapSize - 1) >> 1;
-                while (parent >= 0) {
-                    if (source[arr[index]] > source[arr[parent]]) {
-                        ArrayExercise.this.swap(arr, index, parent);
+            public void heapify(int[] source, int index) {
+                int left = index * 2 + 1;
+                while (left < heapSize) {
+                    int right = left + 1;
+                    int largest = right < heapSize && source[arr[left]] < source[arr[right]] ? right : left;
+                    largest = source[arr[largest]] > source[arr[index]] ? largest : index;
+                    if (largest == index) {
+                        return;
                     }
-                    index = parent;
-                    parent = (index - 1) >> 1;
+                    ArrayExercise.this.swap(arr, index, largest);
+                    index = largest;
+                    left = index * 2 + 1;
                 }
             }
         }

@@ -304,7 +304,7 @@ public class ArraySort {
         if (arr == null || arr.length <= 1) {
             return;
         }
-        MyHeap heap = new MyHeap();
+        MyHeap heap = new MyHeap(10);
         for (int i = 0; i < arr.length; i ++) {
             heap.heapify(arr, i, arr.length);
         }

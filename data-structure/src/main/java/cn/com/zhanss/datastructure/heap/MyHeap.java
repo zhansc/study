@@ -1,5 +1,7 @@
 package cn.com.zhanss.datastructure.heap;
 
+import org.junit.Test;
+
 /**
  * 自定义大根堆
  *
@@ -41,6 +43,17 @@ public class MyHeap {
             index = parentIndex;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        MyHeap myHeap = new MyHeap(10);
+        myHeap.heapInsert(185);
+        myHeap.heapInsert(165);
+        myHeap.heapInsert(170);
+        myHeap.pop();
+        myHeap.pop();
+        myHeap.pop();
+        System.out.println("end");
     }
 
     /**
