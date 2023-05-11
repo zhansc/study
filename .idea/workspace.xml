@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/design-mode/target/" />
@@ -59,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="463" column="18" selection-start-line="463" selection-start-column="18" selection-end-line="463" selection-end-column="18" />
+            <state relative-caret-position="5670">
+              <caret line="460" column="5" selection-start-line="460" selection-start-column="5" selection-end-line="460" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sumArrays#0;class#ArrayExercise#0" />
@@ -75,6 +73,20 @@
                 <element signature="e#8981#8982#0" expanded="true" />
                 <element signature="method#getRow#0;class#ArrayExercise#0" />
                 <element signature="method#rotate#0;class#ArrayExercise#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2585#2586#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +197,6 @@
         <option value="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/ForkJooin.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/Heap1.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/binary/XorTools.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/MyLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/SingleLinkLruCache.java" />
@@ -205,6 +216,7 @@
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArraySort.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" />
         <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java" />
       </list>
     </option>
   </component>
@@ -234,8 +246,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1537" />
     <option name="y" value="-14" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="2HneiIyqfruuMjqzVbmkdij8moS" />
   <component name="ProjectLevelVcsManager">
@@ -245,7 +257,77 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="doexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -268,7 +350,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;ReentrantLock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lockInterruptibly&#9;PSI&#9;JAVA://cn.com.zhanss.juc.MyLock#lockInterruptibly" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683709519778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683785680471" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -329,13 +411,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayExercise.test">
+  <component name="RunManager" selected="Application.Rand2Rand">
     <configuration name="MyHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.heap.MyHeap" />
       <module name="data-structure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.com.zhanss.datastructure.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rand2Rand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.random.Rand2Rand" />
+      <module name="data-structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,22 +465,6 @@
       <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.heap" />
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.heap.MyHeap" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.doexercise.number" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.number.Test1" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -498,9 +577,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test1.test1" />
+      <item itemvalue="Application.MyHeap" />
+      <item itemvalue="Application.Rand2Rand" />
       <item itemvalue="JUnit.TestTree.test" />
       <item itemvalue="JUnit.ArrayExercise.test" />
+      <item itemvalue="JUnit.MyHeap.test" />
       <item itemvalue="Spring Boot.ThreadApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
@@ -512,16 +593,14 @@
       <item itemvalue="Spring Boot.WeworkApplication" />
       <item itemvalue="Spring Boot.ElasticSearchApplication" />
       <item itemvalue="Spring Boot.SpringbootMqConsumerApplication8888" />
-      <item itemvalue="JUnit.MyHeap.test" />
-      <item itemvalue="Application.MyHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rand2Rand" />
         <item itemvalue="JUnit.ArrayExercise.test" />
         <item itemvalue="Application.MyHeap" />
         <item itemvalue="JUnit.MyHeap.test" />
         <item itemvalue="JUnit.TestTree.test" />
-        <item itemvalue="JUnit.Test1.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +703,8 @@
       <workItem from="1683336785041" duration="2574000" />
       <workItem from="1683374680810" duration="3134000" />
       <workItem from="1683530232573" duration="601000" />
-      <workItem from="1683705264880" duration="4237000" />
+      <workItem from="1683705264880" duration="8528000" />
+      <workItem from="1683784483652" duration="1076000" />
     </task>
     <servers />
   </component>
@@ -661,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="762966000" />
+    <option name="totallyTimeSpent" value="768333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +756,7 @@
     <frame x="-1928" y="-204" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" weight="0.2149028" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49347258" visible="true" weight="0.24244061" />
       <window_info id="Structure" order="1" sideWeight="0.5065274" side_tool="true" weight="0.25971922" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -687,13 +767,13 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3273743" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.3417431" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.33830276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731758" weight="0.3222477" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49770993" visible="true" weight="0.43119267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923664" weight="0.32933104" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49923664" weight="0.32933104" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.10869565" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49541986" weight="0.3428899" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026824" side_tool="true" weight="0.18119267" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.38990825" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49923664" weight="0.32933104" />
@@ -824,6 +904,24 @@
           <properties />
           <option name="timeStamp" value="418" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -934,20 +1032,6 @@
           <folding>
             <element signature="e#3173#3174#0" expanded="true" />
             <element signature="e#3201#3202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1300,8 +1384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="463" column="18" selection-start-line="463" selection-start-column="18" selection-end-line="463" selection-end-column="18" />
+        <state relative-caret-position="5670">
+          <caret line="460" column="5" selection-start-line="460" selection-start-column="5" selection-end-line="460" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sumArrays#0;class#ArrayExercise#0" />
@@ -1313,6 +1397,18 @@
             <element signature="e#8981#8982#0" expanded="true" />
             <element signature="method#getRow#0;class#ArrayExercise#0" />
             <element signature="method#rotate#0;class#ArrayExercise#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/random/Rand2Rand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
           </folding>
         </state>
       </provider>

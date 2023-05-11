@@ -3,6 +3,8 @@ package cn.com.zhanss.datastructure.doexercise.random;
 import cn.com.zhanss.datastructure.common.entity.Node;
 import org.junit.Test;
 
+import java.util.Random;
+
 /**
  * @author zhanshuchan
  * @desc 随机发生器生成
@@ -111,4 +113,51 @@ public class Rand2Rand {
         return arr;
     }
 
+    public static void main(String[] args) {
+        System.out.println("start");
+        for (int i = 0; i < 100; i ++) {
+            int f10 = f10();
+            System.out.println(f10);
+        }
+        System.out.println("end");
+    }
+
+    public static int f10() {
+        int f15;
+        do {
+            f15 = f15();
+        } while (f15 == 0 || f15 > 10);
+        return f15;
+    }
+
+    /**
+     * 通过f1 生成[0,15]等概率发生器
+     * @return
+     */
+    public static int f15() {
+        return (f1() << 3) | (f1() << 2) | (f1() << 1) | f1();
+    }
+
+    /**
+     * 通过f7生成[0,1]等概率发生器
+     * @return
+     */
+    public static int f1() {
+        int f7;
+        do {
+            f7 = f7();
+        } while (f7 == 4);
+        if (f7 < 4) {
+            return 0;
+        }
+        return 1;
+    }
+
+    /**
+     * [1,7]等概率
+     * @return
+     */
+    public static int f7() {
+        return (int) (Math.random() * 7) + 1;
+    }
 }
