@@ -1,7 +1,6 @@
 package cn.com.zhanss.datastructure.doexercise;
 
-import org.springframework.util.StringUtils;
-import sun.nio.cs.ext.MacHebrew;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashSet;
 
@@ -20,7 +19,7 @@ public class Greedy {
      * @param road
      * @return
      */
-    public Integer minLights(String road) {
+    public static Integer minLights(String road) {
         if (StringUtils.isEmpty(road)) {
             // 表示没有放灯
             return Integer.MAX_VALUE;
@@ -29,9 +28,13 @@ public class Greedy {
         return minLightsProcess(chars, 0, new HashSet<>());
     }
 
-    private Integer minLightsProcess(char[] chars, Integer index, HashSet<Integer> lights) {
+    public static void main(String[] args) {
+        Integer integer = minLightsGreedy("..XXX....X.X..X");
+        System.out.println(integer);
+    }
+    private static Integer minLightsProcess(char[] chars, Integer index, HashSet<Integer> lights) {
         if (index == chars.length) {
-            // 结束了
+            // 结束后，校验下
             for (int i = 0; i < chars.length; i ++) {
                 if (chars[i] == '.' && (!lights.contains(i - 1) || lights.contains(i) || lights.contains(i + 1))) {
                     // 表示没有放灯
@@ -42,15 +45,15 @@ public class Greedy {
         } else {
             // 不放灯
             int no = minLightsProcess(chars, index + 1, lights);
-            int yes = Integer.MAX_VALUE;
             // 放灯
+            int yes = Integer.MAX_VALUE;
             if (chars[index] == '.') {
                 lights.add(index);
                 yes = minLightsProcess(chars, index + 1, lights);
                 // 恢复放灯之前的现场
                 lights.remove(index);
             }
-            return Math.max(no, yes);
+            return Math.min(no, yes);
         }
     }
 
@@ -61,7 +64,7 @@ public class Greedy {
      * @param road
      * @return
      */
-    public Integer minLightsGreedy(String road) {
+    public static Integer minLightsGreedy(String road) {
         if (StringUtils.isEmpty(road)) {
             // 表示没有放灯
             return -1;
@@ -74,8 +77,10 @@ public class Greedy {
                 // 不放灯
                 index ++;
             } else {
+                // i+1位置一定放灯
                 lights ++;
-                if (chars[index + 1] == 'X') {
+                int next = index + 1;
+                if (next < chars.length && chars[next] == 'X') {
                     // i位置放灯，然后继续判断i+2位置
                     index += 2;
                 } else {
