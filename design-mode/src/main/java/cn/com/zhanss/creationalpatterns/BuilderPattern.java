@@ -1,10 +1,5 @@
 package cn.com.zhanss.creationalpatterns;
 
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.util.StringUtils;
-
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -24,7 +19,6 @@ public class BuilderPattern {
         ClassPathResource classPathResource = new ClassPathResource("mybatis-config.xml");
         InputStream inputStream = classPathResource.getInputStream();
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
 
     }
 

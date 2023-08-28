@@ -1,5 +1,8 @@
 package cn.com.zhanss.io.server;
 
+import cn.com.zhanss.io.server.step1.IHandlerInterface;
+import cn.com.zhanss.io.server.step1.Request;
+import cn.com.zhanss.io.server.step1.Response;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.DataInputStream;
@@ -14,7 +17,32 @@ import java.util.Scanner;
  * @author zhanshuchan
  * @date 2020/9/29
  */
-public class Server {
+public class Step1Server {
+
+    private ServerSocket server;
+
+    private IHandlerInterface handler;
+
+    public Step1Server() {
+
+    }
+
+    private void listen(int port) throws IOException {
+        server = new ServerSocket(port);
+        while (true) {
+            this.accept();
+        }
+    }
+
+    private void accept() throws IOException {
+        Socket socket = server.accept();
+
+        new Thread(() -> this.handler(socket)).start();
+    }
+
+    private void handler(Socket socket) {
+        this.handler.handler(new Request(socket), new Response(socket));
+    }
 
     public static void main(String[] args) throws IOException {
 

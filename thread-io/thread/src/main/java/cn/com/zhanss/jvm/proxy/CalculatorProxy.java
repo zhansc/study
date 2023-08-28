@@ -30,7 +30,7 @@ public class CalculatorProxy {
             return result;
         };
 
-        // 创建代理对象
+        // 创建代理对象（动态代理实现原理：利用了Java的反射机制）
         Object result = Proxy.newProxyInstance(classLoader, interfaces, handler);
         System.out.println("result after--->"+ result);
         // 为什么这里能够强转，就是因为上面提供了一组接口，代理对象实现了接口
