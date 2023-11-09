@@ -25,6 +25,7 @@
         <module>design-mode</module>
         <module>common</module>
         <module>javaee</module>
+        <module>hadoop</module>
     </modules>
 
     <properties>
@@ -279,6 +280,18 @@
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>1.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.8.21</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-client</artifactId>
+                <version>2.6.5</version>
             </dependency>
 
         </dependencies>

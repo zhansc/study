@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/nosql/pom.xml" />
         <option value="$PROJECT_DIR$/javaee/pom.xml" />
         <option value="$PROJECT_DIR$/architecture/pom.xml" />
+        <option value="$PROJECT_DIR$/hadoop/pom.xml" />
       </list>
     </option>
   </component>

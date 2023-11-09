@@ -12,6 +12,7 @@
         <module name="data-structure" />
         <module name="design-mode" />
         <module name="elasticsearch" />
+        <module name="hadoop" />
         <module name="io" />
         <module name="javaee" />
         <module name="kafka" />
@@ -32,10 +33,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="architecture" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="data-structure" options="-parameters" />
       <module name="design-mode" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
+      <module name="hadoop" options="-parameters" />
       <module name="io" options="-parameters" />
       <module name="javaee" options="-parameters" />
       <module name="kafka" options="-parameters" />
