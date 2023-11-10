@@ -15,7 +15,7 @@ import java.io.IOException;
  * @Date 2023/11/9
  **/
 @Data
-public class TKey implements WritableComparable<DataInput> {
+public class TKey implements WritableComparable<TKey> {
     private Integer year;
 
     private Integer month;
@@ -26,20 +26,19 @@ public class TKey implements WritableComparable<DataInput> {
 
     @SneakyThrows
     @Override
-    public int compareTo(DataInput that) {
+    public int compareTo(TKey that) {
         if (that == null) {
             return 0;
         }
-        if (this.year != that.readInt()) {
-           return 1;
+        int c1 = Integer.compare(this.year, that.getYear());
+        if (c1 == 0) {
+            int c2 = Integer.compare(this.month, that.getMonth());
+            if (c2 == 0) {
+                return Integer.compare(this.day, that.getDay());
+            }
+            return c2;
         }
-        if (this.month != that.readInt()) {
-            return 1;
-        }
-        if (this.day != that.readInt()) {
-            return 1;
-        }
-        return 0;
+        return c1;
     }
 
     @Override
