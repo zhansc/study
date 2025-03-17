@@ -57,7 +57,7 @@
         <log4j-core.version>2.9.0</log4j-core.version>
         <zookeeper.version>3.4.10</zookeeper.version>
         <jackson-databind.version>2.9.1</jackson-databind.version>
-        <mybatis.version>3.5.2</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <lombok.version>1.18.10</lombok.version>
         <jol-core.version>0.9</jol-core.version>
         <data-structure.version>0.0.1-SNAPSHOT</data-structure.version>
