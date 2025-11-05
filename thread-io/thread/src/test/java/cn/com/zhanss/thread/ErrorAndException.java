@@ -1,8 +1,4 @@
 package cn.com.zhanss.thread;
-
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
-
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
@@ -79,22 +75,22 @@ public class ErrorAndException {
     // 内部静态类
     static class metaSpace {}
 
-    private static void metaSpaceError(String[] args) {
-        int i = 0;
-        try {
-            while (true) {
-                i ++;
-                Enhancer enhancer = new Enhancer();
-                enhancer.setSuperclass(metaSpace.class);
-                enhancer.setUseCache(false);
-                enhancer.setCallback((MethodInterceptor) (o, method, objects, methodProxy) -> methodProxy.invokeSuper(o, args));
-                enhancer.create();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            System.out.println("第几个溢出了："+ i);
-        }
-    }
+//    private static void metaSpaceError(String[] args) {
+//        int i = 0;
+//        try {
+//            while (true) {
+//                i ++;
+//                Enhancer enhancer = new Enhancer();
+//                enhancer.setSuperclass(metaSpace.class);
+//                enhancer.setUseCache(false);
+//                enhancer.setCallback((MethodInterceptor) (o, method, objects, methodProxy) -> methodProxy.invokeSuper(o, args));
+//                enhancer.create();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            System.out.println("第几个溢出了："+ i);
+//        }
+//    }
 
 }

@@ -1,8 +1,5 @@
 package cn.com.zhanss.jvm;
 
-import org.junit.Test;
-
-import java.lang.ref.PhantomReference;
 import java.lang.ref.SoftReference;
 import java.util.WeakHashMap;
 
@@ -14,8 +11,7 @@ import java.util.WeakHashMap;
  */
 public class CustomReference {
 
-    @Test
-    public void testSoftReference() {
+    public static void testSoftReference() {
         String str = "软引用";
         SoftReference<String> softReference = new SoftReference<>(str);
         System.out.println("打印下-->"+softReference.get());
@@ -30,8 +26,7 @@ public class CustomReference {
         }
     }
 
-    @Test
-    public void testWeakReference() {
+    public static void testWeakReference() {
         WeakHashMap<String, Integer> weakHashMap = new WeakHashMap<>();
         weakHashMap.put("语文", 123);
         weakHashMap.put("数学", 113);
@@ -50,4 +45,7 @@ public class CustomReference {
         System.out.println(weakHashMap.get("语文"));
     }
 
+    public static void main(String[] args) {
+        testSoftReference();
+    }
 }

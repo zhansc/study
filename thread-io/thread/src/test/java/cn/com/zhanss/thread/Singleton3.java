@@ -9,6 +9,9 @@ package cn.com.zhanss.thread;
  */
 public class Singleton3 {
 
+    /**
+     * 此处如果不添加volatile，获取到的Singleton3 对象可能是一个初始化状态的对象
+     */
     private static volatile Singleton3 INSTANCE;
 
     private Singleton3() {}
