@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
@@ -28,31 +28,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08743f6e-05da-4f66-9c68-42da6c18ff8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javaee/src/main/java/cn/com/zhanss/javaee/test/ExcelToImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nosql/src/main/java/cn/com/zhanssl/nosql/RedPacketUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nosql/src/main/java/cn/com/zhanssl/nosql/UV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/MultiTreadTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/StrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/pool/CustomPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/pool/CustomPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/pool/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop/src/main/java/cn/com/zhanss/hadoop/temperature/TKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/src/main/java/cn/com/zhanss/hadoop/temperature/TKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/lru/CustomLruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nosql/src/test/java/cn/com/zhanssl/nosql/NosqlApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/thread/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/ForkJooin.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/thread/ForkJoin.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/design-mode/target/" />
-    <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/data-structure/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/javaee/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/io/target/" />
-    <ignored path="$PROJECT_DIR$/kafka/target/" />
-    <ignored path="$PROJECT_DIR$/nosql/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-produce/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/thread/target/" />
-    <ignored path="$PROJECT_DIR$/thread-io/target/" />
-    <ignored path="$PROJECT_DIR$/spring/target/" />
-    <ignored path="$PROJECT_DIR$/springboot-mq-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/queue/target/" />
-    <ignored path="$PROJECT_DIR$/zhanss-mvc/target/" />
-    <ignored path="$PROJECT_DIR$/wework/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/target/" />
-    <ignored path="$PROJECT_DIR$/architecture/target/" />
-    <ignored path="$PROJECT_DIR$/hadoop/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,31 +88,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="study" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hadoop/src/main/java/cn/com/zhanss/hadoop/temperature/TKey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop/src/main/java/cn/com/zhanss/hadoop/temperature/TMapReduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,9 +154,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/design-mode/src/main/java/cn/com/zhanss/creationalpatterns/FactoryPattern.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/thread-io/thread/src/main/java/cn/com/zhanss/jvm/proxy/CalculatorProxy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/stack/SearchExpression.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/design-mode/src/main/java/cn/com/zhanss/creationalpatterns/FactoryPattern.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -251,14 +222,10 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/mysoft/apache-maven-3.5.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="usePluginRegistry" value="true" />
         <option name="userSettingsFile" value="C:\mysoft\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -352,6 +319,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="clickhouse&#10;mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -370,26 +338,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1699609563114" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="ClickHouse" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="SELECTIVE" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deploy-client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15780446" />
     <property name="project.structure.side.proportion" value="0.36954504" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="cn.com.zhanss.springboot.myimport" />
-      <recent name="cn.com.zhanss" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zhanshuchan\IdeaProjects\study\thread-io\io\src\main\resource" />
       <recent name="$PROJECT_DIR$/spring/src/main/resources/my" />
@@ -397,17 +362,21 @@
       <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\java\cn\com\zhanss\javaee\juc" />
       <recent name="E:\youzan\IdeaProjects\study\juc\src\main\java\cn\com\zhanss\juc" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhanshuchan\IdeaProjects\study\thread-io\io\src\main\resource\lib" />
+      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\resources\META-INF" />
+      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.com.zhanss.springboot.myimport" />
+      <recent name="cn.com.zhanss" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.com.zhanss.hadoop" />
       <recent name="cn.com.zhanss.elasticsearch" />
       <recent name="cn.com.zhanss.wework.javaapi.aes" />
       <recent name="cn.com.zhanss.springbootmqproduce.activemq.config" />
       <recent name="cn.com.zhanss.wework.javaapi" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zhanshuchan\IdeaProjects\study\thread-io\io\src\main\resource\lib" />
-      <recent name="E:\youzan\IdeaProjects\study\javaee\src\main\resources\META-INF" />
-      <recent name="E:\youzan\IdeaProjects\study\elasticsearch\src\main" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -420,45 +389,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.HadoopApplication">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.io.client.Client" />
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.io.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.doexercise.Greedy" />
-      <module name="data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.doexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrTest">
     <configuration name="Step1Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.io.server.Step1Server" />
       <module name="io" />
@@ -472,18 +403,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedReverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure" />
+    <configuration name="StrTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.wework.javaapi.StrTest" />
+      <module name="wework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.zhanss.datastructure.linkedlist.single.*" />
+          <option name="PATTERN" value="cn.com.zhanss.wework.javaapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.com.zhanss.datastructure.linkedlist.single" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.datastructure.linkedlist.single.SingleLinkedReverse" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMapReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.hadoop.temperature.TMapReduce" />
+      <module name="hadoop" />
+      <option name="PROGRAM_PARAMETERS" value="-XX:MaxMetaspaceSize=1M -XX:+PrintGCDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.hadoop.temperature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.zhanss.wework.javaapi.pool.User" />
+      <module name="wework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.zhanss.wework.javaapi.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -616,10 +571,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Greedy" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Step1Server" />
-      <item itemvalue="JUnit.SingleLinkedReverse.test" />
+      <item itemvalue="Application.TMapReduce" />
+      <item itemvalue="Application.User" />
       <item itemvalue="JUnit.Step1Server.test" />
       <item itemvalue="Spring Boot.ThreadApplication" />
       <item itemvalue="Spring Boot.DatastructureApplication" />
@@ -635,14 +589,15 @@
       <item itemvalue="Spring Boot.HadoopApplication" />
       <item itemvalue="Spring Boot.WarmupApplication" />
       <item itemvalue="Spring Boot.JavaeeApplication" />
+      <item itemvalue="Application.StrTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrTest" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.TMapReduce" />
         <item itemvalue="Application.Step1Server" />
         <item itemvalue="JUnit.Step1Server.test" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.SingleLinkedReverse.test" />
-        <item itemvalue="Application.Greedy" />
       </list>
     </recent_temporary>
   </component>
@@ -783,6 +738,13 @@
       <workItem from="1693794437960" duration="10193000" />
       <workItem from="1699508334667" duration="12278000" />
       <workItem from="1699578781001" duration="6225000" />
+      <workItem from="1701446619429" duration="1216000" />
+      <workItem from="1704185088267" duration="39229000" />
+      <workItem from="1711033639464" duration="1570000" />
+      <workItem from="1719736957608" duration="5489000" />
+      <workItem from="1762262363652" duration="5950000" />
+      <workItem from="1762335591935" duration="13000" />
+      <workItem from="1762335615990" duration="5712000" />
     </task>
     <servers />
   </component>
@@ -882,21 +844,29 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.dubbo:dubbo" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-common" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka-clients" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -922,83 +892,84 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/elasticsearch/service/impl/EsSearchServiceImpl.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/elasticsearch/src/main/java/cn/com/zhanss/elasticsearch/controller/EsAPI.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="289" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.4.3/elasticsearch-rest-client-6.4.3-sources.jar!/org/elasticsearch/client/RestClient.java</url>
           <line>225</line>
-          <properties />
           <option name="timeStamp" value="294" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.4.3/elasticsearch-rest-client-6.4.3-sources.jar!/org/elasticsearch/client/RestClient.java</url>
           <line>484</line>
-          <properties />
           <option name="timeStamp" value="296" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/elasticsearch/client/elasticsearch-rest-client/6.8.4/elasticsearch-rest-client-6.8.4.jar!/org/elasticsearch/client/RestClient.class</url>
           <line>297</line>
-          <properties />
           <option name="timeStamp" value="311" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/doubly/DoubleLinkedReverse.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="370" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/tree/BinaryTreeTraverse.java</url>
           <line>524</line>
-          <properties />
           <option name="timeStamp" value="372" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/array/ArrayExercise.java</url>
           <line>566</line>
-          <properties />
           <option name="timeStamp" value="411" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/heap/MyHeap.java</url>
           <line>98</line>
-          <properties />
           <option name="timeStamp" value="416" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/Greedy.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="425" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/doexercise/Greedy.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="426" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="427" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data-structure/src/main/java/cn/com/zhanss/datastructure/linkedlist/single/SingleLinkedReverse.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wework/src/main/java/cn/com/zhanss/wework/javaapi/StrTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="440" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$DoubleLinkList" memberName="tail" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="value" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="next" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$Node" memberName="this$0" />
+        <PinnedItemInfo parentTag="cn.com.zhanss.datastructure.doexercise.lru.DoubleLinkLruCache$DoubleLinkList" memberName="head" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="levelMap" />

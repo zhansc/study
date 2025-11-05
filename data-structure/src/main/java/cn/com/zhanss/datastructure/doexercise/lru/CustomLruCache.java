@@ -2,8 +2,7 @@ package cn.com.zhanss.datastructure.doexercise.lru;
 
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 自定义LRU缓存

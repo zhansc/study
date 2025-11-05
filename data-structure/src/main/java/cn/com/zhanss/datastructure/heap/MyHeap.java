@@ -97,6 +97,7 @@ public class MyHeap {
         }
         int left = index * 2 + 1;
         while (left < heapSize) {
+            // 右节点大于左节点，最大值为右节点，否则为左节点
             int largest = (left + 1) < heapSize && arr[left + 1] > arr[left] ? (left + 1) : left;
             largest = arr[largest] > arr[index] ? largest : index;
             if (largest == index) {

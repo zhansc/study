@@ -16,7 +16,7 @@ import java.util.concurrent.RecursiveTask;
  * @author zhanss
  * @since 2022-04-14
  */
-public class ForkJooin {
+public class ForkJoin {
 
     /**
      * 通过fork/join实现求和任务
