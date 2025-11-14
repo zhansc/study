@@ -5,14 +5,14 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 测试ReenTranTlock
+ * 测试 ReentrantLock
  *
  * @author zhanss
  * @since 2019/9/29
  */
-public class TestReeTrantLock {
+public class TestReentrantLock {
 
-    private int tick = 2;
+    private int tick = 1;
 
     Lock lock = new ReentrantLock();
 
@@ -22,31 +22,33 @@ public class TestReeTrantLock {
 
     public static void main(String[] args) {
 
-        TestReeTrantLock reeTrantLock = new TestReeTrantLock();
+        TestReentrantLock reentrantLock = new TestReentrantLock();
 
-        new Thread(() -> reeTrantLock.ticket1(), "AAA").start();
+        new Thread(() -> reentrantLock.ticket1(), "A").start();
 
         new Thread(() -> {
             try {
-                reeTrantLock.ticket2();
+                reentrantLock.ticket2();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }, "BBB").start();
+        }, "B").start();
 
-        new Thread(() -> reeTrantLock.ticket3(), "CCC").start();
+        new Thread(() -> reentrantLock.ticket3(), "C").start();
     }
 
     private void ticket1() {
-        while (true) {
+        for (int i = 0; i < 10; i ++) {
             try {
                 // 上锁
                 lock.lock();
-                while (tick != 0) {
+                while (tick != 1) {
                     condition1.await();
                 }
-                Thread.sleep(50);
-                System.out.println(Thread.currentThread().getName()+ tick++);
+                Thread.sleep(5);
+                System.out.print("A");
+                tick ++;
+
                 condition2.signal();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -58,14 +60,16 @@ public class TestReeTrantLock {
     }
 
     private void ticket2() throws InterruptedException {
-        while (true) {
+        for (int i = 0; i < 10; i ++) {
             try {
                 lock.lock();
-                while (tick != 1) {
+                while (tick != 2) {
                     condition2.await();
                 }
-                Thread.sleep(50);
-                System.out.println(Thread.currentThread().getName() + tick++);
+                Thread.sleep(5);
+                System.out.print("B");
+                tick ++;
+
                 condition3.signal();
             } finally {
                 lock.unlock();
@@ -74,19 +78,24 @@ public class TestReeTrantLock {
     }
 
     private void ticket3() {
-        while (true) {
+        for (int i = 0; i < 10; i ++) {
             try {
                 lock.lock();
-                while (tick != 2) {
+                while (tick != 3) {
                     condition3.await();
                 }
-                Thread.sleep(50);
-                tick = 0;
-                System.out.println(Thread.currentThread().getName()+ "====" + tick);
+                Thread.sleep(5);
+                System.out.print("C");
+                tick = 1;
+
                 condition1.signal();
             } catch (InterruptedException e) {
             } finally {
                 lock.unlock();
+            }
+            System.out.println("");
+            if (i == 9) {
+                System.out.println("Hello World");
             }
         }
     }
